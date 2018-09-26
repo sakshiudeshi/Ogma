@@ -1,5 +1,6 @@
 import re, random, pickle
 import numpy as np
+import copy
 
 from nltk import CFG, ChartParser, Tree
 
@@ -125,6 +126,9 @@ print prods
 
 
 error_set = set()
+candidate_set = set()
+sentence_values = []
+latest_error_prods = prods
 
 for i in xrange(iters):
     prod_choice = np.random.choice(dict_keys, p=prob_keys)
@@ -136,19 +140,44 @@ for i in xrange(iters):
         mod = random.randint(0, len(prods) - 1)
 
     rand = random.choice(dict[prods[mod][0]])
-    while rand == prods[mod][1]:
+
+    current_prods = copy.deepcopy(prods)
+    # Checks if generating the same sentence
+    while (rand == current_prods[mod][1]):
         rand = random.choice(dict[prods[mod][0]])
 
-    prods[mod][1] = rand
 
-    candidate_sentence = sentence_from_prods(prods)
-    # print candidate_sentence, evaluate(candidate_sentence)
+    current_sentence = sentence_from_prods(current_prods)
+    current_eval = evaluate(current_sentence)
+
+    candidate_prods = copy.deepcopy(prods)
+    candidate_prods[mod][1] = rand
+    candidate_sentence = sentence_from_prods(candidate_prods)
+    candidate_eval = evaluate(candidate_sentence)
+    candidate_set.add(candidate_sentence)
+
+    prods = copy.deepcopy(candidate_prods)
+
+    if (current_eval == True and candidate_eval == False):
+        prods = copy.deepcopy(current_prods)
+        # print prods
+        print " "
+        print current_prods, sentence_from_prods(prods)
+        print "Candidate -> " + candidate_sentence, evaluate(candidate_sentence)
+        print "Current -> " + current_sentence, evaluate(current_sentence)
+        print " "
+        # print ''
+
+    sentence_values.append(evaluate(candidate_sentence))
+
     if (evaluate(candidate_sentence)):
-        error_set.add(sentence_from_prods(prods))
-        prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)
-        norm = [float(i) / sum(prob_keys) for i in prob_keys]
-        prob_keys = norm
+        error_set.add(candidate_sentence)
+        latest_error_prods = candidate_prods
+        # prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)
+        # norm = [float(i) / sum(prob_keys) for i in prob_keys]
+        # prob_keys = norm
 
 print len(error_set)
-
+print len(candidate_set)
+print sentence_values
 
