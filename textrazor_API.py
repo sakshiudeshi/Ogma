@@ -9,6 +9,7 @@ def get_labels(sentence):
     labels = []
 
     for category in response.categories():
+        # print category.query
         labels.append([str(category.label), float(category.score)])
 
     return labels
