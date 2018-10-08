@@ -14,4 +14,4 @@ def get_labels(senttence):
 
     return labels
 
-print get_labels(sentence)
+# print get_labels(sentence)

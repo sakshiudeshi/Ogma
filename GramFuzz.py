@@ -8,6 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
 # import textrazor_API, aylien_API
+import rosette_API, uclassify_API
 
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
@@ -27,7 +28,12 @@ P -> "in" | "on" | "by" | "with" | "outside"'''
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
 
-iters = 1000
+import warnings
+with warnings.catch_warnings():
+    warnings.filterwarnings("ignore",category=FutureWarning)
+    import h5py
+
+iters = 100
 prob_delta = 0.2
 
 def get_productions(sentence, grammar):
@@ -91,6 +97,25 @@ def evaluate(sentence):
     else:
         return False
 
+def evaluate_multi(sentence):
+    p1 = rosette_API.get_label(sentence=sentence)[0]
+    p2 = uclassify_API.get_label(sentence)[0]
+    val = False
+    print " "
+    if(p1[0] != p2[0]):
+        val = True
+        print "Case 1"
+    elif (p1[0] == p2[0] and abs(p1[1] - p2[1]) > 0.5):
+        val = True
+        print "Case 2"
+    else:
+        val = False
+        print "Case 3"
+
+    print p1, p2, val
+    print " "
+    return val
+
 f = open('multinomial_NB.pickle', 'rb')
 clf1 = pickle.load(f)
 f.close()
@@ -133,6 +158,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
+
 for i in xrange(iters):
     prod_choice = np.random.choice(dict_keys, p=prob_keys)
     prod_choice_loc = [i for i, x in enumerate(dict_keys) if x == prod_choice]
@@ -151,12 +177,12 @@ for i in xrange(iters):
 
 
     current_sentence = sentence_from_prods(current_prods)
-    current_eval = evaluate(current_sentence)
+    current_eval = evaluate_multi(current_sentence)
 
     candidate_prods = copy.deepcopy(prods)
     candidate_prods[mod][1] = rand
     candidate_sentence = sentence_from_prods(candidate_prods)
-    candidate_eval = evaluate(candidate_sentence)
+    candidate_eval = evaluate_multi(candidate_sentence)
     candidate_set.add(candidate_sentence)
 
     prods = copy.deepcopy(candidate_prods)
@@ -166,14 +192,14 @@ for i in xrange(iters):
         # print prods
         print " "
         print current_prods, sentence_from_prods(prods)
-        print "Candidate -> " + candidate_sentence, evaluate(candidate_sentence)
-        print "Current -> " + current_sentence, evaluate(current_sentence)
+        print "Candidate -> " + candidate_sentence, evaluate_multi(candidate_sentence)
+        print "Current -> " + current_sentence, evaluate_multi(current_sentence)
         print " "
         # print ''
 
-    sentence_values.append(evaluate(candidate_sentence))
+    sentence_values.append(evaluate_multi(candidate_sentence))
 
-    if (evaluate(candidate_sentence)):
+    if (evaluate_multi(candidate_sentence)):
         error_set.add(candidate_sentence)
         latest_error_prods = candidate_prods
         # prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)

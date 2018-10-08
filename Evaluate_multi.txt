@@ -1,0 +1,1393 @@
+[['PETS', 0.51295458], ['SPORTS', 0.06792153], ['TRAVEL', 0.02896968], ['HEALTH_AND_FITNESS', 0.01309396], ['SCIENCE', -0.01621965]]
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:36: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._conv import register_converters as _register_converters
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:36: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._conv import register_converters as _register_converters
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:36: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._conv import register_converters as _register_converters
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/__init__.py:45: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import h5a, h5d, h5ds, h5f, h5fd, h5g, h5r, h5s, h5t, h5p, h5z
+/usr/local/lib/python2.7/site-packages/h5py/_hl/group.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .. import h5g, h5i, h5o, h5r, h5t, h5l, h5p
+/usr/local/lib/python2.7/site-packages/h5py/_hl/group.py:22: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .. import h5g, h5i, h5o, h5r, h5t, h5l, h5p
+/usr/local/lib/python2.7/site-packages/sklearn/feature_extraction/text.py:1089: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  if hasattr(X, 'dtype') and np.issubdtype(X.dtype, np.float):
+['an', 'dog', 'in', 'the', 'man', 'saw', 'Bob', 'in', 'an', 'dog', 'in', 'Bob', 'outside', 'an', 'park', 'on', 'the', 'elephant', 'in', 'my', 'elephant', 'in', 'my', 'elephant']
+[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'dog', PP -> P NP, P -> 'in', NP -> Det N, Det -> 'the', N -> 'man', VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'saw', NP -> 'Bob', PP -> P NP, P -> 'in', NP -> Det N, Det -> 'an', N -> 'dog', PP -> P NP, P -> 'in', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N, Det -> 'an', N -> 'park', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'the', N -> 'elephant', PP -> P NP, P -> 'in', NP -> Det N, Det -> 'my', N -> 'elephant', PP -> P NP, P -> 'in', NP -> Det N, Det -> 'my', N -> 'elephant']
+ 
+[0.2, 0.2, 0.2, 0.2, 0.2]
+ 
+[['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'man'], ['V', 'saw'], ['NP', 'Bob'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'Bob'], ['P', 'outside'], ['Det', 'an'], ['N', 'park'], ['P', 'on'], ['Det', 'the'], ['N', 'elephant'], ['P', 'in'], ['Det', 'my'], ['N', 'elephant'], ['P', 'in'], ['Det', 'my'], ['N', 'elephant']]
+ 
+Case 1
+['TRAVEL', 0.23621088] ['SPORTS', 0.508389] True
+ 
+ 
+Case 1
+['TRAVEL', 0.2596644] ['SPORTS', 0.533143] True
+ 
+ 
+Case 1
+['TRAVEL', 0.2596644] ['SPORTS', 0.533143] True
+ 
+ 
+Case 1
+['TRAVEL', 0.2596644] ['SPORTS', 0.533143] True
+ 
+ 
+Case 1
+['TRAVEL', 0.2596644] ['SPORTS', 0.533143] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20915909] ['SPORTS', 0.556156] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20915909] ['SPORTS', 0.556156] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20915909] ['SPORTS', 0.556156] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20915909] ['SPORTS', 0.556156] True
+ 
+ 
+Case 2
+['PETS', 0.43784772] ['PETS', 0.997297] True
+ 
+ 
+Case 2
+['PETS', 0.43784772] ['PETS', 0.997297] True
+ 
+ 
+Case 2
+['PETS', 0.43784772] ['PETS', 0.997297] True
+ 
+ 
+Case 2
+['PETS', 0.43784772] ['PETS', 0.997297] True
+ 
+ 
+Case 2
+['PETS', 0.38484622] ['PETS', 0.995329] True
+ 
+ 
+Case 2
+['PETS', 0.38484622] ['PETS', 0.995329] True
+ 
+ 
+Case 2
+['PETS', 0.38484622] ['PETS', 0.995329] True
+ 
+ 
+Case 2
+['PETS', 0.38484622] ['PETS', 0.995329] True
+ 
+ 
+Case 2
+['PETS', 0.32646544] ['PETS', 0.999304] True
+ 
+ 
+Case 2
+['PETS', 0.32646544] ['PETS', 0.999304] True
+ 
+ 
+Case 2
+['PETS', 0.32646544] ['PETS', 0.999304] True
+ 
+ 
+Case 2
+['PETS', 0.32646544] ['PETS', 0.999304] True
+ 
+ 
+Case 2
+['PETS', 0.37946694] ['PETS', 0.999534] True
+ 
+ 
+Case 2
+['PETS', 0.37946694] ['PETS', 0.999534] True
+ 
+ 
+Case 2
+['PETS', 0.37946694] ['PETS', 0.999534] True
+ 
+ 
+Case 2
+['PETS', 0.37946694] ['PETS', 0.999534] True
+ 
+ 
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+ 
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+ 
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+ 
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+ 
+Case 3
+['PETS', 0.46701732] ['PETS', 0.896448] False
+ 
+ 
+[['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'man'], ['V', 'walked'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'Bob'], ['P', 'outside'], ['Det', 'an'], ['N', 'cat'], ['P', 'on'], ['Det', 'the'], ['N', 'elephant'], ['P', 'in'], ['Det', 'my'], ['N', 'elephant'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] an dog in the man walked Mary in an dog in Bob outside an cat on the elephant in my elephant in my park
+Candidate -> an dog in the dog walked Mary in an dog in Bob outside an cat on the elephant in my elephant in my park  
+Case 3
+['PETS', 0.46701732] ['PETS', 0.896448] False
+ 
+False
+Current -> an dog in the man walked Mary in an dog in Bob outside an cat on the elephant in my elephant in my park  
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+True
+ 
+ 
+Case 3
+['PETS', 0.46701732] ['PETS', 0.896448] False
+ 
+ 
+Case 3
+['PETS', 0.46701732] ['PETS', 0.896448] False
+ 
+ 
+Case 2
+['PETS', 0.37994332] ['PETS', 0.999542] True
+ 
+ 
+Case 2
+['PETS', 0.37725116] ['PETS', 0.999864] True
+ 
+ 
+Case 2
+['PETS', 0.37725116] ['PETS', 0.999864] True
+ 
+ 
+Case 2
+['PETS', 0.37725116] ['PETS', 0.999864] True
+ 
+ 
+Case 2
+['PETS', 0.37725116] ['PETS', 0.999864] True
+ 
+ 
+Case 2
+['PETS', 0.37770984] ['PETS', 0.999719] True
+ 
+ 
+Case 2
+['PETS', 0.37770984] ['PETS', 0.999719] True
+ 
+ 
+Case 2
+['PETS', 0.37770984] ['PETS', 0.999719] True
+ 
+ 
+Case 2
+['PETS', 0.37770984] ['PETS', 0.999719] True
+ 
+ 
+Case 2
+['PETS', 0.35957673] ['PETS', 0.999795] True
+ 
+ 
+Case 2
+['PETS', 0.35957673] ['PETS', 0.999795] True
+ 
+ 
+Case 2
+['PETS', 0.35957673] ['PETS', 0.999795] True
+ 
+ 
+Case 2
+['PETS', 0.35957673] ['PETS', 0.999795] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.9992] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.9992] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.9992] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.9992] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.999615] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.999615] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.999615] True
+ 
+ 
+Case 2
+['PETS', 0.41267209] ['PETS', 0.999615] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999792] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999792] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999792] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999792] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999698] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999698] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999698] True
+ 
+ 
+Case 2
+['PETS', 0.41611139] ['PETS', 0.999698] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18857075] ['SPORTS', 0.47117] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18857075] ['SPORTS', 0.47117] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18857075] ['SPORTS', 0.47117] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18857075] ['SPORTS', 0.47117] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18645037] ['SPORTS', 0.434048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18645037] ['SPORTS', 0.434048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18645037] ['SPORTS', 0.434048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18645037] ['SPORTS', 0.434048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13016243] ['SPORTS', 0.413214] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13016243] ['SPORTS', 0.413214] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13016243] ['SPORTS', 0.413214] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13016243] ['SPORTS', 0.413214] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20289498] ['ARTS AND ENTERTAINMENT', 0.460854] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20289498] ['ARTS AND ENTERTAINMENT', 0.460854] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20289498] ['ARTS AND ENTERTAINMENT', 0.460854] True
+ 
+ 
+Case 1
+['TRAVEL', 0.20289498] ['ARTS AND ENTERTAINMENT', 0.460854] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.65762] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.65762] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.65762] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.65762] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.412569] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.412569] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.412569] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['SPORTS', 0.412569] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['PETS', 0.538623] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['PETS', 0.538623] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['PETS', 0.538623] True
+ 
+ 
+Case 1
+['TRAVEL', 0.23931632] ['PETS', 0.538623] True
+ 
+ 
+Case 1
+['TRAVEL', 0.25826025] ['PETS', 0.458437] True
+ 
+ 
+Case 1
+['TRAVEL', 0.25826025] ['PETS', 0.458437] True
+ 
+ 
+Case 1
+['TRAVEL', 0.25826025] ['PETS', 0.458437] True
+ 
+ 
+Case 1
+['TRAVEL', 0.25826025] ['PETS', 0.458437] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['PETS', 0.470728] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['PETS', 0.470728] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['PETS', 0.470728] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['PETS', 0.470728] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['ARTS AND ENTERTAINMENT', 0.444354] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['ARTS AND ENTERTAINMENT', 0.444354] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['ARTS AND ENTERTAINMENT', 0.444354] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18935697] ['ARTS AND ENTERTAINMENT', 0.444354] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19054125] ['ARTS AND ENTERTAINMENT', 0.543988] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19054125] ['ARTS AND ENTERTAINMENT', 0.543988] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19054125] ['ARTS AND ENTERTAINMENT', 0.543988] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19054125] ['ARTS AND ENTERTAINMENT', 0.543988] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.556363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.556363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.556363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.556363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.547022] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.547022] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.547022] True
+ 
+ 
+Case 1
+['TRAVEL', 0.1481438] ['ARTS AND ENTERTAINMENT', 0.547022] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998363] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.99746] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.99746] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.99746] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13749649] ['ARTS AND ENTERTAINMENT', 0.99746] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18995516] ['ARTS AND ENTERTAINMENT', 0.997048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18995516] ['ARTS AND ENTERTAINMENT', 0.997048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18995516] ['ARTS AND ENTERTAINMENT', 0.997048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18995516] ['ARTS AND ENTERTAINMENT', 0.997048] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998496] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998496] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998496] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998496] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999054] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999054] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999054] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999054] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998926] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998926] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998926] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.998926] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999332] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999332] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999332] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16063879] ['ARTS AND ENTERTAINMENT', 0.999332] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.999529] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.999529] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.999529] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.999529] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.998505] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.958316] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.958316] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.958316] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['ARTS AND ENTERTAINMENT', 0.958316] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['PETS', 0.818661] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['PETS', 0.818661] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['PETS', 0.818661] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12657809] ['PETS', 0.818661] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.984294] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.984294] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.984294] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.984294] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.998212] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.998212] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.998212] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12057934] ['PETS', 0.998212] True
+ 
+ 
+Case 1
+['PETS', 0.28519689] ['ARTS AND ENTERTAINMENT', 0.717092] True
+ 
+ 
+Case 1
+['PETS', 0.28519689] ['ARTS AND ENTERTAINMENT', 0.717092] True
+ 
+ 
+Case 1
+['PETS', 0.28519689] ['ARTS AND ENTERTAINMENT', 0.717092] True
+ 
+ 
+Case 1
+['PETS', 0.28519689] ['ARTS AND ENTERTAINMENT', 0.717092] True
+ 
+ 
+Case 1
+['PETS', 0.2468892] ['ARTS AND ENTERTAINMENT', 0.980988] True
+ 
+ 
+Case 1
+['PETS', 0.2468892] ['ARTS AND ENTERTAINMENT', 0.980988] True
+ 
+ 
+Case 1
+['PETS', 0.2468892] ['ARTS AND ENTERTAINMENT', 0.980988] True
+ 
+ 
+Case 1
+['PETS', 0.2468892] ['ARTS AND ENTERTAINMENT', 0.980988] True
+ 
+ 
+Case 1
+['PETS', 0.25422656] ['ARTS AND ENTERTAINMENT', 0.972267] True
+ 
+ 
+Case 1
+['PETS', 0.25422656] ['ARTS AND ENTERTAINMENT', 0.972267] True
+ 
+ 
+Case 1
+['PETS', 0.25422656] ['ARTS AND ENTERTAINMENT', 0.972267] True
+ 
+ 
+Case 1
+['PETS', 0.25422656] ['ARTS AND ENTERTAINMENT', 0.972267] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19864967] ['ARTS AND ENTERTAINMENT', 0.989009] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19864967] ['ARTS AND ENTERTAINMENT', 0.989009] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19864967] ['ARTS AND ENTERTAINMENT', 0.989009] True
+ 
+ 
+Case 1
+['TRAVEL', 0.19864967] ['ARTS AND ENTERTAINMENT', 0.989009] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16297807] ['SPORTS', 0.875268] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16297807] ['SPORTS', 0.875268] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16297807] ['SPORTS', 0.875268] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16297807] ['SPORTS', 0.875268] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18148612] ['SPORTS', 0.862718] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18148612] ['SPORTS', 0.862718] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18148612] ['SPORTS', 0.862718] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18148612] ['SPORTS', 0.862718] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12560078] ['SPORTS', 0.534269] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12560078] ['SPORTS', 0.534269] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12560078] ['SPORTS', 0.534269] True
+ 
+ 
+Case 1
+['TRAVEL', 0.12560078] ['SPORTS', 0.534269] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604343] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604343] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604343] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604343] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604815] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604815] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604815] True
+ 
+ 
+Case 1
+['TRAVEL', 0.13487029] ['ARTS AND ENTERTAINMENT', 0.604815] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18537561] ['PETS', 0.651893] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18537561] ['PETS', 0.651893] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18537561] ['PETS', 0.651893] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18537561] ['PETS', 0.651893] True
+ 
+ 
+Case 1
+['TRAVEL', 0.168931] ['ARTS AND ENTERTAINMENT', 0.53098] True
+ 
+ 
+Case 1
+['TRAVEL', 0.168931] ['ARTS AND ENTERTAINMENT', 0.53098] True
+ 
+ 
+Case 1
+['TRAVEL', 0.168931] ['ARTS AND ENTERTAINMENT', 0.53098] True
+ 
+ 
+Case 1
+['TRAVEL', 0.168931] ['ARTS AND ENTERTAINMENT', 0.53098] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.623104] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.623104] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.623104] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.623104] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 3
+['PETS', 0.34366194] ['PETS', 0.608386] False
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'by'], ['Det', 'my'], ['N', 'park'], ['V', 'shot'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'the'], ['N', 'dog'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'on'], ['Det', 'my'], ['N', 'telescope'], ['P', 'on'], ['Det', 'a'], ['N', 'man'], ['P', 'by'], ['Det', 'a'], ['N', 'dog'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat']] my man by my park shot Mary in the dog outside Bob on my telescope on a man by a dog outside a cat
+Candidate -> my man by a park shot Mary in the dog outside Bob on my telescope on a man by a dog outside a cat  
+Case 3
+['PETS', 0.34366194] ['PETS', 0.608386] False
+ 
+False
+Current -> my man by my park shot Mary in the dog outside Bob on my telescope on a man by a dog outside a cat  
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+True
+ 
+ 
+Case 3
+['PETS', 0.34366194] ['PETS', 0.608386] False
+ 
+ 
+Case 3
+['PETS', 0.34366194] ['PETS', 0.608386] False
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 3
+['PETS', 0.31931768] ['PETS', 0.544464] False
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'by'], ['Det', 'my'], ['N', 'park'], ['V', 'shot'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'the'], ['N', 'dog'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'on'], ['Det', 'my'], ['N', 'telescope'], ['P', 'on'], ['Det', 'a'], ['N', 'man'], ['P', 'by'], ['Det', 'a'], ['N', 'dog'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat']] my man by my park shot Mary in the dog outside Bob on my telescope on a man by a dog outside a cat
+Candidate -> my man by my park shot Mary in the dog outside Mary on my telescope on a man by a dog outside a cat  
+Case 3
+['PETS', 0.31931768] ['PETS', 0.544464] False
+ 
+False
+Current -> my man by my park shot Mary in the dog outside Bob on my telescope on a man by a dog outside a cat  
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+True
+ 
+ 
+Case 3
+['PETS', 0.31931768] ['PETS', 0.544464] False
+ 
+ 
+Case 3
+['PETS', 0.31931768] ['PETS', 0.544464] False
+ 
+ 
+Case 1
+['PETS', 0.34366194] ['ARTS AND ENTERTAINMENT', 0.627133] True
+ 
+ 
+Case 2
+['PETS', 0.3967573] ['PETS', 0.999994] True
+ 
+ 
+Case 2
+['PETS', 0.3967573] ['PETS', 0.999994] True
+ 
+ 
+Case 2
+['PETS', 0.3967573] ['PETS', 0.999994] True
+ 
+ 
+Case 2
+['PETS', 0.3967573] ['PETS', 0.999994] True
+ 
+ 
+Case 2
+['PETS', 0.40361829] ['PETS', 0.999983] True
+ 
+ 
+Case 2
+['PETS', 0.40361829] ['PETS', 0.999983] True
+ 
+ 
+Case 2
+['PETS', 0.40361829] ['PETS', 0.999983] True
+ 
+ 
+Case 2
+['PETS', 0.40361829] ['PETS', 0.999983] True
+ 
+ 
+Case 2
+['PETS', 0.38831374] ['PETS', 0.999781] True
+ 
+ 
+Case 2
+['PETS', 0.38831374] ['PETS', 0.999781] True
+ 
+ 
+Case 2
+['PETS', 0.38831374] ['PETS', 0.999781] True
+ 
+ 
+Case 2
+['PETS', 0.38831374] ['PETS', 0.999781] True
+ 
+ 
+Case 2
+['PETS', 0.42318213] ['PETS', 0.997117] True
+ 
+ 
+Case 2
+['PETS', 0.42318213] ['PETS', 0.997117] True
+ 
+ 
+Case 2
+['PETS', 0.42318213] ['PETS', 0.997117] True
+ 
+ 
+Case 2
+['PETS', 0.42318213] ['PETS', 0.997117] True
+ 
+ 
+Case 2
+['PETS', 0.42845818] ['PETS', 0.99782] True
+ 
+ 
+Case 2
+['PETS', 0.42845818] ['PETS', 0.99782] True
+ 
+ 
+Case 2
+['PETS', 0.42845818] ['PETS', 0.99782] True
+ 
+ 
+Case 2
+['PETS', 0.42845818] ['PETS', 0.99782] True
+ 
+ 
+Case 2
+['PETS', 0.44047235] ['PETS', 0.991837] True
+ 
+ 
+Case 2
+['PETS', 0.44047235] ['PETS', 0.991837] True
+ 
+ 
+Case 2
+['PETS', 0.44047235] ['PETS', 0.991837] True
+ 
+ 
+Case 2
+['PETS', 0.44047235] ['PETS', 0.991837] True
+ 
+ 
+Case 2
+['PETS', 0.3353164] ['PETS', 0.996675] True
+ 
+ 
+Case 2
+['PETS', 0.3353164] ['PETS', 0.996675] True
+ 
+ 
+Case 2
+['PETS', 0.3353164] ['PETS', 0.996675] True
+ 
+ 
+Case 2
+['PETS', 0.3353164] ['PETS', 0.996675] True
+ 
+ 
+Case 2
+['PETS', 0.30411115] ['PETS', 0.998074] True
+ 
+ 
+Case 2
+['PETS', 0.30411115] ['PETS', 0.998074] True
+ 
+ 
+Case 2
+['PETS', 0.30411115] ['PETS', 0.998074] True
+ 
+ 
+Case 2
+['PETS', 0.30411115] ['PETS', 0.998074] True
+ 
+ 
+Case 2
+['PETS', 0.25722859] ['PETS', 0.999973] True
+ 
+ 
+Case 2
+['PETS', 0.25722859] ['PETS', 0.999973] True
+ 
+ 
+Case 2
+['PETS', 0.25722859] ['PETS', 0.999973] True
+ 
+ 
+Case 2
+['PETS', 0.25722859] ['PETS', 0.999973] True
+ 
+ 
+Case 2
+['PETS', 0.26408957] ['PETS', 0.999967] True
+ 
+ 
+Case 2
+['PETS', 0.26408957] ['PETS', 0.999967] True
+ 
+ 
+Case 2
+['PETS', 0.26408957] ['PETS', 0.999967] True
+ 
+ 
+Case 2
+['PETS', 0.26408957] ['PETS', 0.999967] True
+ 
+ 
+Case 2
+['PETS', 0.26782436] ['PETS', 0.964953] True
+ 
+ 
+Case 2
+['PETS', 0.26782436] ['PETS', 0.964953] True
+ 
+ 
+Case 2
+['PETS', 0.26782436] ['PETS', 0.964953] True
+ 
+ 
+Case 2
+['PETS', 0.26782436] ['PETS', 0.964953] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.954582] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.954582] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.954582] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.954582] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.33919133] ['PETS', 0.999988] True
+ 
+ 
+Case 2
+['PETS', 0.33919133] ['PETS', 0.999988] True
+ 
+ 
+Case 2
+['PETS', 0.33919133] ['PETS', 0.999988] True
+ 
+ 
+Case 2
+['PETS', 0.33919133] ['PETS', 0.999988] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 3
+['PETS', 0.30535279] ['PETS', 0.671149] False
+ 
+ 
+[['Det', 'my'], ['N', 'dog'], ['P', 'by'], ['Det', 'an'], ['N', 'park'], ['V', 'shot'], ['NP', 'John'], ['P', 'in'], ['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['NP', 'I'], ['P', 'on'], ['Det', 'an'], ['N', 'telescope'], ['P', 'on'], ['Det', 'a'], ['N', 'man'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat']] my dog by an park shot John in the elephant outside I on an telescope on a man by a elephant outside a cat
+Candidate -> my dog by an park ate John in the elephant outside I on an telescope on a man by a elephant outside a cat  
+Case 3
+['PETS', 0.30535279] ['PETS', 0.671149] False
+ 
+False
+Current -> my dog by an park shot John in the elephant outside I on an telescope on a man by a elephant outside a cat  
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+True
+ 
+ 
+Case 3
+['PETS', 0.30535279] ['PETS', 0.671149] False
+ 
+ 
+Case 3
+['PETS', 0.30535279] ['PETS', 0.671149] False
+ 
+ 
+Case 2
+['PETS', 0.260487] ['PETS', 0.957078] True
+ 
+ 
+Case 2
+['PETS', 0.25780482] ['PETS', 0.961959] True
+ 
+ 
+Case 2
+['PETS', 0.25780482] ['PETS', 0.961959] True
+ 
+ 
+Case 2
+['PETS', 0.25780482] ['PETS', 0.961959] True
+ 
+ 
+Case 2
+['PETS', 0.25780482] ['PETS', 0.961959] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16315742] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16315742] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16315742] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16315742] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999999] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999964] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999964] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999964] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11491807] ['PETS', 0.999964] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.999969] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.999969] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.999969] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.999969] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.997191] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.997191] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.997191] True
+ 
+ 
+Case 1
+['TRAVEL', 0.11703845] ['PETS', 0.997191] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.996012] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.996012] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.996012] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.996012] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.995986] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.995986] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.995986] True
+ 
+ 
+Case 1
+['TRAVEL', 0.18594172] ['PETS', 0.995986] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16949712] ['PETS', 0.994325] True
+ 
+ 
+Case 1
+['TRAVEL', 0.16949712] ['PETS', 0.994325] True
+ 
