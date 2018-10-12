@@ -4,10 +4,11 @@ import numpy as np
 import copy
 import datetime
 
-from nltk import CFG, ChartParser, Tree
+from nltk import CFG, ChartParser, Tree, Nonterminal
 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+from random import choice
 
 # import textrazor_API, aylien_API
 import rosette_API, uclassify_API
@@ -18,14 +19,14 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-grammarA = '''S -> NP VP
+grammarA = CFG.fromstring('''S -> NP VP
 VP -> V NP | V NP PP | VP PP
 PP -> P NP
 V -> "saw" | "ate" | "walked" | "shot" | "killed" | "wounded"
 NP -> "John" | "Mary" | "Bob" | Det N | Det N PP | "I"
 Det -> "a" | "an" | "the" | "my" | "an" | "my" 
 N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
-P -> "in" | "on" | "by" | "with" | "outside"'''
+P -> "in" | "on" | "by" | "with" | "outside"''')
 
 # productions = '''[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N PP, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N PP, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
 # '''
@@ -130,10 +131,7 @@ def evaluate_api_jaccard(sentence, to_print):
     if to_print:
         print jaccard_val, jaccard_val < 0.3
 
-    if (jaccard_val < 0.3):
-        return True, p1, p2
-    else:
-        return False, p1, p2
+    return jaccard_val < 0.3, p1, p2
 
 def evaluate_api(sentence, to_print):
     p1 = rosette_API.get_label(sentence=sentence)[0]
@@ -156,6 +154,17 @@ def evaluate_api(sentence, to_print):
     print p1, p2, val
     print " "
     return val
+
+def produce(gr, symbol):
+    words = []
+    productions = gr.productions(lhs = symbol)
+    production = choice(productions)
+    for sym in production.rhs():
+        if not type(sym) == Nonterminal:
+            words.append(sym)
+        else:
+            words.extend(produce(gr, sym))
+    return words
 
 f = open('multinomial_NB.pickle', 'rb')
 clf1 = pickle.load(f)
@@ -180,79 +189,38 @@ train_X_counts = count_vect.fit_transform(train_X)
 
 X_train_tfidf = tfidf_transformer.fit_transform(train_X_counts)
 
-productions = get_productions(sentence, grammarA)
-print productions
-print ' '
-prods = get_base_prods(str(productions))
-dict = get_grammar_dict(grammarA)
-dict_keys = dict.keys()
-
-prob_keys = [1.0/len(dict_keys)] * len(dict_keys)
-print prob_keys
-print ' '
-print prods
+# productions = get_productions(sentence, grammarA)
+# print productions
+# print ' '
+# prods = get_base_prods(str(productions))
+# dict = get_grammar_dict(grammarA)
+# dict_keys = dict.keys()
+#
+# prob_keys = [1.0/len(dict_keys)] * len(dict_keys)
+# print prob_keys
+# print ' '
+# print prods
 
 
 
 error_set = set()
 candidate_set = set()
 sentence_values = []
-latest_error_prods = prods
+# latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataJaccard" + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataRandom" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
+
 for i in xrange(iters):
-    prod_choice = np.random.choice(dict_keys, p=prob_keys)
-    prod_choice_loc = [i for i, x in enumerate(dict_keys) if x == prod_choice]
-    # print prod_choice_loc
-
-    mod = random.randint(0, len(prods) - 1)
-    while prod_choice != prods[mod][0]:
-        mod = random.randint(0, len(prods) - 1)
-
-    rand = random.choice(dict[prods[mod][0]])
-
-    current_prods = copy.deepcopy(prods)
-    # Checks if generating the same sentence
-    while (rand == current_prods[mod][1]):
-        rand = random.choice(dict[prods[mod][0]])
-
-
-    current_sentence = sentence_from_prods(current_prods)
-    current_eval, current_p1, current_p2 = evaluate(current_sentence, True)
-
-    candidate_prods = copy.deepcopy(prods)
-    candidate_prods[mod][1] = rand
-    candidate_sentence = sentence_from_prods(candidate_prods)
+    wordsA = produce(grammarA, grammarA.start())
+    candidate_sentence = ' '.join(word for word in wordsA)
     candidate_eval, candidate_p1, candidate_p2 = evaluate(candidate_sentence, True)
 
-    # if candidate_sentence not in candidate_set:
-
-
     candidate_set.add(candidate_sentence)
-
-    prods = copy.deepcopy(candidate_prods)
-
-    if (current_eval == True and candidate_eval == False):
-        prods = copy.deepcopy(current_prods)
-        # print prods
-        print " "
-        print current_prods, sentence_from_prods(prods)
-        print "Candidate -> " + candidate_sentence, candidate_eval
-        print "Current -> " + current_sentence, current_eval
-        print " "
-        # print ''
-
-    sentence_values.append(candidate_eval)
-
     if (candidate_eval):
         error_set.add(candidate_sentence)
-        latest_error_prods = candidate_prods
-        # prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)
-        # norm = [float(i) / sum(prob_keys) for i in prob_keys]
-        # prob_keys = norm
-    # f.write(str(len(candidate_set)) + " " + str(len(error_set)) + "\n")
+
     file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set)])
 
 

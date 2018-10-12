@@ -1,0 +1,96 @@
+INCORRECT IMPLEMENTAION OF EVAL_JACCARD
+
+['an', 'man', 'on', 'my', 'cat', 'shot', 'Bob', 'outside', 'an', 'pajamas', 'outside', 'Bob', 'with', 'my', 'pajamas', 'in', 'my', 'dog', 'with', 'my', 'cat', 'by', 'an', 'telescope']
+[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
+ 
+[0.2, 0.2, 0.2, 0.2, 0.2]
+ 
+[['Det', 'an'], ['N', 'man'], ['P', 'on'], ['Det', 'my'], ['N', 'cat'], ['V', 'shot'], ['NP', 'Bob'], ['P', 'outside'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'by'], ['Det', 'an'], ['N', 'telescope']]
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'on'], ['Det', 'my'], ['N', 'cat'], ['V', 'shot'], ['NP', 'Bob'], ['P', 'outside'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'by'], ['Det', 'an'], ['N', 'telescope']] my man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope
+Candidate -> my man on my cat ate Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope False
+Current -> my man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'on'], ['Det', 'a'], ['N', 'cat'], ['V', 'shot'], ['NP', 'I'], ['P', 'outside'], ['Det', 'an'], ['N', 'park'], ['P', 'by'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'with'], ['Det', 'an'], ['N', 'telescope']] my man on a cat shot I outside an park by Bob with the pajamas in my dog with my cat with an telescope
+Candidate -> my man on a cat shot I outside an park by Bob with the pajamas in my dog with a cat with an telescope False
+Current -> my man on a cat shot I outside an park by Bob with the pajamas in my dog with my cat with an telescope True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'on'], ['Det', 'a'], ['N', 'cat'], ['V', 'shot'], ['NP', 'I'], ['P', 'outside'], ['Det', 'an'], ['N', 'park'], ['P', 'by'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'with'], ['Det', 'an'], ['N', 'telescope']] my man on a cat shot I outside an park by Bob with the pajamas in my dog with my cat with an telescope
+Candidate -> my man on a cat shot Bob outside an park by Bob with the pajamas in my dog with my cat with an telescope False
+Current -> my man on a cat shot I outside an park by Bob with the pajamas in my dog with my cat with an telescope True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'on'], ['Det', 'a'], ['N', 'cat'], ['V', 'saw'], ['NP', 'I'], ['P', 'outside'], ['Det', 'a'], ['N', 'park'], ['P', 'by'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'the'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'an'], ['N', 'cat'], ['P', 'by'], ['Det', 'an'], ['N', 'park']] my man on a cat saw I outside a park by Bob with the park in my dog with an cat by an park
+Candidate -> my man on a cat saw Mary outside a park by Bob with the park in my dog with an cat by an park False
+Current -> my man on a cat saw I outside a park by Bob with the park in my dog with an cat by an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['V', 'wounded'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man in a cat wounded Mary outside a cat by John by a park in my dog with the cat in an park
+Candidate -> my man in a telescope wounded Mary outside a cat by John by a park in my dog with the cat in an park False
+Current -> my man in a cat wounded Mary outside a cat by John by a park in my dog with the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['V', 'wounded'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man in a cat wounded Mary outside a cat by John by a park in my dog with the cat in an park
+Candidate -> my man in a cat wounded Mary outside a cat by John with a park in my dog with the cat in an park False
+Current -> my man in a cat wounded Mary outside a cat by John by a park in my dog with the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'saw'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man with a man saw Mary outside a cat by John by a park in my dog in the cat in an park
+Candidate -> my man with a man saw Mary outside a cat by John by a park in my telescope in the cat in an park False
+Current -> my man with a man saw Mary outside a cat by John by a park in my dog in the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man'], ['V', 'saw'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man with my man saw Mary outside a cat by John by a park in my dog in the cat in an park
+Candidate -> my man with my man saw Mary outside a cat by Bob by a park in my dog in the cat in an park False
+Current -> my man with my man saw Mary outside a cat by John by a park in my dog in the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man'], ['V', 'killed'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man with my man killed Mary outside a cat by John by a park in my dog in the cat in an park
+Candidate -> my man with my man killed Mary outside a cat by John by a cat in my dog in the cat in an park False
+Current -> my man with my man killed Mary outside a cat by John by a park in my dog in the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'killed'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'park'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'park']] my man with a man killed Mary outside a cat by John by a park in my dog in the cat in an park
+Candidate -> my man with a man killed Mary outside a cat by John with a park in my dog in the cat in an park False
+Current -> my man with a man killed Mary outside a cat by John by a park in my dog in the cat in an park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'shot'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'man'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] my man with a man shot Mary outside a man by John by a man in my dog in the cat in my park
+Candidate -> my man with a man killed Mary outside a man by John by a man in my dog in the cat in my park False
+Current -> my man with a man shot Mary outside a man by John by a man in my dog in the cat in my park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'a'], ['N', 'man'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'the'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] my man with a man ate Mary outside a man by John by the man in my dog in the cat in my park
+Candidate -> my man with a man ate Mary outside the man by John by the man in my dog in the cat in my park False
+Current -> my man with a man ate Mary outside a man by John by the man in my dog in the cat in my park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'a'], ['N', 'telescope'], ['P', 'by'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'the'], ['N', 'man'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park
+Candidate -> my man with a man killed Mary with a telescope by Mary by the man in an dog in the cat in my park False
+Current -> my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'a'], ['N', 'telescope'], ['P', 'by'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'the'], ['N', 'man'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park
+Candidate -> my man with a man ate Mary with a telescope by I by the man in an dog in the cat in my park False
+Current -> my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'with'], ['Det', 'a'], ['N', 'man'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'a'], ['N', 'telescope'], ['P', 'by'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'the'], ['N', 'man'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'my'], ['N', 'park']] my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park
+Candidate -> my man with a man killed Mary with a telescope by Mary by the man in an dog in the cat in my park False
+Current -> my man with a man ate Mary with a telescope by Mary by the man in an dog in the cat in my park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'in'], ['Det', 'the'], ['N', 'telescope'], ['V', 'walked'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'an'], ['N', 'telescope'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'the'], ['N', 'park'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'the'], ['N', 'cat'], ['P', 'in'], ['Det', 'the'], ['N', 'park']] my man in the telescope walked Bob with an telescope by John by the park in an dog in the cat in the park
+Candidate -> my man in the telescope walked John with an telescope by John by the park in an dog in the cat in the park False
+Current -> my man in the telescope walked Bob with an telescope by John by the park in an dog in the cat in the park True
+ 
+ 
+[['Det', 'my'], ['N', 'man'], ['P', 'in'], ['Det', 'the'], ['N', 'telescope'], ['V', 'walked'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'an'], ['N', 'telescope'], ['P', 'by'], ['NP', 'John'], ['P', 'by'], ['Det', 'the'], ['N', 'park'], ['P', 'in'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['Det', 'my'], ['N', 'cat'], ['P', 'in'], ['Det', 'the'], ['N', 'park']] my man in the telescope walked Bob with an telescope by John by the park in an dog in my cat in the park
+Candidate -> my elephant in the telescope walked Bob with an telescope by John by the park in an dog in my cat in the park False
+Current -> my man in the telescope walked Bob with an telescope by John by the park in an dog in my cat in the park True
+ 
+79
+95
+[True, False, True, True, True, True, True, True, True, True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True, False, True, False, True, False, True, False, True, True, True, True, True, True, False, True, True, False, True, True, True, True, False, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True]

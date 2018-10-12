@@ -1,0 +1,294 @@
+['the', 'elephant', 'with', 'my', 'cat', 'walked', 'I', 'with', 'an', 'dog', 'outside', 'John', 'with', 'a', 'cat', 'outside', 'my', 'dog', 'with', 'the', 'man', 'with', 'my', 'man']
+[S -> NP VP, NP -> Det N PP, Det -> 'the', N -> 'elephant', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'walked', NP -> 'I', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'an', N -> 'dog', PP -> P NP, P -> 'outside', NP -> 'John', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'a', N -> 'cat', PP -> P NP, P -> 'outside', NP -> Det N, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'the', N -> 'man', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'man']
+ 
+[0.2, 0.2, 0.2, 0.2, 0.2]
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'John'], ['P', 'with'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']]
+0.428571428571 False
+0.428571428571 False
+0.428571428571 False
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.666666666667 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'walked'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park walked Mary with an dog outside Mary with a cat outside my dog with the man with my man
+Candidate -> the elephant outside my park walked I with an dog outside Mary with a cat outside my dog with the man with my man False
+Current -> the elephant outside my park walked Mary with an dog outside Mary with a cat outside my dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'killed'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'the'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park killed Mary with an dog outside Bob with a cat outside the dog with the man with my man
+Candidate -> the elephant outside my park saw Mary with an dog outside Bob with a cat outside the dog with the man with my man False
+Current -> the elephant outside my park killed Mary with an dog outside Bob with a cat outside the dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'killed'], ['NP', 'Mary'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'Bob'], ['P', 'with'], ['Det', 'an'], ['N', 'park'], ['P', 'outside'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park killed Mary with an dog outside Bob with an park outside an dog with the man with my man
+Candidate -> the elephant outside my park killed Mary with a dog outside Bob with an park outside an dog with the man with my man False
+Current -> the elephant outside my park killed Mary with an dog outside Bob with an park outside an dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'killed'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park killed Mary on an dog outside I with an pajamas on an dog with the man with my man
+Candidate -> the elephant outside my park killed Mary on an dog outside I with an pajamas on an elephant with the man with my man False
+Current -> the elephant outside my park killed Mary on an dog outside I with an pajamas on an dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park ate Mary on my dog in I with an pajamas on an dog with the man with my man
+Candidate -> the elephant outside my park ate John on my dog in I with an pajamas on an dog with the man with my man False
+Current -> the elephant outside my park ate Mary on my dog in I with an pajamas on an dog with the man with my man True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant outside my park ate Mary on my dog in I with an pajamas on an dog with the man with my man
+Candidate -> the elephant outside my park ate John on my dog in I with an pajamas on an dog with the man with my man False
+Current -> the elephant outside my park ate Mary on my dog in I with an pajamas on an dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the man outside my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man
+Candidate -> the man in my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man False
+Current -> the man outside my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the man outside my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man
+Candidate -> the man on my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man False
+Current -> the man outside my park ate Mary on my dog in I with an pajamas on an dog with the cat with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'an'], ['N', 'man']] the man outside my park ate Mary on an dog in I with an pajamas on my dog with the cat with an man
+Candidate -> the man outside my park shot Mary on an dog in I with an pajamas on my dog with the cat with an man False
+Current -> the man outside my park ate Mary on an dog in I with an pajamas on my dog with the cat with an man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'park'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'pajamas'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the man outside my park ate Mary on an dog in I with an pajamas on my dog with the cat with my man
+Candidate -> the man in my park ate Mary on an dog in I with an pajamas on my dog with the cat with my man False
+Current -> the man outside my park ate Mary on an dog in I with an pajamas on my dog with the cat with my man True
+ 
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'saw'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'elephant'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'park']] the cat with a park saw I with an dog in I with an elephant on my dog on my dog with my park
+Candidate -> the cat with a park saw Bob with an dog in I with an elephant on my dog on my dog with my park False
+Current -> the cat with a park saw I with an dog in I with an elephant on my dog on my dog with my park True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'ate'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'the'], ['N', 'elephant'], ['P', 'on'], ['Det', 'my'], ['N', 'cat'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'park']] the cat with a park ate I with an dog in I with the elephant on my cat on my dog with my park
+Candidate -> the cat with a park killed I with an dog in I with the elephant on my cat on my dog with my park False
+Current -> the cat with a park ate I with an dog in I with the elephant on my cat on my dog with my park True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'saw'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'I'], ['P', 'with'], ['Det', 'the'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'on'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'park']] the cat with a park saw I with an dog in I with the elephant with my cat on my dog with my park
+Candidate -> the cat with a park shot I with an dog in I with the elephant with my cat on my dog with my park False
+Current -> the cat with a park saw I with an dog in I with the elephant with my cat on my dog with my park True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'ate'], ['NP', 'I'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'my'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'in'], ['Det', 'a'], ['N', 'pajamas'], ['P', 'by'], ['Det', 'my'], ['N', 'cat']] my cat with a park ate I on an dog in Mary outside my elephant with my cat in a pajamas by my cat
+Candidate -> my cat with a park shot I on an dog in Mary outside my elephant with my cat in a pajamas by my cat False
+Current -> my cat with a park ate I on an dog in Mary outside my elephant with my cat in a pajamas by my cat True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'a'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'saw'], ['NP', 'I'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'my'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'in'], ['Det', 'a'], ['N', 'pajamas'], ['P', 'by'], ['Det', 'my'], ['N', 'cat']] a cat with a park saw I on an dog in Mary outside my elephant with my cat in a pajamas by my cat
+Candidate -> a cat with a park shot I on an dog in Mary outside my elephant with my cat in a pajamas by my cat False
+Current -> a cat with a park saw I on an dog in Mary outside my elephant with my cat in a pajamas by my cat True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'a'], ['N', 'cat'], ['P', 'with'], ['Det', 'a'], ['N', 'park'], ['V', 'saw'], ['NP', 'I'], ['P', 'on'], ['Det', 'an'], ['N', 'dog'], ['P', 'in'], ['NP', 'Mary'], ['P', 'outside'], ['Det', 'my'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'in'], ['Det', 'a'], ['N', 'pajamas'], ['P', 'by'], ['Det', 'my'], ['N', 'cat']] a cat with a park saw I on an dog in Mary outside my elephant with my cat in a pajamas by my cat
+Candidate -> a cat with a park killed I on an dog in Mary outside my elephant with my cat in a pajamas by my cat False
+Current -> a cat with a park saw I on an dog in Mary outside my elephant with my cat in a pajamas by my cat True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'cat'], ['P', 'with'], ['Det', 'an'], ['N', 'park'], ['V', 'ate'], ['NP', 'John'], ['P', 'on'], ['Det', 'an'], ['N', 'cat'], ['P', 'outside'], ['NP', 'I'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['P', 'in'], ['Det', 'an'], ['N', 'telescope'], ['P', 'by'], ['Det', 'a'], ['N', 'cat']] an cat with an park ate John on an cat outside I outside a dog with my cat in an telescope by a cat
+Candidate -> an cat with an park ate John on an cat outside I outside a dog with my cat in an telescope by a park False
+Current -> an cat with an park ate John on an cat outside I outside a dog with my cat in an telescope by a cat True
+ 
+80
+97
+[False, True, True, True, True, True, False, True, True, True, False, True, True, True, False, True, True, True, True, False, True, True, True, False, False, True, True, False, False, True, True, True, False, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, False, True, True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, True, True, False, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False]

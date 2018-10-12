@@ -1,0 +1,304 @@
+['the', 'elephant', 'with', 'my', 'cat', 'walked', 'I', 'with', 'an', 'dog', 'outside', 'John', 'with', 'a', 'cat', 'outside', 'my', 'dog', 'with', 'the', 'man', 'with', 'my', 'man']
+[S -> NP VP, NP -> Det N PP, Det -> 'the', N -> 'elephant', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'walked', NP -> 'I', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'an', N -> 'dog', PP -> P NP, P -> 'outside', NP -> 'John', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'a', N -> 'cat', PP -> P NP, P -> 'outside', NP -> Det N, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'the', N -> 'man', PP -> P NP, P -> 'with', NP -> Det N, Det -> 'my', N -> 'man']
+ 
+[0.2, 0.2, 0.2, 0.2, 0.2]
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'John'], ['P', 'with'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']]
+0.428571428571 False
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'the'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'ate'], ['NP', 'I'], ['P', 'with'], ['Det', 'an'], ['N', 'dog'], ['P', 'outside'], ['NP', 'John'], ['P', 'with'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'man']] the elephant with my cat ate I with an dog outside John with a cat outside my dog with the man with my man
+Candidate -> the elephant with my cat shot I with an dog outside John with a cat outside my dog with the man with my man False
+Current -> the elephant with my cat ate I with an dog outside John with a cat outside my dog with the man with my man True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope
+Candidate -> an telescope with my cat walked John with the telescope on Mary in a cat outside my cat with the pajamas with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope
+Candidate -> an telescope with my cat ate John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope
+Candidate -> an telescope with my cat saw John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope
+Candidate -> an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the elephant with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside my dog with the pajamas with my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.666666666667 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside a dog with the pajamas with my telescope
+Candidate -> an telescope with my cat killed John with the telescope on Mary in a cat outside a dog with the pajamas with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside a dog with the pajamas with my telescope True
+ 
+0.25 True
+0.666666666667 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'with'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'with'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'Mary'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope with my cat walked John with the telescope on Mary in a cat outside a dog with the pajamas with my telescope
+Candidate -> an telescope with my cat walked John with the telescope on Mary in a cat with a dog with the pajamas with my telescope False
+Current -> an telescope with my cat walked John with the telescope on Mary in a cat outside a dog with the pajamas with my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'an'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'I'], ['P', 'in'], ['Det', 'the'], ['N', 'telescope'], ['P', 'on'], ['NP', 'I'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] an telescope outside my cat walked I in the telescope on I in a cat outside a dog with the dog with my telescope
+Candidate -> an telescope outside my cat walked I in the telescope on Bob in a cat outside a dog with the dog with my telescope False
+Current -> an telescope outside my cat walked I in the telescope on I in a cat outside a dog with the dog with my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.666666666667 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'I'], ['P', 'in'], ['Det', 'the'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'I'], ['P', 'in'], ['Det', 'a'], ['N', 'cat'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'dog'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] my telescope outside my cat walked I in the telescope outside I in a cat outside a dog with the dog with my telescope
+Candidate -> my telescope outside my cat walked I in the telescope outside Mary in a cat outside a dog with the dog with my telescope False
+Current -> my telescope outside my cat walked I in the telescope outside I in a cat outside a dog with the dog with my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'saw'], ['NP', 'I'], ['P', 'on'], ['Det', 'an'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'in'], ['Det', 'a'], ['N', 'man'], ['P', 'outside'], ['Det', 'a'], ['N', 'dog'], ['P', 'with'], ['Det', 'the'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] my telescope outside my cat saw I on an telescope outside John in a man outside a dog with the pajamas with my telescope
+Candidate -> my telescope outside my cat saw Mary on an telescope outside John in a man outside a dog with the pajamas with my telescope False
+Current -> my telescope outside my cat saw I on an telescope outside John in a man outside a dog with the pajamas with my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'saw'], ['NP', 'Bob'], ['P', 'on'], ['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'an'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] my telescope outside my cat saw Bob on my telescope outside John by a man outside my dog with an man with my telescope
+Candidate -> my park outside my cat saw Bob on my telescope outside John by a man outside my dog with an man with my telescope False
+Current -> my telescope outside my cat saw Bob on my telescope outside John by a man outside my dog with an man with my telescope True
+ 
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'saw'], ['NP', 'Bob'], ['P', 'on'], ['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'man'], ['P', 'outside'], ['Det', 'my'], ['N', 'dog'], ['P', 'with'], ['Det', 'an'], ['N', 'man'], ['P', 'with'], ['Det', 'my'], ['N', 'telescope']] my telescope outside my cat saw Bob on my telescope outside John by a man outside my dog with an man with my telescope
+Candidate -> my telescope outside my cat saw Bob on my telescope outside John by my man outside my dog with an man with my telescope False
+Current -> my telescope outside my cat saw Bob on my telescope outside John by a man outside my dog with an man with my telescope True
+ 
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'an'], ['N', 'cat'], ['V', 'ate'], ['NP', 'Mary'], ['P', 'on'], ['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'outside'], ['Det', 'my'], ['N', 'telescope'], ['P', 'with'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'the'], ['N', 'elephant']] my telescope outside an cat ate Mary on my telescope outside John by a elephant outside my telescope with an man in the elephant
+Candidate -> my telescope outside an cat ate Mary on my telescope outside Bob by a elephant outside my telescope with an man in the elephant False
+Current -> my telescope outside an cat ate Mary on my telescope outside John by a elephant outside my telescope with an man in the elephant True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.111111111111 True
+0.111111111111 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'on'], ['Det', 'the'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'on'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'the'], ['N', 'elephant']] my telescope outside a cat walked John on the telescope outside John by a elephant on my pajamas with an man in the elephant
+Candidate -> my telescope outside a cat walked John on the telescope outside Bob by a elephant on my pajamas with an man in the elephant False
+Current -> my telescope outside a cat walked John on the telescope outside John by a elephant on my pajamas with an man in the elephant True
+ 
+0.111111111111 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['V', 'wounded'], ['NP', 'John'], ['P', 'on'], ['Det', 'the'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'John'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'by'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'with'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'the'], ['N', 'dog']] my telescope outside a cat wounded John on the telescope outside John by a elephant by my pajamas with an man in the dog
+Candidate -> my telescope outside a cat wounded John on the park outside John by a elephant by my pajamas with an man in the dog False
+Current -> my telescope outside a cat wounded John on the telescope outside John by a elephant by my pajamas with an man in the dog True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'a'], ['N', 'cat'], ['V', 'wounded'], ['NP', 'John'], ['P', 'in'], ['Det', 'an'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'by'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'dog']] my telescope outside a cat wounded John in an telescope outside Mary by a elephant by my pajamas in an man in my dog
+Candidate -> my telescope outside a cat ate John in an telescope outside Mary by a elephant by my pajamas in an man in my dog False
+Current -> my telescope outside a cat wounded John in an telescope outside Mary by a elephant by my pajamas in an man in my dog True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'an'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'in'], ['Det', 'an'], ['N', 'telescope'], ['P', 'outside'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'by'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'dog']] my telescope outside an cat walked John in an telescope outside Mary by a elephant by my pajamas in an man in my dog
+Candidate -> my telescope outside an cat walked John in an telescope outside I by a elephant by my pajamas in an man in my dog False
+Current -> my telescope outside an cat walked John in an telescope outside Mary by a elephant by my pajamas in an man in my dog True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'walked'], ['NP', 'John'], ['P', 'in'], ['Det', 'an'], ['N', 'telescope'], ['P', 'by'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'by'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'dog']] my telescope outside my cat walked John in an telescope by Mary by a elephant by my pajamas in an man in my dog
+Candidate -> my telescope outside my cat ate John in an telescope by Mary by a elephant by my pajamas in an man in my dog False
+Current -> my telescope outside my cat walked John in an telescope by Mary by a elephant by my pajamas in an man in my dog True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.428571428571 False
+ 
+[['Det', 'my'], ['N', 'telescope'], ['P', 'outside'], ['Det', 'my'], ['N', 'cat'], ['V', 'ate'], ['NP', 'John'], ['P', 'in'], ['Det', 'an'], ['N', 'telescope'], ['P', 'by'], ['NP', 'Mary'], ['P', 'by'], ['Det', 'a'], ['N', 'elephant'], ['P', 'with'], ['Det', 'my'], ['N', 'pajamas'], ['P', 'in'], ['Det', 'an'], ['N', 'man'], ['P', 'in'], ['Det', 'my'], ['N', 'telescope']] my telescope outside my cat ate John in an telescope by Mary by a elephant with my pajamas in an man in my telescope
+Candidate -> my telescope outside my cat ate John in an telescope by Mary by a elephant with my pajamas in a man in my telescope False
+Current -> my telescope outside my cat ate John in an telescope by Mary by a elephant with my pajamas in an man in my telescope True
+ 
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+0.25 True
+78
+97
+[True, False, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, False, False, False, False, True, False, False, True, True, True, True, True, False, True, True, True, True, False, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, True, True, True, False, False, True, True, True, True, True, True, True, True, True, True, False, True, True, True, True, True, True, True, False, True, True, True, False, True, True, True, True, True, False, True, True, False, True, True, False, True, True, True, True, False, True, True, True, True]
