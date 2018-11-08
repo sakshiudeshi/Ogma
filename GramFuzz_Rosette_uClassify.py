@@ -18,25 +18,24 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-grammarA = '''S -> NP VP
-VP -> V NP | V NP PP | VP PP
-PP -> P NP
-V -> "saw" | "ate" | "walked" | "shot" | "killed" | "wounded"
-NP -> "John" | "Mary" | "Bob" | Det N | Det N PP | "I"
-Det -> "a" | "an" | "the" | "my" | "an" | "my" 
-N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
-P -> "in" | "on" | "by" | "with" | "outside"'''
+gramFileName = "Grammar D.txt"
+
+f = open(gramFileName, 'r')
+grammar = f.read()
+f.close()
+# print grammarA
 
 # productions = '''[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N PP, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N PP, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
 # '''
 
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
-sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+# sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+# sentence = "my angry cat chased an tall snake wounded a tree ate Joe outside my log"
+sentence = "James built Stephen by a ship in an man with James by an cat with an tree with James outside Irene"
 
 
-
-iters = 1000
+iters = 2000
 prob_delta = 0.2
 
 
@@ -79,6 +78,10 @@ def get_grammar_dict(grammar):
         split_lines.append(line.split('->'))
 
     line_d = {}
+    # f = open("Split_Lines.txt", "w")
+    # for line in split_lines:
+    #     f.write(str(line) + " " + str(len(line)) + "\n")
+    # f.close()
     for line in split_lines:
         if quoted.findall(line[1]):
             line_d[line[0].strip()] = quoted.findall(line[1])
@@ -180,11 +183,11 @@ train_X_counts = count_vect.fit_transform(train_X)
 
 X_train_tfidf = tfidf_transformer.fit_transform(train_X_counts)
 
-productions = get_productions(sentence, grammarA)
+productions = get_productions(sentence, grammar)
 print productions
 print ' '
 prods = get_base_prods(str(productions))
-dict = get_grammar_dict(grammarA)
+dict = get_grammar_dict(grammar)
 dict_keys = dict.keys()
 
 prob_keys = [1.0/len(dict_keys)] * len(dict_keys)
@@ -253,7 +256,7 @@ for i in xrange(iters):
         # norm = [float(i) / sum(prob_keys) for i in prob_keys]
         # prob_keys = norm
     # f.write(str(len(candidate_set)) + " " + str(len(error_set)) + "\n")
-    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set)])
+    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
 
 
 

@@ -19,25 +19,35 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-grammarA = CFG.fromstring('''S -> NP VP
-VP -> V NP | V NP PP | VP PP
-PP -> P NP
-V -> "saw" | "ate" | "walked" | "shot" | "killed" | "wounded"
-NP -> "John" | "Mary" | "Bob" | Det N | Det N PP | "I"
-Det -> "a" | "an" | "the" | "my" | "an" | "my" 
-N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
-P -> "in" | "on" | "by" | "with" | "outside"''')
+# grammarA = CFG.fromstring('''S -> NP VP
+# VP -> V NP | V NP PP | VP PP
+# PP -> P NP
+# V -> "saw" | "ate" | "walked" | "shot" | "killed" | "wounded"
+# NP -> "John" | "Mary" | "Bob" | Det N | Det N PP | "I"
+# Det -> "a" | "an" | "the" | "my" | "an" | "my"
+# N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
+# P -> "in" | "on" | "by" | "with" | "outside"''')
+
+gramFileName = "Grammar D.txt"
+
+f = open(gramFileName, 'r')
+grammar_string = f.read()
+f.close()
+# print grammarA
+grammar = CFG.fromstring(grammar_string)
 
 # productions = '''[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N PP, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N PP, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
 # '''
 
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
-sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+# sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+# sentence = "my elephant shot an cat in an cat in I in an cat outside I in I outside an pajamas in an dog in I in my cat in an pajamas"
+sentence = "Joe saw a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
 
 
 
-iters = 1000
+iters = 2000
 prob_delta = 0.2
 
 
@@ -213,7 +223,7 @@ f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 
 for i in xrange(iters):
-    wordsA = produce(grammarA, grammarA.start())
+    wordsA = produce(grammar, grammar.start())
     candidate_sentence = ' '.join(word for word in wordsA)
     candidate_eval, candidate_p1, candidate_p2 = evaluate(candidate_sentence, True)
 
@@ -221,7 +231,9 @@ for i in xrange(iters):
     if (candidate_eval):
         error_set.add(candidate_sentence)
 
-    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set)])
+    print candidate_sentence, candidate_eval
+
+    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
 
 
 
