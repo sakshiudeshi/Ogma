@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "began" | "built" | "caught" | "fought" | "heard" | "meant" | NP
+NP -> "Stephen" | "Irene" | "James" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my" | "an" | "my" | N | N PP
+N -> "man" | "tree" | "cat" | "telescope" | "ship" | "monkey" | "pajamas" | "mountain" | "country" | PP
+P -> "in" | "on" | "by" | "with" | "outside" | NP

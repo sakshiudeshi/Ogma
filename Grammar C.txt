@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "spent" | "grabbed" | "chased" | "damaged" | "apprehended" | "disabled" | "saw"
+NP -> "Gary" | "Gemma" | "Nick" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my"
+N -> "woman" | "lemur" | "baboon" | "park" | "elephant" | "gibbon" | "salmon" | "river" | "owl"
+P -> "in" | "on" | "by" | "with" | "outside" | "near" | "inside"

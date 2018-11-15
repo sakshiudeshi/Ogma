@@ -28,7 +28,8 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramFileName = "Grammar D.txt"
+gramLetter = "E"
+gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
 grammar_string = f.read()
@@ -43,12 +44,15 @@ grammar = CFG.fromstring(grammar_string)
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my elephant shot an cat in an cat in I in an cat outside I in I outside an pajamas in an dog in I in my cat in an pajamas"
-sentence = "Joe saw a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
-
-
+# sentence = "Joe saw a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
+# sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
+# sentence = "a babbon disabled an park outside Gary outside my owl"
+sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
 
 iters = 2000
 prob_delta = 0.2
+
+jaccard_threshold = 0.15
 
 
 def jaccard(a, b):
@@ -139,9 +143,9 @@ def evaluate_api_jaccard(sentence, to_print):
     jaccard_val = jaccard(p1, p2)
 
     if to_print:
-        print jaccard_val, jaccard_val < 0.3
+        print jaccard_val, jaccard_val < jaccard_threshold
 
-    return jaccard_val < 0.3, p1, p2
+    return jaccard_val < jaccard_threshold, p1, p2
 
 def evaluate_api(sentence, to_print):
     p1 = rosette_API.get_label(sentence=sentence)[0]
@@ -218,7 +222,7 @@ candidate_set = set()
 sentence_values = []
 # latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataRandom" + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataRandom_Rosette_uClassify_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 

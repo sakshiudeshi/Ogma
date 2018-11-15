@@ -7,6 +7,7 @@ def produce(gr, symbol):
     words = []
     productions = gr.productions(lhs = symbol)
     production = choice(productions)
+    # print productions
     for sym in production.rhs():
         if not type(sym) == Nonterminal:
             words.append(sym)
@@ -22,30 +23,41 @@ grammarA = CFG.fromstring('''
 S -> NP VP
 VP -> V NP | V NP PP
 PP -> P NP
-V -> "saw" | "ate" | "walked"
+V -> "saw" | "ate" | "walked" | NP
 NP -> "John" | "Mary" | "Bob" | Det N | Det N PP
 Det -> "a" | "an" | "the" | "my"
 N -> "man" | "dog" | "cat" | "telescope" | "park"
 P -> "in" | "on" | "by" | "with" 
 ''')
 
-#Grammar B
-grammarB = CFG.fromstring('''
-S -> NP VP
-PP -> P NP
-NP -> Det N | Det N PP | 'I'
-VP -> V NP | VP PP
-V -> 'shot' | 'killed' | 'wounded'
-Det -> 'an' | 'my' 
-N -> 'elephant' | 'pajamas' | 'cat' | 'dog'
-P -> 'in' | 'outside'
-''')
+# #Grammar B
+# grammarB = CFG.fromstring('''
+# S -> NP VP
+# PP -> P NP
+# NP -> Det N | Det N PP | 'I'
+# VP -> V NP | VP PP
+# V -> 'shot' | 'killed' | 'wounded'
+# Det -> 'an' | 'my'
+# N -> 'elephant' | 'pajamas' | 'cat' | 'dog'
+# P -> 'in' | 'outside'
+# ''')
+
+gramFileName = "Grammar D.txt"
+
+f = open(gramFileName, 'r')
+grammarB_string = f.read()
+f.close()
+# print grammarA
+grammarB = CFG.fromstring(grammarB_string)
 
 
-f = open('combined_diff_test_2.txt', 'w')
-sys.stdout = f
+# f = open('combined_diff_test_2.txt', 'w')
+# sys.stdout = f
 
 for i in xrange(1000):
-    wordsA = produce(grammarA, grammarA.start())
+    # wordsA = produce(grammarA, grammarA.start())
     wordsB = produce(grammarB, grammarB.start())
-    print ' '.join(word for word in wordsA) + ' ' + choice(errors) + ' ' + ' '.join(word for word in wordsB)
+    # print i
+    # print ' '.join(word for word in wordsA) + ' ' + choice(errors) + ' ' + ' '.join(word for word in wordsB)
+    print ' '.join(word for word in wordsB)
+    print ' '

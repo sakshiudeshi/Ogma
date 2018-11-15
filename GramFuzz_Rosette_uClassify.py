@@ -18,7 +18,8 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramFileName = "Grammar D.txt"
+gramLetter = "E"
+gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
 grammar = f.read()
@@ -32,11 +33,17 @@ f.close()
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my angry cat chased an tall snake wounded a tree ate Joe outside my log"
-sentence = "James built Stephen by a ship in an man with James by an cat with an tree with James outside Irene"
+# sentence = "James built Stephen by a ship in an man with James by an cat with an tree with James outside Irene"
+# sentence = "Steve ran the lawn by the man by Elise in Elise by my squirrel by my giraffe near a squirrel on a fish"
+# sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
+# sentence = "a babbon disabled an park outside Gary outside my owl"
+sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
 
 
 iters = 2000
 prob_delta = 0.2
+
+jaccard_threshold = 0.15
 
 
 def jaccard(a, b):
@@ -131,9 +138,9 @@ def evaluate_api_jaccard(sentence, to_print):
     jaccard_val = jaccard(p1, p2)
 
     if to_print:
-        print jaccard_val, jaccard_val < 0.3
+        print jaccard_val, jaccard_val < jaccard_threshold
 
-    if (jaccard_val < 0.3):
+    if (jaccard_val < jaccard_threshold):
         return True, p1, p2
     else:
         return False, p1, p2
@@ -202,7 +209,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataJaccard" + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataDirected_Rosette_uClassify_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):

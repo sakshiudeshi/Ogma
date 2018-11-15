@@ -2,16 +2,16 @@ from aylienapiclient import textapi
 import API_KEYS
 import json
 
-sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope"
+sentence_test = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope"
 
-def get_labels(senttence):
+def get_label(sentence):
     client = textapi.Client(API_KEYS.AYLIEN_APP_ID, API_KEYS.AYLIEN_KEY)
-    response = client.ClassifyByTaxonomy({'text': sentence, 'taxonomy': 'iab-qag'})
+    response = client.ClassifyByTaxonomy({'text': sentence, 'taxonomy': 'iab-qag', 'language':'en'})
     # print response['categories'][0]['label']
     labels = []
     for categories in response["categories"]:
-        labels.append([str(categories["label"]), float(categories["score"])])
+        labels.append([str(categories["label"]).upper(), float(categories["score"])])
 
-    return labels
+    return labels[:5]
 
-# print get_labels(sentence)
+# print get_labels(sentence_test)

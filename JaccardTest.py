@@ -2,7 +2,9 @@ import uclassify_API, rosette_API
 
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "I ate Mary with Mary"
-sentence = "a cat in a dog wounded Bob outside an telescope by I outside my dog outside a telescope with an dog outside a telescope" # Jaccard index 1 sentence
+# sentence = "a cat in a dog wounded Bob outside an telescope by I outside my dog outside a telescope with an dog outside a telescope" # Jaccard index 1 sentence
+# sentence = "Wayne ate the little angry tall tree outside a frightened bear"
+sentence = "my angry cat chased a tall snake wounded a tree ate Joe outside my log"
 # l1 = [['SPORTS', 0.508389], ['ARTS AND ENTERTAINMENT', 0.289764], ['PETS', 0.13624], ['NON STANDARD CONTENT', 0.0100388], ['HEALTH AND FITNESS', 0.00796675]]
 # l2 = [['TRAVEL', 0.23621088], ['HEALTH AND FITNESS', 0.10447168], ['PETS', 0.10377311], ['SPORTS', 0.06433649], ['AUTOMOTIVE', 0.06146078]]
 
