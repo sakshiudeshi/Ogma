@@ -11,7 +11,7 @@ Y2 = []
 import glob
 import os
 
-folder_type = "Rosette Aylien Grammar E"
+folder_type = "Rosette uClassify Grammar E"
 src = "DataFiles/MasterData/"+ folder_type + "/"
 
 jacc_thresh = "0.1"

@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "E"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -37,8 +37,8 @@ f.close()
 # sentence = "Steve ran the lawn by the man by Elise in Elise by my squirrel by my giraffe near a squirrel on a fish"
 # sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
 # sentence = "a babbon disabled an park outside Gary outside my owl"
-sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
-
+# sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
+sentence = "I looked my company home on my country woman Thomas"
 
 iters = 2000
 prob_delta = 0.2

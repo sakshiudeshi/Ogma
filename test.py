@@ -5,7 +5,7 @@ from nltk import CFG, ChartParser, Tree, Nonterminal
 
 iters = 1000
 
-gramFileName = "Grammar C.txt"
+gramFileName = "toy.cfg"
 
 f = open(gramFileName, 'r')
 grammar_string = f.read()
@@ -29,5 +29,5 @@ for i in xrange(iters):
     candidate_sentence = ' '.join(word for word in wordsA)
     print candidate_sentence
     # print aylien_API.get_label(candidate_sentence)
-    print textrazor_API.get_labels(candidate_sentence)
+    # print textrazor_API.get_labels(candidate_sentence)
     print ' '

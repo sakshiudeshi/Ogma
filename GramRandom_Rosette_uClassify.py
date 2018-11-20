@@ -28,7 +28,7 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "E"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
