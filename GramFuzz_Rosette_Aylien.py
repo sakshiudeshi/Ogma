@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "E"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -36,8 +36,8 @@ f.close()
 # sentence = "James built Stephen by a ship in an man with James by an cat with an tree with James outside Irene"
 # sentence = "my monkey wounded I by my monkey on a man in my fish with Elise"
 # sentence = "I disabled a salmon near Gemma near Gemma in the owl near a park inside the park"
-sentence = "my bus outside the snake conflicted Holly on pajamas on Dylan snake in an cat"
-
+# sentence = "I looked business by business I Alexander room my company Olivia woman Alexander company in Thomas"
+sentence = "room a country Olivia an company woman company on I school Alexander I Thomas country business a room Olivia tried I in an room"
 jaccard_threshold = 0.1
 
 iters = 2000

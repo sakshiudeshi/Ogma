@@ -30,7 +30,7 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "E"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -238,7 +238,7 @@ for i in xrange(iters):
 
     print candidate_sentence, candidate_eval
 
-    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
+    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), (datetime.datetime.now().time())])
 
 
 

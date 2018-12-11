@@ -41,22 +41,25 @@ print train_X_counts.shape
 X_train_tfidf = tfidf_transformer.fit_transform(train_X_counts)
 print X_train_tfidf.shape
 
-# from sklearn.naive_bayes import MultinomialNB
-# text_clf_svm = SGDClassifier(loss='hinge', penalty='l2',  alpha=1e-3, n_iter=5, random_state=42)
-#
-# text_clf_svm.fit(X_train_tfidf, train_Y)
-#
-# test_X_np = np.array(test_X)
-# test_Y_np = np.array(test_Y)
-# # print test_X_np
-# predicted = text_clf_svm.predict(tfidf_transformer.transform(count_vect.transform(test_X)))
-# print predicted
-# print np.mean(predicted == test_Y)
+from sklearn.naive_bayes import MultinomialNB
+text_clf_svm = SGDClassifier(loss='hinge', penalty='l2',  alpha=1e-3, n_iter=5, random_state=42)
 
-f = open('cv.pickle', 'wb')
-pickle.dump(train_X_counts, f)
-f.close()
+text_clf_svm.fit(X_train_tfidf, train_Y)
 
-f = open('tfidf.pickle', 'wb')
-pickle.dump(X_train_tfidf, f)
-f.close()
+multinomial_NB = MultinomialNB()
+multinomial_NB.fit(X_train_tfidf, train_Y)
+
+test_X_np = np.array(test_X)
+test_Y_np = np.array(test_Y)
+# print test_X_np
+predicted = multinomial_NB.predict(tfidf_transformer.transform(count_vect.transform(test_X)))
+print predicted
+print np.mean(predicted == test_Y)
+
+# f = open('cv.pickle', 'wb')
+# pickle.dump(train_X_counts, f)
+# f.close()
+#
+# f = open('tfidf.pickle', 'wb')
+# pickle.dump(X_train_tfidf, f)
+# f.close()

@@ -10,8 +10,8 @@ def get_label(sentence):
     # print response['categories'][0]['label']
     labels = []
     for categories in response["categories"]:
-        labels.append([str(categories["label"]).upper(), float(categories["score"])])
+        labels.append([(categories["label"]).encode('utf-8').upper(), float(categories["score"])])
 
     return labels[:5]
 
-# print get_labels(sentence_test)
+# print get_label(sentence_test)

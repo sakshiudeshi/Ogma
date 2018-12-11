@@ -1,0 +1,1000 @@
+an elephant outside an cat killed John outside an elephant by I in an dog by an dog with an dog in a park,['0'],['0'],[False],1,0,16:36:15.390496
+an elephant outside an cat killed John outside an elephant by I in an dog by an dog with an dog in a cat,['0'],['0'],[False],2,0,16:36:15.392963
+an elephant outside an cat killed John outside an elephant by John in an dog by an dog with an dog in a cat,['0'],['0'],[False],3,0,16:36:15.395349
+an elephant outside an cat killed John outside an elephant by John in an dog by an dog with my dog in a cat,['0'],['0'],[False],4,0,16:36:15.398428
+a elephant outside an cat killed John outside an elephant by John in an dog by an dog with my dog in a cat,['0'],['0'],[False],5,0,16:36:15.401699
+a pajamas outside an cat killed John outside an elephant by John in an dog by an dog with my dog in a cat,['0'],['0'],[False],6,0,16:36:15.404207
+a cat outside an cat killed John outside an elephant by John in an dog by an dog with my dog in a cat,['0'],['0'],[False],7,0,16:36:15.406717
+a cat outside an cat killed John outside an elephant by John in an dog by an dog with an dog in a cat,['0'],['0'],[False],8,0,16:36:15.409276
+a cat outside an cat killed John outside an elephant by John in an dog by my dog with an dog in a cat,['0'],['0'],[False],9,0,16:36:15.411679
+an cat outside an cat killed John outside an elephant by John in an dog by my dog with an dog in a cat,['0'],['0'],[False],10,0,16:36:15.414047
+an cat outside an cat killed John outside an elephant by John in an dog by my dog with an cat in a cat,['0'],['0'],[False],11,0,16:36:15.416435
+an cat outside an cat killed John outside an elephant by John in an dog by my dog with the cat in a cat,['1'],['0'],[ True],12,1,16:36:15.418829
+an cat outside an cat killed John outside an elephant by I in an dog by my dog with the cat in a cat,['0'],['0'],[False],13,1,16:36:15.421340
+an cat outside an cat killed John outside an elephant by I in an dog by my dog with the cat in a cat,['0'],['0'],[False],13,1,16:36:15.423845
+an cat outside an cat killed John outside an elephant by John in an dog by my dog with the dog in a cat,['1'],['0'],[ True],14,2,16:36:15.426205
+an cat outside an cat killed John outside an elephant by John in an dog by my dog with the dog in an cat,['1'],['0'],[ True],15,3,16:36:15.428576
+an cat outside an cat shot John outside an elephant by John in an dog by my dog with the dog in an cat,['1'],['0'],[ True],16,4,16:36:15.430926
+an cat outside an cat shot I outside an elephant by John in an dog by my dog with the dog in an cat,['0'],['0'],[False],17,4,16:36:15.433528
+an cat outside an cat shot John outside an elephant by John in an cat by my dog with the dog in an cat,['1'],['0'],[ True],18,5,16:36:15.435935
+an cat outside an cat shot John outside an elephant by Mary in an cat by my dog with the dog in an cat,['1'],['0'],[ True],19,6,16:36:15.438333
+an cat outside an cat shot John outside an elephant by John in an cat by my dog with the dog in an cat,['1'],['0'],[ True],19,6,16:36:15.440722
+an cat outside an cat ate John outside an elephant by John in an cat by my dog with the dog in an cat,['1'],['1'],[False],20,6,16:36:15.443195
+an cat outside my cat shot John outside an elephant by John in an cat by my dog with the dog in an cat,['1'],['0'],[ True],21,7,16:36:15.445576
+an cat outside my cat shot John outside an elephant by John on an cat by my dog with the dog in an cat,['1'],['0'],[ True],22,8,16:36:15.448139
+an cat outside the cat shot John outside an elephant by John on an cat by my dog with the dog in an cat,['1'],['1'],[False],23,8,16:36:15.450692
+an cat outside an cat shot John outside an elephant by John on an cat by my dog with the dog in an cat,['1'],['0'],[ True],24,9,16:36:15.453135
+an cat outside an cat shot John outside an elephant outside John on an cat by my dog with the dog in an cat,['0'],['0'],[False],25,9,16:36:15.455606
+an cat outside an cat shot John outside a elephant by John on an cat by my dog with the dog in an cat,['1'],['0'],[ True],26,10,16:36:15.458007
+an cat outside an cat shot John outside a man by John on an cat by my dog with the dog in an cat,['1'],['1'],[False],27,10,16:36:15.460529
+an telescope outside an cat shot John outside a elephant by John on an cat by my dog with the dog in an cat,['1'],['1'],[False],28,10,16:36:15.463072
+an cat outside an cat shot John with a elephant by John on an cat by my dog with the dog in an cat,['1'],['1'],[False],29,10,16:36:15.465508
+an cat outside an cat shot John outside a elephant by John on an cat by my dog with the dog in my cat,['1'],['0'],[ True],30,11,16:36:15.467878
+an cat outside an cat shot John outside a elephant by John on an cat by my dog with the dog by my cat,['1'],['1'],[False],31,11,16:36:15.470318
+an cat outside an cat shot Bob outside a elephant by John on an cat by my dog with the dog in my cat,['1'],['0'],[ True],32,12,16:36:15.472706
+an cat outside an cat shot Bob outside a elephant by John on my cat by my dog with the dog in my cat,['1'],['0'],[ True],33,13,16:36:15.475096
+an cat outside an cat walked Bob outside a elephant by John on my cat by my dog with the dog in my cat,['1'],['1'],[False],34,13,16:36:15.477639
+an cat outside an cat shot Bob outside a elephant by I on my cat by my dog with the dog in my cat,['1'],['0'],[ True],35,14,16:36:15.480084
+an cat outside an cat shot Bob outside a elephant by I on my cat by my dog with the cat in my cat,['1'],['0'],[ True],36,15,16:36:15.482455
+an cat outside an cat shot Bob outside a elephant in I on my cat by my dog with the cat in my cat,['0'],['0'],[False],37,15,16:36:15.484895
+an cat outside a cat shot Bob outside a elephant by I on my cat by my dog with the cat in my cat,['1'],['0'],[ True],38,16,16:36:15.487256
+an cat outside a cat shot Bob outside a elephant by I on my cat by my dog in the cat in my cat,['0'],['0'],[False],39,16,16:36:15.489716
+an pajamas outside a cat shot Bob outside a elephant by I on my cat by my dog with the cat in my cat,['1'],['0'],[ True],40,17,16:36:15.492078
+an pajamas outside a cat shot Bob outside a cat by I on my cat by my dog with the cat in my cat,['1'],['0'],[ True],41,18,16:36:15.494434
+an pajamas outside a cat shot Bob outside a cat by I on a cat by my dog with the cat in my cat,['1'],['0'],[ True],42,19,16:36:15.496838
+an pajamas outside a cat shot Bob outside a cat by Bob on a cat by my dog with the cat in my cat,['1'],['1'],[False],43,19,16:36:15.499321
+an pajamas outside a cat shot I outside a cat by I on a cat by my dog with the cat in my cat,['1'],['0'],[ True],44,20,16:36:15.501712
+an pajamas outside a cat ate I outside a cat by I on a cat by my dog with the cat in my cat,['1'],['1'],[False],45,20,16:36:15.504135
+an pajamas outside a cat shot I outside a cat by I on a cat by an dog with the cat in my cat,['1'],['0'],[ True],46,21,16:36:15.506490
+an pajamas outside a cat ate I outside a cat by I on a cat by an dog with the cat in my cat,['1'],['1'],[False],47,21,16:36:15.508963
+an park outside a cat shot I outside a cat by I on a cat by an dog with the cat in my cat,['1'],['0'],[ True],48,22,16:36:15.511315
+an park outside a cat shot I outside a cat by I on a cat in an dog with the cat in my cat,['1'],['0'],[ True],49,23,16:36:15.513668
+an park outside a cat shot I outside a cat by I on a dog in an dog with the cat in my cat,['1'],['0'],[ True],50,24,16:36:15.516014
+an park outside a cat shot I outside a cat by I on a dog in an dog with the cat in my telescope,['1'],['0'],[ True],51,25,16:36:15.518397
+an park outside a cat shot I outside a cat by I on a dog in an dog with the cat in my pajamas,['0'],['0'],[False],52,25,16:36:15.520896
+an park outside a cat saw I outside a cat by I on a dog in an dog with the cat in my telescope,['1'],['1'],[False],53,25,16:36:15.523412
+an park outside a cat shot I outside a cat by I on a dog with an dog with the cat in my telescope,['1'],['1'],[False],54,25,16:36:15.525853
+an park outside a cat shot I outside a cat by I on a dog in my dog with the cat in my telescope,['1'],['0'],[ True],55,26,16:36:15.528228
+an park outside a cat shot I outside a cat by I on a dog in my cat with the cat in my telescope,['1'],['0'],[ True],56,27,16:36:15.530599
+an park outside a cat shot I outside a cat by Bob on a dog in my cat with the cat in my telescope,['1'],['1'],[False],57,27,16:36:15.533126
+an park outside a cat shot I outside a cat by I on a elephant in my cat with the cat in my telescope,['1'],['0'],[ True],58,28,16:36:15.535686
+an park outside a cat shot I outside a cat by I on a elephant in my cat with the pajamas in my telescope,['1'],['0'],[ True],59,29,16:36:15.538261
+an park outside a cat shot I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['0'],[ True],60,30,16:36:15.540677
+an park outside a cat shot Bob outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],61,30,16:36:15.543164
+an park outside a cat saw I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],62,30,16:36:15.545658
+a park outside a cat shot I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['0'],[ True],63,31,16:36:15.548083
+a park outside a cat shot I outside a cat by I on a elephant in my cat with the dog in the telescope,['1'],['1'],[False],64,31,16:36:15.550514
+a park outside a cat shot John outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],65,31,16:36:15.553454
+a pajamas outside a cat shot I outside a cat by I on a elephant in my cat with the dog in my telescope,['0'],['0'],[False],66,31,16:36:15.556031
+a park outside a cat ate I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],67,31,16:36:15.558726
+a park outside a cat wounded I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['0'],[ True],68,32,16:36:15.564985
+a park outside a telescope wounded I outside a cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],69,32,16:36:15.572566
+a park outside a cat wounded I outside a cat by I outside a elephant in my cat with the dog in my telescope,['0'],['0'],[False],70,32,16:36:15.575984
+a park outside a cat wounded I outside a cat by I on a elephant in my cat with the dog in a telescope,['1'],['1'],[False],71,32,16:36:15.578521
+a park outside a cat wounded I outside a cat by Bob on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],72,32,16:36:15.583195
+a park outside a cat wounded I outside a cat by Bob on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],72,32,16:36:15.585719
+a park outside a cat wounded I outside my cat by I on a elephant in my cat with the dog in my telescope,['1'],['0'],[ True],73,33,16:36:15.588077
+a park outside a cat wounded I outside my cat by I on a elephant in my cat with my dog in my telescope,['0'],['0'],[False],74,33,16:36:15.590750
+a park outside a cat walked I outside my cat by I on a elephant in my cat with the dog in my telescope,['1'],['1'],[False],75,33,16:36:15.593268
+a park outside a cat wounded I outside my cat by I on an elephant in my cat with the dog in my telescope,['1'],['0'],[ True],76,34,16:36:15.595781
+a park outside a cat wounded I outside my cat by I on an elephant in my cat with the cat in my telescope,['1'],['0'],[ True],77,35,16:36:15.598156
+a park outside a cat killed I outside my cat by I on an elephant in my cat with the cat in my telescope,['1'],['0'],[ True],78,36,16:36:15.600492
+a park outside a cat killed I outside my dog by I on an elephant in my cat with the cat in my telescope,['1'],['0'],[ True],79,37,16:36:15.603032
+a park outside a cat killed I outside my dog by I outside an elephant in my cat with the cat in my telescope,['0'],['0'],[False],80,37,16:36:15.605509
+a park outside a cat killed I outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['0'],[ True],81,38,16:36:15.607935
+a park outside a cat killed I outside my dog by John on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],82,38,16:36:15.610387
+a park outside a cat killed Bob outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],83,38,16:36:15.612974
+a park outside a cat shot I outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['0'],[ True],84,39,16:36:15.615615
+a park outside a cat shot I outside my dog by I on an elephant in my cat with the telescope by my telescope,['1'],['1'],[False],85,39,16:36:15.618038
+a park outside a cat ate I outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],86,39,16:36:15.620628
+a dog outside a cat shot I outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['0'],[ True],87,40,16:36:15.623086
+a dog outside a cat shot I outside my dog by John on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],88,40,16:36:15.625527
+a dog outside a cat shot Mary outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['0'],[ True],89,41,16:36:15.627870
+a dog outside a cat shot Mary outside my dog by I on an elephant in a cat with the cat by my telescope,['1'],['1'],[False],90,41,16:36:15.630292
+a dog outside a cat shot Mary outside my dog by John on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],91,41,16:36:15.632993
+a dog outside a cat ate Mary outside my dog by I on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],92,41,16:36:15.635462
+a dog outside a cat shot Mary outside my dog by Bob on an elephant in my cat with the cat by my telescope,['1'],['1'],[False],93,41,16:36:15.637941
+a dog outside a cat shot Mary outside my dog by I on an elephant in my cat with the elephant by my telescope,['1'],['0'],[ True],94,42,16:36:15.640308
+a dog outside a cat shot Mary outside my dog by I outside an elephant in my cat with the elephant by my telescope,['0'],['0'],[False],95,42,16:36:15.642731
+a dog outside a cat shot I outside my dog by I on an elephant in my cat with the elephant by my telescope,['1'],['0'],[ True],96,43,16:36:15.645102
+a dog outside a cat shot I outside my elephant by I on an elephant in my cat with the elephant by my telescope,['0'],['0'],[False],97,43,16:36:15.647496
+the dog outside a cat shot I outside my dog by I on an elephant in my cat with the elephant by my telescope,['1'],['0'],[ True],98,44,16:36:15.649827
+the dog outside a cat shot I outside my dog by I on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],99,45,16:36:15.652156
+the dog outside a cat shot I outside my cat by I on an elephant in my cat with the dog by my telescope,['1'],['1'],[False],100,45,16:36:15.654576
+my dog outside a cat shot I outside my dog by I on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],101,46,16:36:15.656937
+an dog outside a cat shot I outside my dog by I on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],102,47,16:36:15.659308
+an dog outside a cat shot I outside my dog by John on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],103,48,16:36:15.661676
+an dog outside a cat walked I outside my dog by John on an elephant in my cat with the dog by my telescope,['1'],['1'],[False],104,48,16:36:15.664167
+an dog outside a cat wounded I outside my dog by John on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],105,49,16:36:15.666582
+an dog outside a cat wounded I outside my dog by John on an elephant in the cat with the dog by my telescope,['1'],['1'],[False],106,49,16:36:15.669008
+an dog outside a cat wounded I by my dog by John on an elephant in my cat with the dog by my telescope,['1'],['1'],[False],107,49,16:36:15.671479
+an dog outside a cat wounded I by my dog by John on an elephant in my cat with the dog by my telescope,['1'],['1'],[False],107,49,16:36:15.673931
+an dog outside a cat killed I outside my dog by John on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],108,50,16:36:15.676334
+an dog outside a cat killed I outside my dog by John on an elephant in the cat with the dog by my telescope,['1'],['1'],[False],109,50,16:36:15.678786
+an dog outside a cat killed I outside my dog by John on an elephant in the cat with the dog by my telescope,['1'],['1'],[False],109,50,16:36:15.681330
+an dog outside a cat killed I outside my dog by John on an elephant on my cat with the dog by my telescope,['1'],['1'],[False],110,50,16:36:15.683829
+an dog outside a cat wounded I outside my dog by John on an elephant in my cat with the dog by my telescope,['1'],['0'],[ True],110,50,16:36:15.686560
+an dog outside a cat wounded I outside my dog by John on an elephant in my cat with an dog by my telescope,['1'],['0'],[ True],111,51,16:36:15.689115
+an dog outside a cat wounded I outside my dog by John on an elephant in my cat with an dog by my pajamas,['0'],['0'],[False],112,51,16:36:15.691572
+an dog on a cat wounded I outside my dog by John on an elephant in my cat with an dog by my telescope,['1'],['0'],[ True],113,52,16:36:15.694105
+an dog on a cat wounded Bob outside my dog by John on an elephant in my cat with an dog by my telescope,['1'],['1'],[False],114,52,16:36:15.703281
+an dog on a cat wounded I outside my cat by John on an elephant in my cat with an dog by my telescope,['1'],['0'],[ True],115,53,16:36:15.705866
+an dog on a cat wounded I outside my cat by John on an elephant in my cat with an dog by the telescope,['1'],['1'],[False],116,53,16:36:15.708352
+my dog on a cat wounded I outside my cat by John on an elephant in my cat with an dog by my telescope,['1'],['0'],[ True],117,54,16:36:15.710730
+my dog on a cat walked I outside my cat by John on an elephant in my cat with an dog by my telescope,['1'],['1'],[False],118,54,16:36:15.715384
+my dog on a cat ate I outside my cat by John on an elephant in my cat with an dog by my telescope,['1'],['1'],[False],119,54,16:36:15.718104
+my dog on a cat wounded I outside my park by John on an elephant in my cat with an dog by my telescope,['1'],['1'],[False],120,54,16:36:15.720579
+my dog on a cat wounded I outside my cat by John on an elephant by my cat with an dog by my telescope,['1'],['1'],[False],121,54,16:36:15.723147
+my dog on a cat wounded I outside my cat by John on an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],122,55,16:36:15.725555
+my dog on a cat wounded I outside my cat by Mary on an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],123,56,16:36:15.727950
+my dog on a cat wounded I outside my cat by Bob on an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],124,57,16:36:15.730551
+my dog on a cat wounded Bob outside my cat by Bob on an elephant in my dog with an dog by my telescope,['1'],['1'],[False],125,57,16:36:15.733063
+the dog on a cat wounded I outside my cat by Bob on an elephant in my dog with an dog by my telescope,['1'],['1'],[False],126,57,16:36:15.735485
+a dog on a cat wounded I outside my cat by Bob on an elephant in my dog with an dog by my telescope,['1'],['1'],[False],127,57,16:36:15.737903
+my dog on a cat wounded I outside my dog by Bob on an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],128,58,16:36:15.740251
+my dog on a cat wounded I outside my dog by Bob by an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],129,59,16:36:15.742618
+my dog on a cat saw I outside my dog by Bob by an elephant in my dog with an dog by my telescope,['1'],['1'],[False],130,59,16:36:15.745087
+my dog on a cat killed I outside my dog by Bob by an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],131,60,16:36:15.747442
+my dog on a cat killed I outside my dog by Bob by an elephant on my dog with an dog by my telescope,['1'],['1'],[False],132,60,16:36:15.749852
+my dog on a cat killed I outside my dog by Mary by an elephant in my dog with an dog by my telescope,['1'],['0'],[ True],133,61,16:36:15.752210
+my dog on a cat killed I outside my dog by Mary by an elephant in my dog with an dog by my dog,['1'],['0'],[ True],134,62,16:36:15.754544
+my dog on a cat killed I outside my dog by Bob by an elephant in my dog with an dog by my dog,['1'],['0'],[ True],135,63,16:36:15.756886
+my dog with a cat killed I outside my dog by Bob by an elephant in my dog with an dog by my dog,['1'],['0'],[ True],136,64,16:36:15.759209
+my dog with a cat ate I outside my dog by Bob by an elephant in my dog with an dog by my dog,['1'],['1'],[False],137,64,16:36:15.761706
+my dog with a cat killed I outside my dog by Bob by an man in my dog with an dog by my dog,['1'],['0'],[ True],138,65,16:36:15.764073
+my dog with a cat ate I outside my dog by Bob by an man in my dog with an dog by my dog,['1'],['1'],[False],139,65,16:36:15.766508
+my dog with a cat killed I outside my dog by Bob by an man in my cat with an dog by my dog,['1'],['0'],[ True],140,66,16:36:15.768830
+my dog with a cat ate I outside my dog by Bob by an man in my cat with an dog by my dog,['1'],['1'],[False],141,66,16:36:15.771281
+my dog with a cat shot I outside my dog by Bob by an man in my cat with an dog by my dog,['1'],['0'],[ True],142,67,16:36:15.773801
+my dog with a cat shot I outside my dog by Bob by an man in my pajamas with an dog by my dog,['1'],['0'],[ True],143,68,16:36:15.776258
+my dog with a cat shot I outside my dog by Bob by an man in my elephant with an dog by my dog,['1'],['0'],[ True],144,69,16:36:15.778630
+my dog with a cat shot I outside my telescope by Bob by an man in my elephant with an dog by my dog,['1'],['1'],[False],145,69,16:36:15.781066
+my dog with the cat shot I outside my dog by Bob by an man in my elephant with an dog by my dog,['1'],['1'],[False],146,69,16:36:15.783512
+my dog with a cat shot I outside my dog by John by an man in my elephant with an dog by my dog,['1'],['0'],[ True],147,70,16:36:15.785901
+my dog with a cat shot I outside my dog by John by an man with my elephant with an dog by my dog,['1'],['1'],[False],148,70,16:36:15.788318
+my dog with a cat shot I outside my dog by John by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],149,71,16:36:15.790721
+my dog with a cat shot I outside an dog by John by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],150,72,16:36:15.793110
+my dog with a cat shot I outside an dog by John by my man in my elephant outside an dog by my dog,['1'],['0'],[ True],151,73,16:36:15.795467
+my dog with a cat ate I outside an dog by John by my man in my elephant outside an dog by my dog,['1'],['1'],[False],152,73,16:36:15.797965
+my dog with a cat walked I outside an dog by John by my man in my elephant outside an dog by my dog,['1'],['1'],[False],153,73,16:36:15.800412
+my dog with a cat saw I outside an dog by John by my man in my elephant outside an dog by my dog,['1'],['1'],[False],154,73,16:36:15.802971
+my dog with a cat shot I outside an dog by I by my man in my elephant outside an dog by my dog,['0'],['0'],[False],155,73,16:36:15.805694
+my dog with a cat shot I by an dog by John by my man in my elephant outside an dog by my dog,['1'],['0'],[ True],156,74,16:36:15.808098
+my dog with a cat shot Mary by an dog by John by my man in my elephant outside an dog by my dog,['1'],['1'],[False],157,74,16:36:15.810552
+a dog with a cat shot I by an dog by John by my man in my elephant outside an dog by my dog,['1'],['1'],[False],158,74,16:36:15.813014
+my dog with a cat shot I by an dog by John by my man in the elephant outside an dog by my dog,['1'],['1'],[False],159,74,16:36:15.815496
+my dog with a cat wounded I by an dog by John by my man in my elephant outside an dog by my dog,['1'],['0'],[ True],160,75,16:36:15.817938
+my dog with a cat wounded I by an dog by I by my man in my elephant outside an dog by my dog,['1'],['0'],[ True],161,76,16:36:15.820300
+my dog with a cat saw I by an dog by I by my man in my elephant outside an dog by my dog,['1'],['1'],[False],162,76,16:36:15.822778
+my dog with a cat wounded I by an dog by I by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],163,77,16:36:15.825142
+my dog with a cat wounded I by my dog by I by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],164,78,16:36:15.827520
+my dog with a cat wounded I by my dog by I outside an man in my elephant outside an dog by my dog,['0'],['0'],[False],165,78,16:36:15.829944
+my dog with a cat wounded I by my dog by Mary by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],166,79,16:36:15.832430
+my dog with a cat wounded I by my dog by Bob by an man in my elephant outside an dog by my dog,['1'],['0'],[ True],167,80,16:36:15.834868
+my dog with a cat wounded I by my dog by Bob by an man in my elephant outside an dog by my elephant,['1'],['0'],[ True],168,81,16:36:15.837270
+my dog with a cat wounded I by my dog by John by an man in my elephant outside an dog by my elephant,['1'],['0'],[ True],169,82,16:36:15.839665
+my dog with a cat wounded I by my dog by John by my man in my elephant outside an dog by my elephant,['1'],['0'],[ True],170,83,16:36:15.842052
+my dog with a cat wounded I by my elephant by John by my man in my elephant outside an dog by my elephant,['1'],['0'],[ True],171,84,16:36:15.844418
+my dog with a telescope wounded I by my elephant by John by my man in my elephant outside an dog by my elephant,['1'],['0'],[ True],172,85,16:36:15.846794
+my dog with a telescope wounded I by my elephant in John by my man in my elephant outside an dog by my elephant,['1'],['0'],[ True],173,86,16:36:15.849536
+my dog with a telescope shot I by my elephant in John by my man in my elephant outside an dog by my elephant,['1'],['0'],[ True],174,87,16:36:15.852617
+my dog with a telescope walked I by my elephant in John by my man in my elephant outside an dog by my elephant,['1'],['1'],[False],175,87,16:36:15.855272
+my dog with a telescope shot I by my elephant in John by my man in my elephant outside an dog by a elephant,['1'],['0'],[ True],176,88,16:36:15.862379
+my dog outside a telescope shot I by my elephant in John by my man in my elephant outside an dog by a elephant,['0'],['0'],[False],177,88,16:36:15.869827
+my dog with a telescope shot I by my elephant in John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],178,89,16:36:15.873478
+my dog with a telescope killed I by my elephant in John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],179,90,16:36:15.876817
+my dog with a telescope killed I by my elephant outside John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],180,91,16:36:15.880348
+my dog with a telescope killed I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],181,92,16:36:15.883643
+my dog with a telescope killed I by my cat outside John by a man in my elephant on an dog by a elephant,['1'],['1'],[False],182,92,16:36:15.886986
+my dog with a telescope ate I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],183,92,16:36:15.890491
+my dog with a telescope shot I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],184,93,16:36:15.893904
+my pajamas with a telescope shot I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],185,94,16:36:15.897378
+my pajamas with a telescope shot I by my cat outside John outside a man in my elephant outside an dog by a elephant,['0'],['0'],[False],186,94,16:36:15.900942
+my pajamas with a telescope saw I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],187,94,16:36:15.905112
+my pajamas with a telescope shot I by my cat outside John by a man in my elephant outside the dog by a elephant,['1'],['1'],[False],188,94,16:36:15.908320
+my pajamas with a telescope walked I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],189,94,16:36:15.911695
+my pajamas with a telescope walked I by my cat outside John by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],189,94,16:36:15.915396
+my pajamas with a telescope shot I outside my cat outside John by a man in my elephant outside an dog by a elephant,['0'],['0'],[False],190,94,16:36:15.918140
+my pajamas with a telescope shot I by my cat outside John by a dog in my elephant outside an dog by a elephant,['0'],['0'],[False],191,94,16:36:15.921666
+my pajamas with a telescope shot I by my cat outside John by a elephant in my elephant outside an dog by a elephant,['0'],['0'],[False],192,94,16:36:15.925315
+my pajamas with a telescope shot I by my cat outside John by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],193,95,16:36:15.928696
+my pajamas with a telescope shot I by my dog outside John by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],194,96,16:36:15.932012
+my pajamas with a telescope killed I by my dog outside John by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],195,97,16:36:15.935154
+my pajamas with a telescope killed I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],196,98,16:36:15.938589
+my pajamas on a telescope killed I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],197,99,16:36:15.942064
+my pajamas on a telescope killed I by my telescope outside Mary by a man in my elephant outside my dog by a elephant,['1'],['1'],[False],198,99,16:36:15.945505
+my pajamas on a telescope killed I by my dog with Mary by a man in my elephant outside my dog by a elephant,['1'],['1'],[False],199,99,16:36:15.949072
+my pajamas on a telescope walked I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['1'],[False],200,99,16:36:15.952369
+my pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],201,100,16:36:15.955651
+my pajamas on a telescope wounded I by my dog outside I by a man in my elephant outside my dog by a elephant,['0'],['0'],[False],202,100,16:36:15.959072
+my dog on a telescope wounded I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],203,101,16:36:15.962359
+my dog on a telescope wounded I by my dog outside Mary by a man in my elephant outside the dog by a elephant,['1'],['1'],[False],204,101,16:36:15.965873
+my elephant on a telescope wounded I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],205,102,16:36:15.969176
+my pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['1'],['0'],[ True],205,102,16:36:15.972311
+my pajamas on a cat wounded I by my dog outside Mary by a man in my elephant outside my dog by a elephant,['0'],['0'],[False],206,102,16:36:15.975402
+my pajamas on a telescope wounded I by my dog outside Mary in a man in my elephant outside my dog by a elephant,['0'],['0'],[False],207,102,16:36:15.978827
+my pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],208,103,16:36:15.982433
+my pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an pajamas by a elephant,['0'],['0'],[False],209,103,16:36:15.985958
+my pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an man by a elephant,['1'],['1'],[False],210,103,16:36:15.989448
+a pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['0'],[ True],211,104,16:36:15.992702
+a pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an dog by a telescope,['1'],['1'],[False],212,104,16:36:15.996257
+a pajamas on a telescope wounded I in my dog outside Mary by a man in my elephant outside an dog by a elephant,['0'],['0'],[False],213,104,16:36:15.999809
+a pajamas on a telescope wounded Bob by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],214,104,16:36:16.003154
+a pajamas on a telescope wounded John by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],215,104,16:36:16.006978
+a park on a telescope wounded I by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],216,104,16:36:16.010398
+a pajamas on a telescope walked I by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],217,104,16:36:16.013712
+a pajamas on a telescope wounded Mary by my dog outside Mary by a man in my elephant outside an dog by a elephant,['1'],['1'],[False],218,104,16:36:16.017335
+a pajamas on a telescope wounded I by my dog outside Mary by a man by my elephant outside an dog by a elephant,['1'],['1'],[False],219,104,16:36:16.020829
+a pajamas on a telescope wounded I by my dog outside Mary by a man in a elephant outside an dog by a elephant,['1'],['1'],[False],220,104,16:36:16.024207
+a pajamas on a telescope wounded I by my dog outside Mary by a man in my elephant outside an dog with a elephant,['1'],['0'],[ True],221,105,16:36:16.027891
+a pajamas on a telescope wounded I by my telescope outside Mary by a man in my elephant outside an dog with a elephant,['1'],['1'],[False],222,105,16:36:16.031390
+a pajamas on a telescope wounded I by my dog outside Mary by a man in my dog outside an dog with a elephant,['1'],['1'],[False],223,105,16:36:16.034525
+a pajamas on a telescope wounded I by my cat outside Mary by a man in my elephant outside an dog with a elephant,['1'],['0'],[ True],224,106,16:36:16.037599
+a pajamas on a telescope wounded I by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['0'],[ True],225,107,16:36:16.040958
+a pajamas on a telescope wounded Bob by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['1'],[False],226,107,16:36:16.044187
+a pajamas on a telescope walked I by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['1'],[False],227,107,16:36:16.047881
+a pajamas on a telescope killed I by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['0'],[ True],228,108,16:36:16.051341
+a pajamas by a telescope killed I by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['0'],[ True],229,109,16:36:16.054656
+a pajamas by a telescope ate I by my cat outside Mary by a man in my elephant outside my dog with a elephant,['1'],['1'],[False],230,109,16:36:16.057809
+a pajamas by a telescope killed I by my cat outside Mary by a man in my elephant outside my park with a elephant,['1'],['1'],[False],231,109,16:36:16.061384
+a pajamas by a telescope killed I by my cat outside Bob by a man in my elephant outside my dog with a elephant,['1'],['0'],[ True],232,110,16:36:16.064800
+a pajamas by a telescope killed I by my cat outside Bob by a man in my elephant outside my dog in a elephant,['0'],['0'],[False],233,110,16:36:16.068297
+a pajamas by a telescope killed I by my cat outside Bob by a pajamas in my elephant outside my dog with a elephant,['0'],['0'],[False],234,110,16:36:16.071806
+a pajamas by a telescope killed I by my cat outside I by a man in my elephant outside my dog with a elephant,['0'],['0'],[False],235,110,16:36:16.075149
+a pajamas by my telescope killed I by my cat outside Bob by a man in my elephant outside my dog with a elephant,['1'],['0'],[ True],236,111,16:36:16.078211
+a pajamas by my telescope killed I by my telescope outside Bob by a man in my elephant outside my dog with a elephant,['1'],['1'],[False],237,111,16:36:16.081697
+a pajamas by my telescope killed I by my cat outside Bob by a man in my cat outside my dog with a elephant,['1'],['0'],[ True],238,112,16:36:16.084985
+a pajamas by my telescope killed Bob by my cat outside Bob by a man in my cat outside my dog with a elephant,['1'],['1'],[False],239,112,16:36:16.088429
+a pajamas by my telescope wounded I by my cat outside Bob by a man in my cat outside my dog with a elephant,['1'],['0'],[ True],240,113,16:36:16.091892
+a pajamas by my telescope killed I by my cat outside Bob by a man in my cat outside my dog with a elephant,['1'],['0'],[ True],240,113,16:36:16.095200
+a pajamas by my telescope killed I by my man outside Bob by a man in my cat outside my dog with a elephant,['1'],['1'],[False],241,113,16:36:16.098693
+a pajamas by a telescope killed I by my cat outside Bob by a man in my cat outside my dog with a elephant,['1'],['1'],[False],242,113,16:36:16.102131
+a pajamas by my telescope killed I by my cat outside Bob by a man in my cat outside my dog with an elephant,['1'],['0'],[ True],243,114,16:36:16.105544
+a pajamas by my telescope killed Bob by my cat outside Bob by a man in my cat outside my dog with an elephant,['1'],['1'],[False],244,114,16:36:16.109100
+a pajamas outside my telescope killed I by my cat outside Bob by a man in my cat outside my dog with an elephant,['0'],['0'],[False],245,114,16:36:16.112539
+a pajamas by my telescope killed I on my cat outside Bob by a man in my cat outside my dog with an elephant,['1'],['0'],[ True],246,115,16:36:16.115977
+a pajamas by my telescope killed Mary on my cat outside Bob by a man in my cat outside my dog with an elephant,['1'],['1'],[False],247,115,16:36:16.119471
+a pajamas by my telescope walked I on my cat outside Bob by a man in my cat outside my dog with an elephant,['1'],['1'],[False],248,115,16:36:16.123031
+a pajamas by my telescope killed I on my cat outside Bob by a man in my cat outside a dog with an elephant,['1'],['0'],[ True],249,116,16:36:16.126415
+a pajamas by my telescope killed I on my cat outside Bob by my man in my cat outside a dog with an elephant,['1'],['0'],[ True],250,117,16:36:16.129917
+a pajamas by my telescope killed I on my cat outside Bob by my man in my cat outside a dog with the elephant,['1'],['1'],[False],251,117,16:36:16.133519
+a pajamas by my telescope killed I on my cat outside Bob by my man in a cat outside a dog with an elephant,['1'],['0'],[ True],252,118,16:36:16.136816
+a pajamas by my telescope killed I on my cat outside Bob by my man in an cat outside a dog with an elephant,['1'],['0'],[ True],253,119,16:36:16.140381
+a pajamas by my telescope walked I on my cat outside Bob by my man in an cat outside a dog with an elephant,['1'],['1'],[False],254,119,16:36:16.144351
+a pajamas in my telescope killed I on my cat outside Bob by my man in an cat outside a dog with an elephant,['0'],['0'],[False],255,119,16:36:16.148021
+a pajamas by my telescope killed I on my cat outside I by my man in an cat outside a dog with an elephant,['1'],['0'],[ True],256,120,16:36:16.151467
+a pajamas by my dog killed I on my cat outside I by my man in an cat outside a dog with an elephant,['0'],['0'],[False],257,120,16:36:16.154872
+a pajamas by my telescope walked I on my cat outside I by my man in an cat outside a dog with an elephant,['1'],['1'],[False],258,120,16:36:16.158163
+a pajamas by my telescope killed I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['0'],[ True],259,121,16:36:16.161476
+a pajamas by my dog killed I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['0'],[ True],260,122,16:36:16.164942
+a pajamas by my dog walked I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],261,122,16:36:16.168502
+a pajamas by my dog ate I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],262,122,16:36:16.172356
+a pajamas by my dog saw I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],263,122,16:36:16.176115
+a pajamas by my telescope killed I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['0'],[ True],263,122,16:36:16.179337
+a pajamas by my telescope walked I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],264,122,16:36:16.182680
+a pajamas by my telescope ate I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],265,122,16:36:16.186115
+a pajamas by my telescope killed I on my cat outside I by my man with an cat outside a man with an elephant,['1'],['1'],[False],266,122,16:36:16.189525
+a pajamas by my telescope killed Bob on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['1'],[False],267,122,16:36:16.193003
+a pajamas by my telescope killed I on my cat outside Bob by my man with an cat outside a dog with an elephant,['1'],['1'],[False],268,122,16:36:16.202013
+a pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a dog with an elephant,['1'],['0'],[ True],269,123,16:36:16.210884
+a pajamas by my telescope wounded I on my cat outside Mary by my man with an cat outside a dog with an elephant,['1'],['1'],[False],270,123,16:36:16.216440
+a pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],271,124,16:36:16.219020
+a pajamas by my telescope ate I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['1'],[False],272,124,16:36:16.221592
+my pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],273,125,16:36:16.224061
+my pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a telescope with an pajamas,['1'],['1'],[False],274,125,16:36:16.226510
+my pajamas by my telescope wounded I on my cat outside Mary by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],275,126,16:36:16.228996
+my pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],275,126,16:36:16.231476
+my pajamas by my telescope wounded I on my cat outside I by my man with an cat outside a dog with an telescope,['1'],['1'],[False],276,126,16:36:16.233986
+my pajamas by my telescope wounded I on my cat outside I by my man with an cat outside the dog with an pajamas,['1'],['1'],[False],277,126,16:36:16.236447
+my pajamas by my telescope killed I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],278,127,16:36:16.238834
+my pajamas by my telescope shot I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],279,128,16:36:16.241237
+my pajamas by my telescope shot I on my cat on I by my man with an cat outside a dog with an pajamas,['1'],['1'],[False],280,128,16:36:16.243676
+my dog by my telescope shot I on my cat outside I by my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],281,129,16:36:16.246036
+my dog by my telescope shot I on my cat outside I with my man with an cat outside a dog with an pajamas,['1'],['0'],[ True],282,130,16:36:16.248436
+my dog by my telescope shot I on my cat outside I with an man with an cat outside a dog with an pajamas,['1'],['0'],[ True],283,131,16:36:16.250782
+my dog by my telescope shot I on my cat outside I with an man with an cat outside an dog with an pajamas,['1'],['0'],[ True],284,132,16:36:16.253153
+my dog by my telescope shot I on my cat outside I with an dog with an cat outside an dog with an pajamas,['1'],['0'],[ True],285,133,16:36:16.255526
+my dog by my telescope shot I on my cat outside I with an dog in an cat outside an dog with an pajamas,['0'],['0'],[False],286,133,16:36:16.257950
+my dog by my telescope shot I on my cat outside I with my dog with an cat outside an dog with an pajamas,['1'],['0'],[ True],287,134,16:36:16.260342
+my dog by my telescope shot I on my cat outside I with my dog by an cat outside an dog with an pajamas,['1'],['0'],[ True],288,135,16:36:16.262686
+my dog by my telescope walked I on my cat outside I with my dog by an cat outside an dog with an pajamas,['1'],['1'],[False],289,135,16:36:16.265206
+my dog by my telescope shot I on my cat outside I with my dog by an cat outside an dog on an pajamas,['1'],['0'],[ True],290,136,16:36:16.267587
+my dog by my telescope shot I on my cat outside I outside my dog by an cat outside an dog on an pajamas,['0'],['0'],[False],291,136,16:36:16.269999
+my dog by my telescope shot I on my cat outside I with the dog by an cat outside an dog on an pajamas,['1'],['0'],[ True],292,137,16:36:16.272814
+my dog by my telescope shot I on my dog outside I with the dog by an cat outside an dog on an pajamas,['1'],['0'],[ True],293,138,16:36:16.275504
+my dog by my telescope shot I outside my dog outside I with the dog by an cat outside an dog on an pajamas,['0'],['0'],[False],294,138,16:36:16.278228
+my dog by my telescope shot I on my dog outside I with the dog by an cat outside the dog on an pajamas,['1'],['1'],[False],295,138,16:36:16.281008
+my dog by my telescope shot I on my dog by I with the dog by an cat outside an dog on an pajamas,['1'],['1'],[False],296,138,16:36:16.283696
+my dog by my telescope shot I on my dog outside Mary with the dog by an cat outside an dog on an pajamas,['1'],['1'],[False],297,138,16:36:16.286412
+my dog by my telescope wounded I on my dog outside I with the dog by an cat outside an dog on an pajamas,['1'],['0'],[ True],298,139,16:36:16.289138
+my dog by my telescope wounded I on my dog outside I with the dog by a cat outside an dog on an pajamas,['1'],['0'],[ True],299,140,16:36:16.291872
+my dog by my telescope wounded I on my dog outside I in the dog by a cat outside an dog on an pajamas,['1'],['0'],[ True],300,141,16:36:16.294445
+my dog by my telescope wounded I on my dog outside I in the dog by a cat outside an dog on my pajamas,['1'],['0'],[ True],301,142,16:36:16.296915
+my dog by my telescope wounded I on my dog outside I in the dog by an cat outside an dog on my pajamas,['1'],['0'],[ True],302,143,16:36:16.299304
+my dog by my telescope wounded I on my dog outside I in the dog by an cat by an dog on my pajamas,['1'],['0'],[ True],303,144,16:36:16.301660
+my dog by my telescope killed I on my dog outside I in the dog by an cat by an dog on my pajamas,['1'],['0'],[ True],304,145,16:36:16.304113
+my man by my telescope killed I on my dog outside I in the dog by an cat by an dog on my pajamas,['1'],['1'],[False],305,145,16:36:16.306552
+my dog by my telescope killed I on my dog outside I in the dog by an cat by an dog on an pajamas,['1'],['0'],[ True],306,146,16:36:16.308909
+my dog by my telescope shot I on my dog outside I in the dog by an cat by an dog on an pajamas,['1'],['0'],[ True],307,147,16:36:16.311489
+my dog by my telescope shot I on my dog outside I in the elephant by an cat by an dog on an pajamas,['1'],['0'],[ True],308,148,16:36:16.313899
+my dog by my telescope shot I on my dog outside I in an elephant by an cat by an dog on an pajamas,['1'],['0'],[ True],309,149,16:36:16.316279
+my dog by my telescope shot I on my dog outside I in an elephant by an cat by the dog on an pajamas,['1'],['0'],[ True],310,150,16:36:16.318683
+my dog by my telescope shot I on my dog with I in an elephant by an cat by the dog on an pajamas,['1'],['1'],[False],311,150,16:36:16.321150
+my dog on my telescope shot I on my dog outside I in an elephant by an cat by the dog on an pajamas,['1'],['0'],[ True],312,151,16:36:16.323520
+my dog on my telescope shot I on my dog outside I in an elephant by an cat with the dog on an pajamas,['1'],['0'],[ True],313,152,16:36:16.325871
+my dog on my telescope killed I on my dog outside I in an elephant by an cat with the dog on an pajamas,['1'],['0'],[ True],314,153,16:36:16.328297
+my dog on my telescope killed I on my dog outside I outside an elephant by an cat with the dog on an pajamas,['1'],['0'],[ True],315,154,16:36:16.330697
+my dog on my telescope killed I on my dog outside Mary outside an elephant by an cat with the dog on an pajamas,['1'],['0'],[ True],316,155,16:36:16.333055
+my elephant on my telescope killed I on my dog outside Mary outside an elephant by an cat with the dog on an pajamas,['1'],['0'],[ True],317,156,16:36:16.335449
+my elephant on my telescope killed I on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],318,157,16:36:16.337807
+my elephant on my telescope wounded I on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],319,158,16:36:16.340185
+my elephant on my telescope wounded John on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],320,159,16:36:16.342608
+my elephant on my telescope wounded Bob on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],321,160,16:36:16.344958
+my elephant on an telescope wounded Bob on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],322,161,16:36:16.347410
+my elephant on an telescope wounded I on my dog outside Mary outside an elephant by an cat with an dog on an pajamas,['1'],['0'],[ True],323,162,16:36:16.349814
+my elephant on an telescope wounded I on my dog outside I outside an elephant by an cat with an dog on an pajamas,['0'],['0'],[False],324,162,16:36:16.352255
+my elephant on an telescope wounded I on my dog outside Mary outside an elephant by an cat with an cat on an pajamas,['1'],['0'],[ True],325,163,16:36:16.354653
+my elephant on an telescope wounded I on my dog outside Mary outside an elephant by an cat with my cat on an pajamas,['1'],['0'],[ True],326,164,16:36:16.357006
+my elephant on an cat wounded I on my dog outside Mary outside an elephant by an cat with my cat on an pajamas,['0'],['0'],[False],327,164,16:36:16.364845
+my elephant on an telescope wounded I on my dog outside Bob outside an elephant by an cat with my cat on an pajamas,['1'],['0'],[ True],328,165,16:36:16.368453
+my elephant on an telescope wounded I on my dog outside Bob outside an elephant in an cat with my cat on an pajamas,['0'],['0'],[False],329,165,16:36:16.370972
+my elephant on an telescope walked I on my dog outside Bob outside an elephant by an cat with my cat on an pajamas,['1'],['1'],[False],330,165,16:36:16.373412
+my elephant on an telescope wounded I on my dog on Bob outside an elephant by an cat with my cat on an pajamas,['1'],['0'],[ True],331,166,16:36:16.375791
+an elephant on an telescope wounded I on my dog on Bob outside an elephant by an cat with my cat on an pajamas,['1'],['0'],[ True],332,167,16:36:16.378155
+an elephant on an dog wounded I on my dog on Bob outside an elephant by an cat with my cat on an pajamas,['1'],['0'],[ True],333,168,16:36:16.380681
+an elephant on an dog wounded I on my dog on Bob outside an elephant by an cat with my park on an pajamas,['1'],['0'],[ True],334,169,16:36:16.383089
+an elephant on an dog wounded I on my dog on Bob outside an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],335,170,16:36:16.385445
+an elephant on an dog wounded Mary on my dog on Bob outside an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],336,171,16:36:16.387833
+my elephant on an dog wounded Mary on my dog on Bob outside an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],337,172,16:36:16.390201
+my elephant on an dog saw Mary on my dog on Bob outside an elephant by an cat with my park outside an pajamas,['1'],['1'],[False],338,172,16:36:16.392662
+my elephant on an dog wounded Mary on my dog on I outside an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],339,173,16:36:16.395016
+my elephant on an dog wounded Mary on my dog on I in an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],340,174,16:36:16.397362
+my elephant on the dog wounded Mary on my dog on I in an elephant by an cat with my park outside an pajamas,['1'],['0'],[ True],341,175,16:36:16.399791
+my elephant on the dog wounded Mary on my dog on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],342,176,16:36:16.402155
+my elephant on the dog wounded Mary on my man on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],343,177,16:36:16.404578
+my elephant on the dog wounded Mary on my man on I in an elephant on an cat with my park outside an pajamas,['1'],['1'],[False],344,177,16:36:16.407204
+my elephant on the dog ate Mary on my man on I in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],345,177,16:36:16.409675
+my elephant on the dog wounded Mary on my man on Mary in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],346,177,16:36:16.412245
+my elephant on the dog wounded Mary on an man on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],347,178,16:36:16.414723
+my elephant on the dog wounded Mary on an man on John in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],348,178,16:36:16.417347
+my elephant on the dog wounded Mary on an man on Mary in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],349,178,16:36:16.419811
+my elephant on the dog wounded Mary on an telescope on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],350,179,16:36:16.422166
+my elephant on the dog walked Mary on an telescope on I in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],351,179,16:36:16.424729
+my elephant on the dog wounded Mary on an telescope on I in an elephant in an man with my park outside an pajamas,['1'],['1'],[False],352,179,16:36:16.427211
+my elephant on the dog wounded Mary on an telescope on Bob in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],353,179,16:36:16.429691
+my elephant on the dog shot Mary on an telescope on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],354,180,16:36:16.432075
+my elephant on the dog shot Mary in an telescope on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],355,181,16:36:16.434426
+the elephant on the dog shot Mary in an telescope on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],356,182,16:36:16.436813
+the elephant on the dog shot Mary in an telescope on I in an elephant in an park with my park outside an pajamas,['1'],['1'],[False],357,182,16:36:16.439245
+the elephant on the dog shot Mary in an cat on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],358,183,16:36:16.441639
+the elephant on the dog shot Mary in an cat on I in an elephant in an cat with my dog outside an pajamas,['0'],['0'],[False],359,183,16:36:16.444060
+the elephant on the dog shot I in an cat on I in an elephant in an cat with my park outside an pajamas,['0'],['0'],[False],360,183,16:36:16.447368
+the elephant on the dog ate Mary in an cat on I in an elephant in an cat with my park outside an pajamas,['1'],['1'],[False],361,183,16:36:16.452895
+the elephant on the telescope shot Mary in an cat on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],362,184,16:36:16.457810
+the pajamas on the telescope shot Mary in an cat on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],363,185,16:36:16.462315
+an pajamas on the telescope shot Mary in an cat on I in an elephant in an cat with my park outside an pajamas,['1'],['0'],[ True],364,186,16:36:16.466755
+an pajamas on the telescope shot Mary in an cat on I in an elephant in an cat with my park in an pajamas,['1'],['0'],[ True],365,187,16:36:16.471083
+an pajamas on the telescope shot Mary in an cat on I in an elephant in an cat with my park in an telescope,['1'],['1'],[False],366,187,16:36:16.475057
+an pajamas on the telescope shot John in an cat on I in an elephant in an cat with my park in an pajamas,['1'],['0'],[ True],367,188,16:36:16.479632
+an pajamas on the telescope walked John in an cat on I in an elephant in an cat with my park in an pajamas,['1'],['1'],[False],368,188,16:36:16.484326
+an pajamas on the telescope shot John in an cat on I in an elephant in an dog with my park in an pajamas,['1'],['0'],[ True],369,189,16:36:16.490066
+an pajamas on the telescope shot John in an cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],370,190,16:36:16.494503
+an pajamas on an telescope shot John in an cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],371,191,16:36:16.499118
+an pajamas on an telescope shot John in my cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],372,192,16:36:16.503414
+an pajamas by an telescope shot John in my cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],373,193,16:36:16.507351
+an pajamas by an telescope saw John in my cat on I in an elephant in an dog by my park in an pajamas,['1'],['1'],[False],374,193,16:36:16.510492
+an pajamas by an telescope shot Mary in my cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],375,194,16:36:16.513095
+an pajamas by an telescope killed Mary in my cat on I in an elephant in an dog by my park in an pajamas,['1'],['0'],[ True],376,195,16:36:16.515542
+an pajamas by an telescope killed Mary in my cat on I in an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],377,196,16:36:16.517976
+an pajamas by an telescope killed Mary in an cat on I in an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],378,197,16:36:16.520383
+an pajamas by an telescope killed Mary in an cat on I on an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],379,198,16:36:16.522779
+an pajamas by an telescope killed I in an cat on I on an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],380,199,16:36:16.525147
+an pajamas by an telescope killed John in an cat on I on an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],381,200,16:36:16.527645
+an pajamas by an telescope killed John in an cat on Bob on an elephant in my dog by my park in an pajamas,['1'],['0'],[ True],382,201,16:36:16.530029
+an pajamas by an telescope killed John in an cat on Bob on an elephant in my dog in my park in an pajamas,['1'],['0'],[ True],383,202,16:36:16.532405
+an pajamas by an telescope killed John in an cat on Mary on an elephant in my dog in my park in an pajamas,['1'],['0'],[ True],384,203,16:36:16.534835
+an pajamas by an telescope killed John in an cat on Mary on the elephant in my dog in my park in an pajamas,['1'],['0'],[ True],385,204,16:36:16.537438
+an pajamas by an telescope shot John in an cat on Mary on the elephant in my dog in my park in an pajamas,['1'],['1'],[False],386,204,16:36:16.540029
+an pajamas by an telescope saw John in an cat on Mary on the elephant in my dog in my park in an pajamas,['1'],['1'],[False],387,204,16:36:16.542504
+an pajamas by an telescope wounded John in an cat on Mary on the elephant in my dog in my park in an pajamas,['1'],['0'],[ True],388,205,16:36:16.544871
+an pajamas by an telescope wounded John in an cat on Mary on the elephant in my park in my park in an pajamas,['1'],['1'],[False],389,205,16:36:16.547342
+an pajamas by an telescope wounded Mary in an cat on Mary on the elephant in my dog in my park in an pajamas,['1'],['0'],[ True],390,206,16:36:16.549753
+an pajamas by an telescope wounded Mary in an cat on John on the elephant in my dog in my park in an pajamas,['1'],['0'],[ True],391,207,16:36:16.552136
+an pajamas by an telescope killed Mary in an cat on John on the elephant in my dog in my park in an pajamas,['1'],['0'],[ True],392,208,16:36:16.554499
+an pajamas by an telescope killed Mary in an cat on John on the elephant in my pajamas in my park in an pajamas,['1'],['0'],[ True],393,209,16:36:16.557211
+an pajamas by an telescope killed Mary in an cat on John on an elephant in my pajamas in my park in an pajamas,['1'],['0'],[ True],394,210,16:36:16.560052
+an pajamas by an telescope killed Mary in an cat on John on an elephant in my pajamas in an park in an pajamas,['1'],['0'],[ True],395,211,16:36:16.562467
+an pajamas by an telescope killed Mary on an cat on John on an elephant in my pajamas in an park in an pajamas,['1'],['0'],[ True],396,212,16:36:16.564894
+an pajamas by an telescope killed Bob on an cat on John on an elephant in my pajamas in an park in an pajamas,['1'],['0'],[ True],397,213,16:36:16.567306
+an pajamas by an telescope killed Bob on the cat on John on an elephant in my pajamas in an park in an pajamas,['1'],['1'],[False],398,213,16:36:16.569759
+an pajamas outside an telescope killed Bob on an cat on John on an elephant in my pajamas in an park in an pajamas,['0'],['0'],[False],399,213,16:36:16.572208
+an pajamas by an telescope killed Bob on an cat on John on an elephant with my pajamas in an park in an pajamas,['1'],['1'],[False],400,213,16:36:16.574627
+an pajamas by an telescope killed Bob on an cat on John on an elephant in a pajamas in an park in an pajamas,['1'],['0'],[ True],401,214,16:36:16.577091
+an pajamas by an telescope killed Bob on an cat on John on an elephant in a pajamas in an park on an pajamas,['1'],['1'],[False],402,214,16:36:16.579590
+an pajamas by an telescope killed Bob on an dog on John on an elephant in a pajamas in an park in an pajamas,['1'],['0'],[ True],403,215,16:36:16.581989
+an pajamas by an telescope killed Bob on an dog on John on an elephant by a pajamas in an park in an pajamas,['1'],['1'],[False],404,215,16:36:16.584451
+an pajamas by an man killed Bob on an dog on John on an elephant in a pajamas in an park in an pajamas,['1'],['0'],[ True],405,216,16:36:16.586841
+an pajamas by an man killed Bob on an telescope on John on an elephant in a pajamas in an park in an pajamas,['1'],['1'],[False],406,216,16:36:16.589263
+an pajamas by an man killed Bob on an dog on John on my elephant in a pajamas in an park in an pajamas,['1'],['0'],[ True],407,217,16:36:16.591611
+an pajamas by an man killed Bob on an dog on John on my elephant with a pajamas in an park in an pajamas,['1'],['1'],[False],408,217,16:36:16.594042
+an pajamas by an man killed Bob on an dog on John on my elephant in a cat in an park in an pajamas,['1'],['1'],[False],409,217,16:36:16.596465
+an pajamas by an man killed Bob on an dog on John on my elephant on a pajamas in an park in an pajamas,['1'],['1'],[False],410,217,16:36:16.598881
+an pajamas by an man killed Bob on an dog on John on my elephant in a pajamas by an park in an pajamas,['1'],['1'],[False],411,217,16:36:16.601343
+an pajamas by an man killed Bob on an dog on John on my elephant in a pajamas by an park in an pajamas,['1'],['1'],[False],411,217,16:36:16.603771
+an pajamas by an man killed Bob on an dog on John on my elephant outside a pajamas in an park in an pajamas,['1'],['0'],[ True],412,218,16:36:16.606198
+an dog by an man killed Bob on an dog on John on my elephant outside a pajamas in an park in an pajamas,['1'],['0'],[ True],413,219,16:36:16.611052
+an dog by an man killed Bob on an dog on John on my elephant outside a pajamas in an dog in an pajamas,['1'],['0'],[ True],414,220,16:36:16.615374
+an dog by an elephant killed Bob on an dog on John on my elephant outside a pajamas in an dog in an pajamas,['0'],['0'],[False],415,220,16:36:16.621133
+an dog by an man killed I on an dog on John on my elephant outside a pajamas in an dog in an pajamas,['0'],['0'],[False],416,220,16:36:16.626515
+an dog by an man shot Bob on an dog on John on my elephant outside a pajamas in an dog in an pajamas,['1'],['0'],[ True],417,221,16:36:16.631325
+an dog by an man shot Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['0'],[ True],418,222,16:36:16.635825
+an dog by an man killed Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['0'],[ True],419,223,16:36:16.640626
+an dog by an man ate Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['1'],[False],420,223,16:36:16.645404
+an dog by an man saw Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['1'],[False],421,223,16:36:16.648867
+an dog by an man killed Bob in an dog on John by my elephant outside a pajamas in an dog in an pajamas,['0'],['0'],[False],422,223,16:36:16.651446
+an dog by an man ate Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['1'],[False],422,223,16:36:16.653916
+an dog by an man saw Bob on an dog on John by my elephant outside a pajamas in an dog in an pajamas,['1'],['1'],[False],422,223,16:36:16.656393
+an dog by an man killed Bob on an dog on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],423,224,16:36:16.658824
+an dog by an man killed Bob on an cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],424,225,16:36:16.661202
+an dog outside an man killed Bob on an cat on John by my elephant outside a pajamas outside an dog in an pajamas,['0'],['0'],[False],425,225,16:36:16.663631
+an dog by an man ate Bob on an cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['1'],[False],426,225,16:36:16.666249
+an dog by an man shot Bob on an cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],427,226,16:36:16.668676
+an dog by an man shot Bob on a cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],428,227,16:36:16.671062
+an dog by an man shot Bob with a cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],429,228,16:36:16.673441
+an dog by an man shot Mary with a cat on John by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],430,229,16:36:16.675842
+an dog by an man shot Mary with a cat on Bob by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],431,230,16:36:16.678234
+an dog by an man killed Mary with a cat on Bob by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],432,231,16:36:16.680655
+an dog by an man walked Mary with a cat on Bob by my elephant outside a pajamas outside an dog in an pajamas,['1'],['1'],[False],433,231,16:36:16.683110
+an dog by an man shot Mary with a cat on Bob by my elephant outside a pajamas outside an dog in an pajamas,['1'],['0'],[ True],433,231,16:36:16.685491
+an dog outside an man shot Mary with a cat on Bob by my elephant outside a pajamas outside an dog in an pajamas,['0'],['0'],[False],434,231,16:36:16.687992
+an dog by an man shot Mary with a cat outside Bob by my elephant outside a pajamas outside an dog in an pajamas,['0'],['0'],[False],435,231,16:36:16.690537
+an dog by an man shot Mary with a cat on Bob by my elephant outside the pajamas outside an dog in an pajamas,['1'],['0'],[ True],436,232,16:36:16.692912
+an dog by an man killed Mary with a cat on Bob by my elephant outside the pajamas outside an dog in an pajamas,['1'],['0'],[ True],437,233,16:36:16.695256
+an dog by an man killed Mary with a cat on Bob by my elephant outside the elephant outside an dog in an pajamas,['1'],['0'],[ True],438,234,16:36:16.697602
+my dog by an man killed Mary with a cat on Bob by my elephant outside the elephant outside an dog in an pajamas,['1'],['0'],[ True],439,235,16:36:16.702082
+my dog by an man killed I with a cat on Bob by my elephant outside the elephant outside an dog in an pajamas,['1'],['0'],[ True],440,236,16:36:16.709576
+my dog by an man killed I with a cat outside Bob by my elephant outside the elephant outside an dog in an pajamas,['0'],['0'],[False],441,236,16:36:16.713253
+my dog by an man killed I with a cat on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],442,237,16:36:16.717041
+my dog by an telescope killed I with a cat on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],443,238,16:36:16.719475
+my dog by an telescope killed Mary with a cat on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],444,239,16:36:16.721901
+my dog by an telescope killed Mary with a cat on Bob by my elephant outside the elephant outside an dog with an elephant,['1'],['1'],[False],445,239,16:36:16.724348
+my dog by an telescope killed Mary with a cat on Bob by my elephant outside the elephant outside an man in an elephant,['1'],['1'],[False],446,239,16:36:16.726798
+an dog by an telescope killed Mary with a cat on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],447,240,16:36:16.729446
+an dog by an telescope killed I with a cat on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],448,241,16:36:16.732034
+an dog by an telescope killed I with a cat on Bob by my elephant outside an elephant outside an dog in an elephant,['0'],['0'],[False],449,241,16:36:16.734504
+an dog by an telescope killed I with a man on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],450,242,16:36:16.737028
+an dog by an telescope wounded I with a man on Bob by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],451,243,16:36:16.739527
+an dog by an telescope wounded I with a man on John by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],452,244,16:36:16.741916
+an dog by an telescope wounded I with a man by John by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],453,245,16:36:16.744275
+an dog by an telescope wounded I in a man by John by my elephant outside the elephant outside an dog in an elephant,['1'],['0'],[ True],454,246,16:36:16.746627
+an dog by an telescope wounded I in a man by John by my elephant outside the elephant outside an cat in an elephant,['1'],['0'],[ True],455,247,16:36:16.748989
+an dog by an telescope killed I in a man by John by my elephant outside the elephant outside an cat in an elephant,['1'],['0'],[ True],456,248,16:36:16.751393
+an dog by an telescope killed I in a man by John by my elephant outside the elephant outside an telescope in an elephant,['1'],['0'],[ True],457,249,16:36:16.753786
+an dog by an telescope killed I in a man by John by my cat outside the elephant outside an telescope in an elephant,['1'],['1'],[False],458,249,16:36:16.756222
+an dog by an telescope killed I in a dog by John by my elephant outside the elephant outside an telescope in an elephant,['1'],['0'],[ True],459,250,16:36:16.758576
+an dog by an telescope killed I in a dog by Mary by my elephant outside the elephant outside an telescope in an elephant,['1'],['0'],[ True],460,251,16:36:16.760969
+an dog by an telescope killed Mary in a dog by Mary by my elephant outside the elephant outside an telescope in an elephant,['1'],['0'],[ True],461,252,16:36:16.763363
+an dog by an telescope killed Mary in a dog by Mary by my elephant outside my elephant outside an telescope in an elephant,['1'],['0'],[ True],462,253,16:36:16.765753
+an dog by an telescope killed Mary in a dog by Mary by my elephant outside my elephant outside an telescope in an telescope,['1'],['0'],[ True],463,254,16:36:16.768111
+an dog by an telescope shot Mary in a dog by Mary by my elephant outside my elephant outside an telescope in an telescope,['1'],['0'],[ True],464,255,16:36:16.770639
+an dog by an telescope shot Mary in a dog by Mary outside my elephant outside my elephant outside an telescope in an telescope,['1'],['0'],[ True],465,256,16:36:16.773027
+an dog by an telescope shot Mary in a dog by Mary outside my elephant outside my elephant outside the telescope in an telescope,['1'],['0'],[ True],466,257,16:36:16.775448
+an dog on an telescope shot Mary in a dog by Mary outside my elephant outside my elephant outside the telescope in an telescope,['1'],['0'],[ True],467,258,16:36:16.777925
+an dog on an telescope shot Mary by a dog by Mary outside my elephant outside my elephant outside the telescope in an telescope,['1'],['1'],[False],468,258,16:36:16.780466
+an dog on an dog shot Mary in a dog by Mary outside my elephant outside my elephant outside the telescope in an telescope,['1'],['0'],[ True],469,259,16:36:16.782915
+an dog on an dog ate Mary in a dog by Mary outside my elephant outside my elephant outside the telescope in an telescope,['1'],['1'],[False],470,259,16:36:16.785431
+an dog on an dog shot Mary in a dog by Mary outside my elephant outside my elephant outside the telescope in a telescope,['1'],['0'],[ True],471,260,16:36:16.787798
+an dog on an dog shot Mary in a dog in Mary outside my elephant outside my elephant outside the telescope in a telescope,['0'],['0'],[False],472,260,16:36:16.790244
+an dog on an dog shot Mary outside a dog by Mary outside my elephant outside my elephant outside the telescope in a telescope,['0'],['0'],[False],473,260,16:36:16.792671
+an dog on an dog shot Mary in a dog by Mary outside my elephant outside an elephant outside the telescope in a telescope,['1'],['0'],[ True],474,261,16:36:16.795026
+an dog on an dog shot Mary in a dog by Mary outside my elephant outside an elephant outside the telescope in a elephant,['0'],['0'],[False],475,261,16:36:16.797491
+an dog on an dog shot Mary in a dog by Bob outside my elephant outside an elephant outside the telescope in a telescope,['1'],['0'],[ True],476,262,16:36:16.800006
+an dog on an man shot Mary in a dog by Bob outside my elephant outside an elephant outside the telescope in a telescope,['1'],['1'],[False],477,262,16:36:16.802447
+an dog on an dog shot Mary in a dog by Bob outside my elephant outside a elephant outside the telescope in a telescope,['1'],['0'],[ True],478,263,16:36:16.804861
+an dog on an dog saw Mary in a dog by Bob outside my elephant outside a elephant outside the telescope in a telescope,['1'],['1'],[False],479,263,16:36:16.807419
+an dog on an dog shot Mary in a dog by Bob outside my elephant outside a elephant outside the telescope outside a telescope,['0'],['0'],[False],480,263,16:36:16.810169
+an dog on an dog shot Mary in a dog by Bob with my elephant outside a elephant outside the telescope in a telescope,['1'],['1'],[False],481,263,16:36:16.812636
+an dog on an dog shot Mary in a dog by Bob outside my elephant outside a cat outside the telescope in a telescope,['1'],['1'],[False],482,263,16:36:16.815086
+an pajamas on an dog shot Mary in a dog by Bob outside my elephant outside a elephant outside the telescope in a telescope,['0'],['0'],[False],483,263,16:36:16.817530
+an dog on an dog shot Mary in a dog by Bob outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],484,264,16:36:16.819919
+an cat on an dog shot Mary in a dog by Bob outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],485,265,16:36:16.822350
+an cat on an dog shot Mary in a dog by Bob on my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],486,265,16:36:16.824798
+an cat on an dog shot Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],487,266,16:36:16.827203
+an cat on an dog ate Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],488,266,16:36:16.829677
+an cat on an dog shot Mary in a dog by I outside my elephant in a elephant on the telescope in a telescope,['1'],['1'],[False],489,266,16:36:16.832102
+an cat on an dog shot Mary in a dog by I outside my elephant in my elephant outside the telescope in a telescope,['0'],['0'],[False],490,266,16:36:16.834543
+an cat on an dog killed Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],491,267,16:36:16.836922
+an cat on an dog killed Mary in a dog by I outside my elephant in a elephant outside the dog in a telescope,['0'],['0'],[False],492,267,16:36:16.839364
+an cat on an dog ate Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],492,267,16:36:16.841820
+an cat on an dog killed Mary in a dog by I by my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],493,267,16:36:16.844291
+an cat on an pajamas killed Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['0'],['0'],[False],494,267,16:36:16.846792
+an cat on an park killed Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],495,268,16:36:16.849189
+an cat on an park saw Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],496,268,16:36:16.851675
+my cat on an park killed Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['0'],[ True],497,269,16:36:16.854042
+my cat on an park killed Mary in a dog by I outside my elephant by a elephant outside the telescope in a telescope,['1'],['1'],[False],498,269,16:36:16.856463
+my cat on an park killed Mary in a dog by Mary outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],499,269,16:36:16.862348
+my cat on an park walked Mary in a dog by I outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],500,269,16:36:16.868116
+my cat on an park killed Mary in a dog by I outside my elephant with a elephant outside the telescope in a telescope,['1'],['1'],[False],501,269,16:36:16.870882
+my cat on an park killed Mary in a dog by Bob outside my elephant in a elephant outside the telescope in a telescope,['1'],['1'],[False],502,269,16:36:16.873391
+my cat on an park killed Mary in a dog by I outside my elephant in a cat outside the telescope in a telescope,['1'],['1'],[False],503,269,16:36:16.875848
+my cat on an park killed Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['0'],[ True],504,270,16:36:16.878227
+my cat on an park killed Mary in a dog by I outside my elephant in a telescope outside the telescope in an telescope,['1'],['1'],[False],505,270,16:36:16.880760
+my cat on an park killed Mary in a dog by Mary outside my elephant in a elephant outside the telescope in an telescope,['1'],['1'],[False],506,270,16:36:16.883298
+my cat on an park killed Mary in a dog by I outside my elephant in a park outside the telescope in an telescope,['1'],['1'],[False],507,270,16:36:16.885827
+my cat on an park shot Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['0'],[ True],508,271,16:36:16.888388
+my cat on an park shot Mary in a dog by I outside my elephant in a elephant outside the telescope by an telescope,['1'],['1'],[False],509,271,16:36:16.890852
+my cat on an park shot Mary in a dog by John outside my elephant in a elephant outside the telescope in an telescope,['1'],['1'],[False],510,271,16:36:16.893378
+a cat on an park shot Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['0'],[ True],511,272,16:36:16.895737
+a cat by an park shot Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['0'],[ True],512,273,16:36:16.898106
+a cat by an park walked Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['1'],[False],513,273,16:36:16.900566
+a cat by an park walked Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['1'],[False],513,273,16:36:16.903526
+a cat by an park walked Mary in a dog by I outside my elephant in a elephant outside the telescope in an telescope,['1'],['1'],[False],513,273,16:36:16.906122
+a cat by an park shot Mary in a dog by I outside my elephant in a elephant outside the dog in an telescope,['1'],['0'],[ True],514,274,16:36:16.908601
+a cat by an park shot John in a dog by I outside my elephant in a elephant outside the dog in an telescope,['1'],['0'],[ True],515,275,16:36:16.911035
+a cat by an park shot John in a dog by I outside my elephant in a dog outside the dog in an telescope,['1'],['0'],[ True],516,276,16:36:16.913424
+a cat by an park shot John in a dog by Bob outside my elephant in a dog outside the dog in an telescope,['1'],['1'],[False],517,276,16:36:16.915882
+a cat by an park killed John in a dog by I outside my elephant in a dog outside the dog in an telescope,['1'],['0'],[ True],518,277,16:36:16.918245
+a cat by an park saw John in a dog by I outside my elephant in a dog outside the dog in an telescope,['1'],['1'],[False],519,277,16:36:16.920663
+a cat by an park saw John in a dog by I outside my elephant in a dog outside the dog in an telescope,['1'],['1'],[False],519,277,16:36:16.923134
+a cat by an park killed John in a dog by I outside my elephant in a dog outside the elephant in an telescope,['1'],['0'],[ True],520,278,16:36:16.925501
+a cat by an park saw John in a dog by I outside my elephant in a dog outside the elephant in an telescope,['1'],['1'],[False],521,278,16:36:16.927919
+a cat by an park ate John in a dog by I outside my elephant in a dog outside the elephant in an telescope,['1'],['1'],[False],522,278,16:36:16.930425
+a cat by an park killed John in a man by I outside my elephant in a dog outside the elephant in an telescope,['1'],['0'],[ True],523,279,16:36:16.932790
+a cat by an park killed John in a man by I outside the elephant in a dog outside the elephant in an telescope,['1'],['1'],[False],524,279,16:36:16.935289
+a cat by an park killed John in a man by I outside my elephant in a dog outside the park in an telescope,['1'],['1'],[False],525,279,16:36:16.937732
+a cat by an park killed John in a man by I outside my elephant in a dog outside the elephant in an cat,['1'],['0'],[ True],526,280,16:36:16.940090
+a cat outside an park killed John in a man by I outside my elephant in a dog outside the elephant in an cat,['0'],['0'],[False],527,280,16:36:16.942519
+a cat by an park killed John in a man by I outside the elephant in a dog outside the elephant in an cat,['1'],['0'],[ True],528,281,16:36:16.945003
+a cat by an park killed John in a man by I outside the elephant in a dog outside the elephant in an man,['1'],['1'],[False],529,281,16:36:16.947464
+a cat by an park killed John in a elephant by I outside the elephant in a dog outside the elephant in an cat,['0'],['0'],[False],530,281,16:36:16.949891
+a cat by an park saw John in a man by I outside the elephant in a dog outside the elephant in an cat,['1'],['1'],[False],531,281,16:36:16.952392
+a cat by an park ate John in a man by I outside the elephant in a dog outside the elephant in an cat,['1'],['1'],[False],532,281,16:36:16.954847
+a cat by an park shot John in a man by I outside the elephant in a dog outside the elephant in an cat,['1'],['0'],[ True],533,282,16:36:16.957235
+a cat by an park shot John in a man by I outside the elephant in a dog outside the elephant in my cat,['1'],['0'],[ True],534,283,16:36:16.959594
+a cat by an park shot John in a man by I outside the elephant on a dog outside the elephant in my cat,['1'],['1'],[False],535,283,16:36:16.962022
+a cat by an park shot John in a man by I outside the elephant in a dog outside the elephant on my cat,['1'],['1'],[False],536,283,16:36:16.964550
+a cat by an park ate John in a man by I outside the elephant in a dog outside the elephant in my cat,['1'],['1'],[False],537,283,16:36:16.967035
+a cat by an park shot John in a man by I on the elephant in a dog outside the elephant in my cat,['1'],['1'],[False],538,283,16:36:16.969457
+a cat by an pajamas shot John in a man by I outside the elephant in a dog outside the elephant in my cat,['0'],['0'],[False],539,283,16:36:16.971889
+a cat by an park saw John in a man by I outside the elephant in a dog outside the elephant in my cat,['1'],['1'],[False],540,283,16:36:16.974486
+a cat by an park saw John in a man by I outside the elephant in a dog outside the elephant in my cat,['1'],['1'],[False],540,283,16:36:16.976962
+a cat by an park shot John in a man by Bob outside the elephant in a dog outside the elephant in my cat,['1'],['1'],[False],541,283,16:36:16.979429
+a cat by an park shot Bob in a man by I outside the elephant in a dog outside the elephant in my cat,['1'],['0'],[ True],542,284,16:36:16.981791
+a cat by an park shot Bob in a man by I outside the elephant in a dog outside my elephant in my cat,['1'],['0'],[ True],543,285,16:36:16.984155
+a cat by an park shot Bob in a man by I outside the elephant in a dog outside my elephant in my man,['1'],['0'],[ True],544,286,16:36:16.986499
+a cat by an park killed Bob in a man by I outside the elephant in a dog outside my elephant in my man,['1'],['0'],[ True],545,287,16:36:16.988982
+a cat by an park killed Mary in a man by I outside the elephant in a dog outside my elephant in my man,['1'],['0'],[ True],546,288,16:36:16.991349
+a cat by an park walked Mary in a man by I outside the elephant in a dog outside my elephant in my man,['1'],['1'],[False],547,288,16:36:16.993780
+a cat by an park killed Bob in a man by I outside the elephant in a dog outside my elephant in my man,['1'],['0'],[ True],547,288,16:36:16.996149
+a cat by an park killed Bob in a man by I outside the elephant in a dog outside my elephant in my dog,['1'],['0'],[ True],548,289,16:36:16.998488
+a cat by an park killed Bob in a man by I with the elephant in a dog outside my elephant in my dog,['1'],['0'],[ True],549,290,16:36:17.000838
+a cat by an park ate Bob in a man by I with the elephant in a dog outside my elephant in my dog,['1'],['1'],[False],550,290,16:36:17.003351
+a cat by an park ate Bob in a man by I with the elephant in a dog outside my elephant in my dog,['1'],['1'],[False],550,290,16:36:17.005802
+a cat by an park killed Bob in a man by I with the elephant on a dog outside my elephant in my dog,['1'],['1'],[False],551,290,16:36:17.008226
+a cat by an park shot Bob in a man by I with the elephant in a dog outside my elephant in my dog,['1'],['0'],[ True],552,291,16:36:17.010787
+a cat by an park shot Bob with a man by I with the elephant in a dog outside my elephant in my dog,['1'],['1'],[False],553,291,16:36:17.013230
+a telescope by an park shot Bob in a man by I with the elephant in a dog outside my elephant in my dog,['1'],['1'],[False],554,291,16:36:17.015657
+a cat by an park shot Bob in a man by I with the elephant in an dog outside my elephant in my dog,['1'],['0'],[ True],555,292,16:36:17.018018
+a cat by an park ate Bob in a man by I with the elephant in an dog outside my elephant in my dog,['1'],['1'],[False],556,292,16:36:17.020561
+a cat by an park killed Bob in a man by I with the elephant in an dog outside my elephant in my dog,['1'],['0'],[ True],557,293,16:36:17.022955
+a cat by an park killed Bob in a man by I with an elephant in an dog outside my elephant in my dog,['1'],['0'],[ True],558,294,16:36:17.025313
+a cat by an park killed Bob in a man by I with an elephant in an dog outside my elephant in the dog,['1'],['0'],[ True],559,295,16:36:17.027890
+a cat by an park killed Bob in a man by I with an elephant in an park outside my elephant in the dog,['1'],['1'],[False],560,295,16:36:17.030432
+a cat by an park saw Bob in a man by I with an elephant in an dog outside my elephant in the dog,['1'],['1'],[False],561,295,16:36:17.032973
+a cat by an park killed Bob in a man by I with an cat in an dog outside my elephant in the dog,['1'],['0'],[ True],562,296,16:36:17.035361
+a cat by an park killed Bob in a man by I with an cat in an dog on my elephant in the dog,['1'],['1'],[False],563,296,16:36:17.037918
+a cat by an park killed Bob by a man by I with an cat in an dog outside my elephant in the dog,['1'],['1'],[False],564,296,16:36:17.040568
+a cat by an park killed John in a man by I with an cat in an dog outside my elephant in the dog,['1'],['0'],[ True],565,297,16:36:17.043197
+a cat by an park killed John in a man by I with an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],566,298,16:36:17.045734
+a cat by an park killed John in a man by I with an cat in an dog with an elephant in the dog,['1'],['1'],[False],567,298,16:36:17.048187
+a cat by an park saw John in a man by I with an cat in an dog outside an elephant in the dog,['1'],['1'],[False],568,298,16:36:17.050629
+a cat by an park wounded John in a man by I with an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],569,299,16:36:17.053178
+a cat by an park wounded John in a man by I with an cat in an dog with an elephant in the dog,['1'],['1'],[False],570,299,16:36:17.055803
+a cat by an park ate John in a man by I with an cat in an dog outside an elephant in the dog,['1'],['1'],[False],571,299,16:36:17.058504
+a cat by an park wounded John in a man by I on an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],572,300,16:36:17.061053
+a cat by an park wounded John in a man by I on an cat in an telescope outside an elephant in the dog,['1'],['1'],[False],573,300,16:36:17.063586
+a cat by an park wounded John in a man by Bob on an cat in an dog outside an elephant in the dog,['1'],['1'],[False],574,300,16:36:17.066049
+a cat by an park wounded Mary in a man by I on an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],575,301,16:36:17.068509
+a cat by an park wounded Mary in a man by Mary on an cat in an dog outside an elephant in the dog,['1'],['1'],[False],576,301,16:36:17.070988
+a cat by an park wounded Mary in a man by I on an cat on an dog outside an elephant in the dog,['1'],['1'],[False],577,301,16:36:17.073659
+a cat by an park wounded Mary in my man by I on an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],578,302,16:36:17.076117
+a cat by an park wounded John in my man by I on an cat in an dog outside an elephant in the dog,['1'],['0'],[ True],579,303,16:36:17.078480
+a cat by an park wounded John in my man by I on an cat in an dog outside an cat in the dog,['1'],['0'],[ True],580,304,16:36:17.080873
+a cat by an park wounded John in my man by I on an cat in an dog outside an cat outside the dog,['1'],['0'],[ True],581,305,16:36:17.083218
+a cat by an park wounded John in my man by I on an cat in an dog outside an dog outside the dog,['1'],['0'],[ True],582,306,16:36:17.085727
+a cat by an park wounded John in my man by I on an cat in my dog outside an dog outside the dog,['1'],['0'],[ True],583,307,16:36:17.088120
+a cat by the park wounded John in my man by I on an cat in my dog outside an dog outside the dog,['1'],['1'],[False],584,307,16:36:17.090545
+a cat by an park wounded John in my man by I on an cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],585,308,16:36:17.092907
+a cat by an park shot John in my man by I on an cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],586,309,16:36:17.095341
+a park by an park shot John in my man by I on an cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],587,310,16:36:17.097702
+a park by an park killed John in my man by I on an cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],588,311,16:36:17.100105
+a park by an park killed John in an man by I on an cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],589,312,16:36:17.102461
+a park by an park killed John in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],590,313,16:36:17.104877
+a park by an park killed John in an man by Bob on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],591,313,16:36:17.107335
+a park by an park saw John in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],592,313,16:36:17.109777
+a park by an park killed John in an man by I on my cat in my dog outside an dog outside the dog,['1'],['1'],[False],593,313,16:36:17.112326
+a park by an park ate John in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],594,313,16:36:17.114841
+a park by an park killed Mary in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],595,314,16:36:17.117253
+a park by an park killed Mary in an man by I on my cat on my elephant outside an dog outside the dog,['1'],['1'],[False],596,314,16:36:17.119684
+a park by an park shot Mary in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],597,315,16:36:17.122079
+a park by an park walked Mary in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],598,315,16:36:17.124539
+a park by an park shot Mary in the man by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],599,315,16:36:17.126971
+a park by an park saw Mary in an man by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],600,315,16:36:17.129482
+a park by an park shot Mary in an man by I on my cat in my elephant with an dog outside the dog,['1'],['1'],[False],601,315,16:36:17.131944
+a park by an park shot Mary in an man by I on my cat in my elephant outside an dog outside the telescope,['1'],['1'],[False],602,315,16:36:17.134417
+a park by an park shot Mary in an park by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],603,316,16:36:17.136826
+an park by an park shot Mary in an park by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],604,317,16:36:17.139178
+an park by an park saw Mary in an park by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],605,317,16:36:17.141648
+an park by an park shot I in an park by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],606,318,16:36:17.144122
+an park by an park shot I in an dog by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],607,319,16:36:17.146501
+an park by an park shot John in an dog by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],608,320,16:36:17.148944
+an park by an park wounded John in an dog by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],609,321,16:36:17.151475
+an park by an park saw John in an dog by I on my cat in my elephant outside an dog outside the dog,['1'],['1'],[False],610,321,16:36:17.153892
+an park by an park killed John in an dog by I on my cat in my elephant outside an dog outside the dog,['1'],['0'],[ True],611,322,16:36:17.156500
+an park by an park killed John in an dog by I on my cat in my elephant outside an dog with the dog,['1'],['0'],[ True],612,323,16:36:17.158900
+an park by an park killed John in an dog by I on my cat with my elephant outside an dog with the dog,['1'],['1'],[False],613,323,16:36:17.161411
+my park by an park killed John in an dog by I on my cat in my elephant outside an dog with the dog,['1'],['0'],[ True],614,324,16:36:17.163794
+my park by an park killed John in an dog by I on my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],615,325,16:36:17.166240
+my park by an park killed John in an dog by I on my park in my elephant outside an dog with the dog,['1'],['1'],[False],616,325,16:36:17.168668
+my park by an park killed John in an cat by I on my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],617,326,16:36:17.171003
+my park by an park shot John in an cat by I on my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],618,327,16:36:17.173554
+my park by an park shot John in an cat by I with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],619,328,16:36:17.175939
+my park by an park shot John in an elephant by I with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],620,329,16:36:17.178356
+my park by an park shot Mary in an elephant by I with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],621,330,16:36:17.180722
+my park by an dog shot Mary in an elephant by I with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],622,331,16:36:17.183058
+my park by an dog shot Mary in an elephant by John with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],623,332,16:36:17.185408
+my park by an dog walked Mary in an elephant by John with my pajamas in my elephant outside an dog with the dog,['1'],['1'],[False],624,332,16:36:17.187862
+my park by an dog wounded Mary in an elephant by John with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],625,333,16:36:17.190281
+my park by an dog walked Mary in an elephant by John with my pajamas in my elephant outside an dog with the dog,['1'],['1'],[False],625,333,16:36:17.192801
+my park by an dog wounded Mary in an elephant by I with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],626,334,16:36:17.195199
+my park by an dog wounded Mary in an elephant by Bob with my pajamas in my elephant outside an dog with the dog,['1'],['0'],[ True],627,335,16:36:17.197670
+my park by an dog wounded Mary in an elephant by Bob with my pajamas in my elephant outside my dog with the dog,['1'],['0'],[ True],628,336,16:36:17.200053
+my park by an dog wounded Mary in an elephant by Bob with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],629,337,16:36:17.202416
+my park by an dog killed Mary in an elephant by Bob with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],630,338,16:36:17.208280
+my park by an dog saw Mary in an elephant by Bob with my pajamas in my elephant outside my dog with the elephant,['1'],['1'],[False],631,338,16:36:17.220874
+my park by an dog killed Mary in an elephant by I with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],632,339,16:36:17.224111
+my park by the dog killed Mary in an elephant by I with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],633,340,16:36:17.226920
+my park by the dog wounded Mary in an elephant by I with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],634,341,16:36:17.229735
+a park by the dog wounded Mary in an elephant by I with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],635,342,16:36:17.234354
+a park by a dog wounded Mary in an elephant by I with my pajamas in my elephant outside my dog with the elephant,['1'],['0'],[ True],636,343,16:36:17.236899
+a park by a dog wounded Mary in an elephant by I with my pajamas in my elephant outside my cat with the elephant,['1'],['0'],[ True],637,344,16:36:17.239413
+a park by a dog wounded Mary in an elephant by I in my pajamas in my elephant outside my cat with the elephant,['0'],['0'],[False],638,344,16:36:17.242183
+a park by a dog saw Mary in an elephant by I with my pajamas in my elephant outside my cat with the elephant,['1'],['1'],[False],639,344,16:36:17.244675
+a park by a dog wounded Mary in an elephant by I with my dog in my elephant outside my cat with the elephant,['1'],['0'],[ True],640,345,16:36:17.247181
+a park by a dog wounded Mary with an elephant by I with my dog in my elephant outside my cat with the elephant,['1'],['0'],[ True],641,346,16:36:17.249577
+a park by a dog wounded Mary with an elephant by I with my dog in an elephant outside my cat with the elephant,['1'],['0'],[ True],642,347,16:36:17.251955
+a park by a dog wounded Bob with an elephant by I with my dog in an elephant outside my cat with the elephant,['1'],['0'],[ True],643,348,16:36:17.254360
+my park by a dog wounded Bob with an elephant by I with my dog in an elephant outside my cat with the elephant,['1'],['0'],[ True],644,349,16:36:17.256957
+my park with a dog wounded Bob with an elephant by I with my dog in an elephant outside my cat with the elephant,['1'],['0'],[ True],645,350,16:36:17.259344
+my park with the dog wounded Bob with an elephant by I with my dog in an elephant outside my cat with the elephant,['1'],['1'],[False],646,350,16:36:17.261855
+my park with a dog wounded Bob with an elephant by I with my dog in an elephant in my cat with the elephant,['1'],['0'],[ True],647,351,16:36:17.264243
+my park with a dog wounded I with an elephant by I with my dog in an elephant in my cat with the elephant,['1'],['0'],[ True],648,352,16:36:17.266742
+my park with a dog wounded I with an elephant by I with my dog in an elephant in my cat outside the elephant,['1'],['0'],[ True],649,353,16:36:17.269103
+my park with a dog ate I with an elephant by I with my dog in an elephant in my cat outside the elephant,['1'],['1'],[False],650,353,16:36:17.271537
+my park with my dog wounded I with an elephant by I with my dog in an elephant in my cat outside the elephant,['0'],['0'],[False],651,353,16:36:17.273957
+my park with a dog wounded I with an elephant by Bob with my dog in an elephant in my cat outside the elephant,['1'],['0'],[ True],652,354,16:36:17.276330
+my park with a dog shot I with an elephant by Bob with my dog in an elephant in my cat outside the elephant,['1'],['0'],[ True],653,355,16:36:17.278680
+my park with a dog shot I with an elephant by Bob with my park in an elephant in my cat outside the elephant,['1'],['0'],[ True],654,356,16:36:17.281021
+my park with a dog walked I with an elephant by Bob with my park in an elephant in my cat outside the elephant,['1'],['1'],[False],655,356,16:36:17.283557
+my park with a dog shot I with an elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['0'],[ True],656,357,16:36:17.285934
+my park with a dog saw I with an elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],657,357,16:36:17.288396
+my dog with a dog shot I with an elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['0'],[ True],658,358,16:36:17.290836
+my park with a dog shot I with an elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['0'],[ True],658,358,16:36:17.293192
+my park with a dog shot I with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['0'],[ True],659,359,16:36:17.295528
+my park with a dog shot Bob with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],660,359,16:36:17.298006
+my park with the dog shot I with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['0'],[ True],661,360,16:36:17.300355
+my park with the dog saw I with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],662,360,16:36:17.302918
+my park with the dog shot I with my elephant by Bob with my park by an elephant in my pajamas outside the elephant,['1'],['1'],[False],663,360,16:36:17.305414
+my park with the dog shot I with my elephant by John with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],664,360,16:36:17.307869
+my park with the dog shot Mary with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],665,360,16:36:17.310312
+my park with the dog ate I with my elephant by Bob with my park in an elephant in my pajamas outside the elephant,['1'],['1'],[False],666,360,16:36:17.312818
+my park with the dog shot I with my elephant by Bob with my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],667,361,16:36:17.315158
+my pajamas with the dog shot I with my elephant by Bob with my park outside an elephant in my pajamas outside the elephant,['0'],['0'],[False],668,361,16:36:17.317613
+my park with the dog shot I with my elephant with Bob with my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],669,362,16:36:17.319964
+my park with the dog shot I with my elephant with Bob on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],670,363,16:36:17.322312
+my park with the dog shot I with my elephant with Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],671,364,16:36:17.324680
+my park with the dog shot I with my elephant with Mary on my park outside an elephant in the pajamas outside the elephant,['1'],['1'],[False],672,364,16:36:17.327103
+my park with the dog shot John with my elephant with Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],673,364,16:36:17.329579
+my park with the dog shot I with my elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],674,365,16:36:17.331959
+my telescope with the dog shot I with my elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],675,366,16:36:17.334339
+my telescope with the dog shot John with my elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],676,366,16:36:17.336820
+my telescope with the dog saw I with my elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],677,366,16:36:17.339290
+my telescope with the dog wounded I with my elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],678,367,16:36:17.341719
+my telescope with the dog wounded I with a elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],679,368,16:36:17.344069
+my telescope with the dog wounded I with a elephant in Mary on my park with an elephant in my pajamas outside the elephant,['1'],['1'],[False],680,368,16:36:17.346524
+my telescope by the dog wounded I with a elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],681,369,16:36:17.348976
+my telescope by the dog wounded I with a elephant by Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],682,369,16:36:17.351468
+my telescope by the dog saw I with a elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],683,369,16:36:17.353896
+my telescope with the dog wounded I with a elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],683,369,16:36:17.356283
+my telescope with the dog shot I with a elephant in Mary on my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],684,370,16:36:17.358665
+my telescope with the dog shot I with a elephant in Mary with my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],685,371,16:36:17.367944
+my telescope with the dog shot I with a elephant by Mary with my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],686,371,16:36:17.370622
+my telescope with the dog shot I with a elephant in I with my park outside an elephant in my pajamas outside the elephant,['0'],['0'],[False],687,371,16:36:17.373145
+my telescope with the dog shot I with the elephant in Mary with my park outside an elephant in my pajamas outside the elephant,['1'],['1'],[False],688,371,16:36:17.375596
+my telescope with the cat shot I with a elephant in Mary with my park outside an elephant in my pajamas outside the elephant,['1'],['0'],[ True],689,372,16:36:17.377958
+my telescope with the cat shot I with a elephant in Mary with my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],690,373,16:36:17.380468
+my telescope with the cat shot I on a elephant in Mary with my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],691,374,16:36:17.382949
+my telescope with the cat wounded I on a elephant in Mary with my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],692,375,16:36:17.385436
+my telescope with the cat wounded I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],693,376,16:36:17.387800
+my telescope with the cat wounded John on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],694,376,16:36:17.390285
+my telescope with the cat ate I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],695,376,16:36:17.392784
+my telescope with the cat shot I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],696,377,16:36:17.395185
+my telescope with the cat shot I on a elephant in Mary on a park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],697,377,16:36:17.397675
+the telescope with the cat shot I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],698,377,16:36:17.400152
+my telescope on the cat shot I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],699,377,16:36:17.402616
+my telescope with the cat shot I on a elephant in Bob on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],700,377,16:36:17.405055
+my telescope with the cat shot John on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['1'],[False],701,377,16:36:17.407550
+an telescope with the cat shot I on a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],702,378,16:36:17.409970
+an telescope with the cat shot I by a elephant in Mary on my park outside an elephant in my pajamas outside the dog,['1'],['0'],[ True],703,379,16:36:17.412319
+an telescope with the cat shot I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],704,380,16:36:17.414694
+my telescope with the cat shot I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],705,381,16:36:17.417156
+my telescope with the cat shot I by a elephant in Mary on my park outside an elephant in my dog outside the cat,['1'],['1'],[False],706,381,16:36:17.419719
+my telescope with the cat ate I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],707,381,16:36:17.422204
+my telescope with the cat shot I by a elephant with Mary on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],708,381,16:36:17.424615
+my telescope with the cat saw I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],709,381,16:36:17.427085
+my telescope with the cat shot I by a elephant in John on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],710,381,16:36:17.429514
+my telescope with the cat shot I by a elephant in Mary on my park outside the elephant in my pajamas outside the cat,['1'],['1'],[False],711,381,16:36:17.431918
+my telescope with the cat shot I by a elephant in Mary on my park outside an elephant on my pajamas outside the cat,['1'],['1'],[False],712,381,16:36:17.434324
+my telescope with the cat shot I by a elephant in Mary on my man outside an elephant in my pajamas outside the cat,['1'],['1'],[False],713,381,16:36:17.436720
+my telescope with the cat wounded I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],714,382,16:36:17.439255
+my telescope with the cat wounded Mary by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],715,382,16:36:17.441757
+my telescope with the cat killed I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],716,383,16:36:17.444107
+my telescope with the cat killed I by a elephant in Mary on my park outside an elephant in my cat outside the cat,['1'],['1'],[False],717,383,16:36:17.446571
+my cat with the cat killed I by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],718,384,16:36:17.448922
+my cat with the cat killed Bob by a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],719,385,16:36:17.451306
+my cat with the cat killed Bob on a elephant in Mary on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],720,386,16:36:17.453649
+my cat with the cat killed Bob on a elephant in I on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],721,387,16:36:17.456010
+an cat with the cat killed Bob on a elephant in I on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],722,388,16:36:17.458377
+an cat with the cat saw Bob on a elephant in I on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],723,388,16:36:17.460821
+an cat with the cat killed Bob on a elephant in I on my park outside an elephant in my pajamas outside an cat,['0'],['0'],[False],724,388,16:36:17.463265
+an cat with the cat killed Bob on a elephant by I on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],725,389,16:36:17.465636
+an cat with the cat killed Mary on a elephant by I on my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],726,390,16:36:17.467997
+an cat with the cat killed Mary on a man by I on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],727,390,16:36:17.470435
+an cat with the cat walked Mary on a elephant by I on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],728,390,16:36:17.472856
+an cat with the cat killed Mary on a elephant by John on my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],729,390,16:36:17.475289
+an cat with the cat killed Mary on a elephant by I on my park outside the elephant in my pajamas outside the cat,['1'],['1'],[False],730,390,16:36:17.477711
+an cat with the cat killed Mary on a elephant by I by my park outside an elephant in my pajamas outside the cat,['1'],['0'],[ True],731,391,16:36:17.480073
+an cat with the cat ate Mary on a elephant by I by my park outside an elephant in my pajamas outside the cat,['1'],['1'],[False],732,391,16:36:17.482637
+an cat with the cat killed Mary on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['0'],[ True],733,392,16:36:17.485016
+my cat with the cat killed Mary on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['0'],[ True],734,393,16:36:17.487367
+my cat with the cat killed Mary on a elephant by John by my park outside an elephant in my cat outside the cat,['1'],['1'],[False],735,393,16:36:17.489854
+my cat with the cat killed I on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['0'],[ True],736,394,16:36:17.492254
+my cat with the cat killed I on the elephant by I by my park outside an elephant in my cat outside the cat,['1'],['1'],[False],737,394,16:36:17.494703
+my cat with the cat killed John on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['1'],[False],738,394,16:36:17.497137
+my cat with the cat ate I on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['1'],[False],739,394,16:36:17.499615
+my cat with the cat killed John on a elephant by I by my park outside an elephant in my cat outside the cat,['1'],['1'],[False],739,394,16:36:17.502066
+my cat with the cat killed I on a elephant on I by my park outside an elephant in my cat outside the cat,['1'],['0'],[ True],740,395,16:36:17.504411
+my cat with the cat killed I on a elephant on I by a park outside an elephant in my cat outside the cat,['1'],['0'],[ True],741,396,16:36:17.506765
+my cat with the cat killed I on a elephant on Mary by a park outside an elephant in my cat outside the cat,['1'],['1'],[False],742,396,16:36:17.509512
+my cat with the cat ate I on a elephant on I by a park outside an elephant in my cat outside the cat,['1'],['1'],[False],743,396,16:36:17.512056
+my cat with the cat saw I on a elephant on I by a park outside an elephant in my cat outside the cat,['1'],['1'],[False],744,396,16:36:17.514582
+my cat with the cat killed I on a elephant on I by a cat outside an elephant in my cat outside the cat,['1'],['0'],[ True],745,397,16:36:17.516957
+my cat with the cat killed I on a elephant on I by a cat outside an elephant in my dog outside the cat,['1'],['0'],[ True],746,398,16:36:17.519335
+my cat with the cat killed I on a elephant on Bob by a cat outside an elephant in my dog outside the cat,['1'],['0'],[ True],747,399,16:36:17.521749
+my cat with the cat killed I on a elephant on Bob by a cat outside an elephant in my dog outside an cat,['1'],['0'],[ True],748,400,16:36:17.524110
+my cat with the cat killed I on a elephant on Bob by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],749,401,16:36:17.526492
+my cat with the cat killed I on a dog on Bob by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],750,402,16:36:17.528978
+my cat with the cat killed I on a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],751,403,16:36:17.531377
+my cat with the cat killed I with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],752,404,16:36:17.533785
+my cat with the cat shot I with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],753,405,16:36:17.536153
+my cat with the cat shot Mary with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],754,406,16:36:17.538508
+my cat with the cat shot Mary with a dog on Mary by a cat outside an elephant in a dog outside an telescope,['1'],['1'],[False],755,406,16:36:17.540962
+my cat by the cat shot Mary with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['1'],[False],756,406,16:36:17.543380
+my cat in the cat shot Mary with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['0'],[ True],757,407,16:36:17.545868
+my cat in the cat shot Mary with a dog on Mary by a cat outside an telescope in a dog outside an cat,['1'],['1'],[False],758,407,16:36:17.548361
+my cat in the elephant shot Mary with a dog on Mary by a cat outside an elephant in a dog outside an cat,['0'],['0'],[False],759,407,16:36:17.550795
+my cat in the cat ate Mary with a dog on Mary by a cat outside an elephant in a dog outside an cat,['1'],['1'],[False],760,407,16:36:17.553402
+my cat in the cat shot Mary with a dog on Mary by a cat outside an elephant in a elephant outside an cat,['0'],['0'],[False],761,407,16:36:17.555857
+my cat in the cat shot Mary with a dog on Mary by a man outside an elephant in a dog outside an cat,['1'],['0'],[ True],762,408,16:36:17.558255
+my cat in the cat shot Bob with a dog on Mary by a man outside an elephant in a dog outside an cat,['1'],['1'],[False],763,408,16:36:17.560701
+my cat in the cat saw Mary with a dog on Mary by a man outside an elephant in a dog outside an cat,['1'],['1'],[False],764,408,16:36:17.563204
+my cat in the cat shot Mary with a cat on Mary by a man outside an elephant in a dog outside an cat,['1'],['1'],[False],765,408,16:36:17.566264
+my cat in my cat shot Mary with a dog on Mary by a man outside an elephant in a dog outside an cat,['1'],['0'],[ True],766,409,16:36:17.568684
+my cat in my cat shot Mary with a dog on Mary by a man outside an elephant with a dog outside an cat,['1'],['0'],[ True],767,410,16:36:17.571159
+my cat in my cat shot Mary with a dog on Mary by a man outside an elephant with a dog outside my cat,['1'],['0'],[ True],768,411,16:36:17.573539
+my cat in my cat shot Mary with a dog on Mary outside a man outside an elephant with a dog outside my cat,['0'],['0'],[False],769,411,16:36:17.576077
+my cat in my cat shot Mary with an dog on Mary by a man outside an elephant with a dog outside my cat,['1'],['0'],[ True],770,412,16:36:17.578505
+my cat in my cat shot Bob with an dog on Mary by a man outside an elephant with a dog outside my cat,['1'],['0'],[ True],771,413,16:36:17.580932
+my cat in my cat shot Bob with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['0'],[ True],772,414,16:36:17.583341
+my cat in my cat shot Bob with a dog on Mary by a man outside an dog with a dog outside my cat,['1'],['1'],[False],773,414,16:36:17.585779
+my cat in my cat saw Bob with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['1'],[False],774,414,16:36:17.588261
+my cat in my cat shot John with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['0'],[ True],775,415,16:36:17.590634
+my cat in my cat shot John with an dog on Mary by a man on an dog with a dog outside my cat,['1'],['1'],[False],776,415,16:36:17.593049
+my dog in my cat shot John with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['0'],[ True],777,416,16:36:17.595455
+my dog in my cat shot John with an dog on John by a man outside an dog with a dog outside my cat,['1'],['1'],[False],778,416,16:36:17.597893
+my dog in my cat ate John with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['1'],[False],779,416,16:36:17.600445
+my dog in my cat shot John with an dog on John by a man outside an dog with a dog outside my cat,['1'],['1'],[False],779,416,16:36:17.602912
+my dog in my cat shot John with an dog on John by a man outside an dog with a dog outside my cat,['1'],['1'],[False],779,416,16:36:17.605483
+my dog in my cat shot Bob with an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['0'],[ True],780,417,16:36:17.607877
+my dog in my cat shot Bob with an man on Mary by a man outside an dog with a dog outside my cat,['1'],['1'],[False],781,417,16:36:17.610274
+my dog in my cat shot Bob outside an dog on Mary by a man outside an dog with a dog outside my cat,['1'],['0'],[ True],782,418,16:36:17.612604
+my dog in my cat shot Bob outside an dog on Mary by the man outside an dog with a dog outside my cat,['1'],['0'],[ True],783,419,16:36:17.614935
+my dog in a cat shot Bob outside an dog on Mary by the man outside an dog with a dog outside my cat,['1'],['0'],[ True],784,420,16:36:17.617290
+my dog in a cat shot Bob outside an dog on Mary by the man by an dog with a dog outside my cat,['1'],['1'],[False],785,420,16:36:17.619742
+my dog in a cat shot Mary outside an dog on Mary by the man outside an dog with a dog outside my cat,['1'],['0'],[ True],786,421,16:36:17.622106
+my dog in a cat shot Mary outside an dog on Mary by the man on an dog with a dog outside my cat,['1'],['1'],[False],787,421,16:36:17.624521
+my dog in a cat shot Mary outside an dog on Mary by the man outside an dog in a dog outside my cat,['1'],['0'],[ True],788,422,16:36:17.627053
+my dog in a cat shot Mary outside my dog on Mary by the man outside an dog in a dog outside my cat,['1'],['0'],[ True],789,423,16:36:17.629452
+my dog in a cat shot Mary outside my dog on Mary by the man by an dog in a dog outside my cat,['1'],['1'],[False],790,423,16:36:17.631872
+my dog outside a cat shot Mary outside my dog on Mary by the man outside an dog in a dog outside my cat,['0'],['0'],[False],791,423,16:36:17.634282
+my dog in a cat shot Bob outside my dog on Mary by the man outside an dog in a dog outside my cat,['1'],['0'],[ True],792,424,16:36:17.636655
+my elephant in a cat shot Bob outside my dog on Mary by the man outside an dog in a dog outside my cat,['0'],['0'],[False],793,424,16:36:17.639077
+my dog in a cat shot John outside my dog on Mary by the man outside an dog in a dog outside my cat,['1'],['0'],[ True],794,425,16:36:17.641417
+my dog in a cat shot John outside my dog on Mary with the man outside an dog in a dog outside my cat,['1'],['0'],[ True],795,426,16:36:17.643796
+my dog in an cat shot John outside my dog on Mary with the man outside an dog in a dog outside my cat,['1'],['0'],[ True],796,427,16:36:17.646155
+my dog in an cat shot John outside my dog on Mary with the man outside an dog in a dog outside an cat,['1'],['0'],[ True],797,428,16:36:17.648503
+my dog in an cat shot John outside the dog on Mary with the man outside an dog in a dog outside an cat,['1'],['0'],[ True],798,429,16:36:17.650892
+my dog in an cat shot John outside the dog on Mary with the man with an dog in a dog outside an cat,['1'],['1'],[False],799,429,16:36:17.653316
+my dog in an cat shot Mary outside the dog on Mary with the man outside an dog in a dog outside an cat,['1'],['0'],[ True],800,430,16:36:17.655837
+my dog in an cat shot Mary outside the dog on Mary in the man outside an dog in a dog outside an cat,['1'],['0'],[ True],801,431,16:36:17.659940
+my dog in an cat walked Mary outside the dog on Mary in the man outside an dog in a dog outside an cat,['1'],['1'],[False],802,431,16:36:17.662524
+my dog in an cat shot Mary outside the dog by Mary in the man outside an dog in a dog outside an cat,['1'],['0'],[ True],803,432,16:36:17.664925
+my dog on an cat shot Mary outside the dog by Mary in the man outside an dog in a dog outside an cat,['1'],['0'],[ True],804,433,16:36:17.667332
+my dog on an cat shot Mary outside the dog by I in the man outside an dog in a dog outside an cat,['1'],['0'],[ True],805,434,16:36:17.669748
+my dog on an cat saw Mary outside the dog by I in the man outside an dog in a dog outside an cat,['1'],['1'],[False],806,434,16:36:17.672165
+my dog on an cat shot Mary outside the dog by I in the man outside an cat in a dog outside an cat,['1'],['0'],[ True],807,435,16:36:17.674517
+my dog on an cat shot Mary outside the dog by I in the man outside an cat in a pajamas outside an cat,['0'],['0'],[False],808,435,16:36:17.677065
+my dog on an cat shot Mary outside the dog by I in the man outside an cat outside a dog outside an cat,['0'],['0'],[False],809,435,16:36:17.679557
+my dog on an cat shot Mary outside the dog by I in the man outside an cat in a dog outside my cat,['1'],['0'],[ True],810,436,16:36:17.682002
+my dog on an cat shot Mary outside the dog by I in the dog outside an cat in a dog outside my cat,['0'],['0'],[False],811,436,16:36:17.684420
+my dog on an cat shot Mary outside the dog by I in the telescope outside an cat in a dog outside my cat,['1'],['0'],[ True],812,437,16:36:17.686803
+my dog on an cat shot Mary outside the dog by I in the telescope in an cat in a dog outside my cat,['1'],['0'],[ True],813,438,16:36:17.689318
+my dog on an cat ate Mary outside the dog by I in the telescope in an cat in a dog outside my cat,['1'],['1'],[False],814,438,16:36:17.691763
+my dog on an cat walked Mary outside the dog by I in the telescope in an cat in a dog outside my cat,['1'],['1'],[False],815,438,16:36:17.694194
+my dog on an cat killed Mary outside the dog by I in the telescope in an cat in a dog outside my cat,['1'],['0'],[ True],816,439,16:36:17.696593
+my dog on an cat killed Mary outside the dog by I in the telescope by an cat in a dog outside my cat,['1'],['1'],[False],817,439,16:36:17.699035
+my dog on an cat killed Mary outside the dog by I with the telescope in an cat in a dog outside my cat,['1'],['1'],[False],818,439,16:36:17.701505
+my dog on an cat killed Mary outside the dog by I in the telescope in an cat in a dog outside a cat,['1'],['0'],[ True],819,440,16:36:17.703845
+my dog on an cat killed I outside the dog by I in the telescope in an cat in a dog outside a cat,['1'],['0'],[ True],820,441,16:36:17.706367
+my dog on an cat killed I on the dog by I in the telescope in an cat in a dog outside a cat,['1'],['1'],[False],821,441,16:36:17.717542
+my dog on an cat killed I outside my dog by I in the telescope in an cat in a dog outside a cat,['0'],['0'],[False],822,441,16:36:17.720727
+my dog on an cat killed I outside the dog by I in the telescope on an cat in a dog outside a cat,['1'],['0'],[ True],823,442,16:36:17.723139
+my dog on an cat wounded I outside the dog by I in the telescope on an cat in a dog outside a cat,['1'],['0'],[ True],824,443,16:36:17.725536
+my dog on an cat wounded I outside the dog by I in the telescope on an cat in the dog outside a cat,['1'],['1'],[False],825,443,16:36:17.727956
+my dog on an cat wounded I outside my dog by I in the telescope on an cat in a dog outside a cat,['1'],['0'],[ True],826,444,16:36:17.730664
+my dog on an cat wounded I outside my dog by John in the telescope on an cat in a dog outside a cat,['1'],['0'],[ True],827,445,16:36:17.733099
+my dog on an cat wounded I outside my dog by John in the telescope on an cat with a dog outside a cat,['1'],['1'],[False],828,445,16:36:17.735530
+my dog on an cat wounded I outside my dog by John in the telescope by an cat in a dog outside a cat,['1'],['0'],[ True],829,446,16:36:17.737929
+my dog on an cat wounded Mary outside my dog by John in the telescope by an cat in a dog outside a cat,['1'],['1'],[False],830,446,16:36:17.740397
+my dog on an cat wounded I outside my dog by John in the telescope by an cat in a dog in a cat,['1'],['0'],[ True],831,447,16:36:17.742929
+my dog on an cat wounded I outside my dog by John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],832,448,16:36:17.745330
+my dog on an cat wounded I outside my dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],833,449,16:36:17.747685
+my dog on an cat killed I outside my dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],834,450,16:36:17.750217
+my dog on an cat killed Mary outside my dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],835,451,16:36:17.752600
+my dog on my cat killed Mary outside my dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],836,452,16:36:17.754998
+my dog on my cat killed Mary outside my dog outside John in the telescope by an cat in a dog in the dog,['1'],['1'],[False],837,452,16:36:17.757492
+my dog on my cat killed I outside my dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],838,453,16:36:17.759946
+my dog on my cat killed I outside an dog outside John in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],839,454,16:36:17.762432
+my dog on my cat killed I outside an dog outside Bob in the telescope by an cat in a dog in a dog,['1'],['0'],[ True],840,455,16:36:17.764812
+my dog on my cat killed I outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],841,456,16:36:17.767242
+my dog on my cat killed Bob outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],842,457,16:36:17.769611
+my dog on my man killed Bob outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],843,458,16:36:17.771966
+my dog on the man killed Bob outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['1'],[False],844,458,16:36:17.774428
+my dog on my man killed John outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],845,459,16:36:17.776776
+my dog on my man killed John outside an dog outside Bob in the telescope by an cat with my dog in a dog,['1'],['1'],[False],846,459,16:36:17.779189
+my dog on my man saw John outside an dog outside Bob in the telescope by an cat in my dog in a dog,['1'],['1'],[False],847,459,16:36:17.781792
+my dog on my man killed John outside an dog outside Mary in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],848,460,16:36:17.784179
+my dog on my man killed John outside an dog outside John in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],849,461,16:36:17.786590
+my dog on my man walked John outside an dog outside John in the telescope by an cat in my dog in a dog,['1'],['1'],[False],850,461,16:36:17.789044
+my dog on the man killed John outside an dog outside John in the telescope by an cat in my dog in a dog,['1'],['1'],[False],851,461,16:36:17.791453
+my dog on my man killed John outside an dog outside John in the telescope by an cat in the dog in a dog,['1'],['1'],[False],852,461,16:36:17.793918
+my dog by my man killed John outside an dog outside John in the telescope by an cat in my dog in a dog,['1'],['0'],[ True],853,462,16:36:17.796266
+my dog by my man killed John outside an dog outside John in the telescope outside an cat in my dog in a dog,['1'],['0'],[ True],854,463,16:36:17.798665
+my dog by my man killed John outside an dog outside John in the telescope outside an cat in my cat in a dog,['1'],['0'],[ True],855,464,16:36:17.801022
+my dog by my man killed Mary outside an dog outside John in the telescope outside an cat in my cat in a dog,['1'],['0'],[ True],856,465,16:36:17.803425
+my dog by my man killed John outside an dog outside John in the telescope outside an cat in my cat in a dog,['1'],['0'],[ True],856,465,16:36:17.805872
+my dog by my man killed John outside an dog outside Mary in the telescope outside an cat in my cat in a dog,['1'],['0'],[ True],857,466,16:36:17.808259
+my dog by my man killed John outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['1'],['0'],[ True],858,467,16:36:17.810628
+my dog by my man killed I outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['0'],['0'],[False],859,467,16:36:17.813130
+my dog by my man ate John outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['1'],['1'],[False],860,467,16:36:17.815598
+my dog by my man killed John outside an dog outside I in the telescope outside my cat in my cat in a dog,['0'],['0'],[False],861,467,16:36:17.818246
+my dog by my man killed John outside an dog outside Bob in the telescope outside my cat in my cat in a dog,['1'],['0'],[ True],862,468,16:36:17.820819
+my dog by my man killed John outside an dog outside Bob in my telescope outside my cat in my cat in a dog,['0'],['0'],[False],863,468,16:36:17.823488
+my dog on my man killed John outside an dog outside Bob in the telescope outside my cat in my cat in a dog,['1'],['0'],[ True],864,469,16:36:17.825899
+my dog on my man saw John outside an dog outside Bob in the telescope outside my cat in my cat in a dog,['1'],['1'],[False],865,469,16:36:17.828335
+my dog on my man walked John outside an dog outside Bob in the telescope outside my cat in my cat in a dog,['1'],['1'],[False],866,469,16:36:17.830822
+my dog on my man killed John outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['1'],['0'],[ True],867,470,16:36:17.833221
+my dog on my man shot John outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['1'],['0'],[ True],868,471,16:36:17.835705
+my dog outside my man shot John outside an dog outside Mary in the telescope outside my cat in my cat in a dog,['0'],['0'],[False],869,471,16:36:17.838134
+my dog on my man shot John outside an dog outside Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],870,472,16:36:17.840485
+my dog on an man shot John outside an dog outside Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],871,473,16:36:17.842897
+my dog on an man shot John outside an dog outside Mary outside the telescope outside my cat in my dog in a dog,['0'],['0'],[False],872,473,16:36:17.845329
+my dog on an man shot John outside my dog outside Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],873,474,16:36:17.847788
+my dog with an man shot John outside my dog outside Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],874,475,16:36:17.850213
+my dog with an man wounded John outside my dog outside Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],875,476,16:36:17.852754
+my dog with an man wounded John outside my dog in Mary in the telescope outside my cat in my dog in a dog,['1'],['0'],[ True],876,477,16:36:17.855192
+my dog with an man wounded John outside my dog in Mary in the telescope outside my cat in my dog in a elephant,['1'],['0'],[ True],877,478,16:36:17.857536
+my dog with an man wounded John outside my dog in Mary in the telescope outside my cat outside my dog in a elephant,['0'],['0'],[False],878,478,16:36:17.859945
+my dog with an man wounded John outside my dog in Mary in the telescope outside a cat in my dog in a elephant,['1'],['0'],[ True],879,479,16:36:17.867647
+my dog with an man saw John outside my dog in Mary in the telescope outside a cat in my dog in a elephant,['1'],['1'],[False],880,479,16:36:17.871202
+my dog with an man killed John outside my dog in Mary in the telescope outside a cat in my dog in a elephant,['1'],['0'],[ True],881,480,16:36:17.873748
+my dog with an man killed John outside my dog in Mary in the telescope outside a cat on my dog in a elephant,['1'],['0'],[ True],882,481,16:36:17.876208
+my dog with an man killed John outside my dog in Mary outside the telescope outside a cat on my dog in a elephant,['1'],['0'],[ True],883,482,16:36:17.878615
+my dog with an man shot John outside my dog in Mary outside the telescope outside a cat on my dog in a elephant,['1'],['0'],[ True],884,483,16:36:17.881197
+my dog with an man shot John outside my dog in Mary outside the telescope outside a cat with my dog in a elephant,['1'],['0'],[ True],885,484,16:36:17.883575
+an dog with an man shot John outside my dog in Mary outside the telescope outside a cat with my dog in a elephant,['1'],['0'],[ True],886,485,16:36:17.885943
+an dog with an man saw John outside my dog in Mary outside the telescope outside a cat with my dog in a elephant,['1'],['1'],[False],887,485,16:36:17.888406
+an dog with an man shot John outside my dog in I outside the telescope outside a cat with my dog in a elephant,['1'],['0'],[ True],888,486,16:36:17.890992
+an dog with an man shot John outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],889,487,16:36:17.893406
+an dog with an man ate John outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],890,487,16:36:17.895981
+an dog with an man shot John outside my dog by I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],891,487,16:36:17.898416
+an dog with an man walked John outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],892,487,16:36:17.900887
+an dog with an man shot John outside my dog in John outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],893,487,16:36:17.903568
+an dog with an dog shot John outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],894,488,16:36:17.906078
+an dog with an dog shot John outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],895,489,16:36:17.908491
+my dog with an dog shot John outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],896,490,16:36:17.911109
+my dog with an dog shot Mary outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['0'],['0'],[False],897,490,16:36:17.913780
+my dog on an dog shot John outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],898,491,16:36:17.916264
+my dog on an dog saw John outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],899,491,16:36:17.918723
+my dog on an dog shot John outside my dog in I outside the telescope with a dog with my telescope in a elephant,['1'],['1'],[False],900,491,16:36:17.921138
+my dog on an dog shot Mary outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['0'],['0'],[False],901,491,16:36:17.923572
+my dog on an dog shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],902,492,16:36:17.925947
+my dog by an dog shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],903,493,16:36:17.928287
+my dog by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],904,494,16:36:17.930640
+my dog by an cat ate Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],905,494,16:36:17.933084
+my dog by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in my elephant,['0'],['0'],[False],906,494,16:36:17.935781
+my dog by an cat saw Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],907,494,16:36:17.938256
+the dog by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],908,495,16:36:17.940635
+the dog by an cat walked Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],909,495,16:36:17.943097
+the dog by an cat ate Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],910,495,16:36:17.945536
+the dog by an cat shot Bob outside my dog in I outside the telescope outside a dog with the telescope in a elephant,['1'],['1'],[False],911,495,16:36:17.947982
+the dog by an cat shot Bob in my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],912,495,16:36:17.950398
+the dog by an cat shot Bob outside my dog in I outside the telescope outside a dog outside my telescope in a elephant,['0'],['0'],[False],913,495,16:36:17.952825
+the dog by an cat shot Bob outside my dog in Bob outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],914,495,16:36:17.955275
+the dog by an cat shot Bob outside my dog in I outside the telescope outside a dog outside my telescope in a elephant,['0'],['0'],[False],914,495,16:36:17.957829
+the dog by an cat shot Bob outside my dog in I outside the telescope by a dog with my telescope in a elephant,['1'],['1'],[False],915,495,16:36:17.960315
+the dog by an cat shot Bob outside my dog in John outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],916,495,16:36:17.962802
+the dog by an cat shot Bob outside my dog in I by the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],917,495,16:36:17.965277
+the dog by an cat shot Bob outside my dog in Bob outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],917,495,16:36:17.967748
+the dog by an man shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],918,495,16:36:17.970227
+the dog by an cat shot Bob outside my dog in I outside the telescope outside the dog with my telescope in a elephant,['1'],['1'],[False],919,495,16:36:17.972675
+the dog by an cat shot John outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],920,495,16:36:17.975150
+the dog by an cat shot Bob outside my dog in I in the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],921,495,16:36:17.977576
+the cat by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],922,495,16:36:17.980053
+the dog by an cat shot Bob outside my dog in I on the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],923,495,16:36:17.982475
+the pajamas by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],924,496,16:36:17.984879
+the pajamas by an cat shot Bob outside my dog in Mary outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],925,496,16:36:17.987415
+the pajamas by an cat shot Bob outside my dog in John outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],926,496,16:36:17.989857
+the pajamas by an cat wounded Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],927,497,16:36:17.992248
+the pajamas by an park wounded Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],928,497,16:36:17.994720
+the pajamas by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],928,497,16:36:17.997122
+the pajamas by an cat shot Bob outside my dog in I outside the telescope in a dog with my telescope in a elephant,['1'],['1'],[False],929,497,16:36:17.999553
+the cat by an cat shot Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],929,497,16:36:18.001989
+the pajamas by an cat shot Bob by my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],930,497,16:36:18.004475
+the pajamas by an cat ate Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],931,497,16:36:18.006995
+the pajamas by an cat shot Bob by my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],931,497,16:36:18.009542
+the pajamas by an cat shot Bob outside my dog in I outside the telescope outside a dog with my cat in a elephant,['0'],['0'],[False],932,497,16:36:18.011991
+the pajamas by an cat shot Bob outside my dog in I outside the telescope with a dog with my telescope in a elephant,['1'],['1'],[False],933,497,16:36:18.014452
+the pajamas by an cat shot Bob in my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],934,497,16:36:18.016923
+the pajamas by an cat saw Bob outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],935,497,16:36:18.019375
+the pajamas by an cat shot Bob outside my dog in Bob outside the telescope outside a dog with my telescope in a elephant,['1'],['1'],[False],936,497,16:36:18.021962
+the pajamas by an cat shot Mary outside my dog in I outside the telescope outside a dog with my telescope in a elephant,['1'],['0'],[ True],937,498,16:36:18.024449
+the pajamas by an cat shot Mary outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],938,499,16:36:18.026896
+the pajamas by an cat shot Mary outside my telescope in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],939,499,16:36:18.029482
+the pajamas by an cat shot John outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],940,500,16:36:18.031988
+the pajamas by an cat shot John outside my dog in I outside an telescope outside a cat with my telescope in a elephant,['0'],['0'],[False],941,500,16:36:18.034623
+the pajamas by an cat shot John outside my dog in Bob outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],942,500,16:36:18.037088
+the pajamas by an cat shot Bob outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],943,501,16:36:18.039479
+the pajamas by an cat saw Bob outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],944,501,16:36:18.041998
+the pajamas by an cat shot Bob outside my dog in Bob outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],945,501,16:36:18.044486
+the pajamas by an cat shot Bob outside my dog in Bob outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],945,501,16:36:18.046966
+the pajamas by an cat shot Bob outside my pajamas in I outside the telescope outside a cat with my telescope in a elephant,['0'],['0'],[False],946,501,16:36:18.049409
+the pajamas by a cat shot Bob outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],947,501,16:36:18.051841
+the elephant by an cat shot Bob outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],948,502,16:36:18.054240
+the elephant by an cat shot Bob outside my dog in I with the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],949,502,16:36:18.056658
+the elephant by an cat saw Bob outside my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],950,502,16:36:18.059091
+the elephant by an cat shot Bob outside my dog in I outside the telescope outside a cat in my telescope in a elephant,['0'],['0'],[False],951,502,16:36:18.061515
+the elephant by an cat shot Bob outside my pajamas in I outside the telescope outside a cat with my telescope in a elephant,['0'],['0'],[False],952,502,16:36:18.063991
+the elephant by an cat shot Bob outside my dog in I outside the telescope with a cat with my telescope in a elephant,['1'],['1'],[False],953,502,16:36:18.066489
+the elephant by an cat shot Bob outside my dog in Mary outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],954,502,16:36:18.068912
+the elephant by an cat shot Bob by my dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],955,502,16:36:18.071396
+the elephant by an cat shot Bob outside an dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],956,503,16:36:18.073845
+the elephant by an cat killed Bob outside an dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['0'],[ True],957,504,16:36:18.076256
+an elephant by an cat killed Bob outside an dog in I outside the telescope outside a cat with my telescope in a elephant,['0'],['0'],[False],958,504,16:36:18.078696
+the elephant by an cat killed Bob outside an dog in I outside the telescope outside a cat with my dog in a elephant,['0'],['0'],[False],959,504,16:36:18.081111
+the elephant by an cat saw Bob outside an dog in I outside the telescope outside a cat with my telescope in a elephant,['1'],['1'],[False],960,504,16:36:18.083634
+the elephant by an cat killed Bob outside an dog in I outside the telescope outside an cat with my telescope in a elephant,['1'],['0'],[ True],961,505,16:36:18.085993
+the elephant by an cat killed Bob outside an dog in John outside the telescope outside an cat with my telescope in a elephant,['1'],['1'],[False],962,505,16:36:18.088413
+the elephant by an cat killed Bob outside an dog on I outside the telescope outside an cat with my telescope in a elephant,['1'],['1'],[False],963,505,16:36:18.090906
+the elephant by an cat killed Bob outside an dog in I outside the telescope outside an cat with an telescope in a elephant,['1'],['0'],[ True],964,506,16:36:18.093357
+the elephant by an cat killed Bob outside an dog in I outside the telescope outside the cat with an telescope in a elephant,['1'],['1'],[False],965,506,16:36:18.095789

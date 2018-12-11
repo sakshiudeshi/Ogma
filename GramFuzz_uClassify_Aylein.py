@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "E"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -38,7 +38,10 @@ f.close()
 # sentence = "the fish by Mark viewed the giraffe with my man near my binoculars by Elise"
 # sentence = "a fish went my monkey outside an squirrel in my lawn with Steve"
 # sentence = "the baboon grabbed an salmon on my park by an gibbon outside Gemma"
-sentence = "Holly started Marcus outside forest with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
+# sentence = "Holly started Marcus outside forest with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
+# sentence = "my school in I Olivia the school my business the home on Thomas"
+# sentence = "an business knew my week the woman woman outside I in home with week in Thomas school in Alexander school outside room I Olivia by Thomas I I on Alexander by Olivia"
+sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
 
 jaccard_threshold = 0.1
 
@@ -218,6 +221,7 @@ for i in xrange(iters):
 
     mod = random.randint(0, len(prods) - 1)
     while prod_choice != prods[mod][0]:
+        # print prod_choice, prods[mod][0]
         mod = random.randint(0, len(prods) - 1)
 
     rand = random.choice(dict[prods[mod][0]])

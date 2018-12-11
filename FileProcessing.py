@@ -10,11 +10,11 @@ def get_training_and_testing_sets(list):
     testing = list[split_index:]
     return training, testing
 
-with open('corpus.txt') as f:
+with open('corpus_for_retraining.txt') as f:
     lines = f.read().splitlines()
 
-train = open('train.txt', 'w')
-test = open('test.txt', 'w')
+train = open('train_re.txt', 'w')
+test = open('test_re.txt', 'w')
 
 training, testing = get_training_and_testing_sets(lines)
 
