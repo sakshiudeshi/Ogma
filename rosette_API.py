@@ -6,8 +6,8 @@ import API_KEYS
 from rosette.api import API, DocumentParameters, RosetteException
 
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope"
-sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
-
+# sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
+sentence = "My house is on fire. Please send help in Sebastopol, CA. There is a huge forest fire approaching the town"
 def getKey(item):
     return item[1]
 

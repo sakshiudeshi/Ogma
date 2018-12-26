@@ -3,6 +3,7 @@ import re, random, pickle
 import numpy as np
 import copy
 import datetime
+import jacc_thresh
 
 from nltk import CFG, ChartParser, Tree
 
@@ -18,8 +19,9 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "F"
+gramLetter = "E"
 gramFileName = "Grammar " + gramLetter + ".txt"
+folder_type = "uClassify Aylien Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar = f.read()
@@ -41,11 +43,13 @@ f.close()
 # sentence = "Holly started Marcus outside forest with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
 # sentence = "my school in I Olivia the school my business the home on Thomas"
 # sentence = "an business knew my week the woman woman outside I in home with week in Thomas school in Alexander school outside room I Olivia by Thomas I I on Alexander by Olivia"
-sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
+# sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
 
-jaccard_threshold = 0.1
+sentence = "Marcus conflicted Holly outside the in Dylan on Holly"
 
-iters = 2000
+jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
+
+iters = 200
 prob_delta = 0.2
 
 

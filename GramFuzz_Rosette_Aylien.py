@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "F"
+gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -37,10 +37,17 @@ f.close()
 # sentence = "my monkey wounded I by my monkey on a man in my fish with Elise"
 # sentence = "I disabled a salmon near Gemma near Gemma in the owl near a park inside the park"
 # sentence = "I looked business by business I Alexander room my company Olivia woman Alexander company in Thomas"
-sentence = "room a country Olivia an company woman company on I school Alexander I Thomas country business a room Olivia tried I in an room"
-jaccard_threshold = 0.1
+# sentence = "room a country Olivia an company woman company on I school Alexander I Thomas country business a room Olivia tried I in an room"
+# sentence = "Olivia needed I on home with Thomas school on Thomas in Alexander with my country"
+# sentence = "Holly started Marcus Dylan my province by I by Holly in Holly"
+# sentence = "my outside my monkey with an pajamas by Irene meant my telescope with my country on my monkey I Stephen"
+# sentence = "Gary saw my baboon in an baboon with Gary on I on Gemma"
+# sentence = "I injured a hedgehog with an man on the binoculars"
+sentence = "an elephant by my man killed Mary on Mary with an dog"
+jaccard_threshold = 0.15
 
-iters = 2000
+
+iters = 200
 prob_delta = 0.2
 
 

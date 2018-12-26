@@ -12,14 +12,17 @@ from sklearn.feature_extraction.text import TfidfTransformer
 # import textrazor_API, aylien_API
 import rosette_API, uclassify_API
 
+import jacc_thresh
+
 import warnings
 warnings.filterwarnings("ignore",category=FutureWarning)
 
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "F"
+gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
+folder_type = "uClassify Aylien Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar = f.read()
@@ -38,12 +41,17 @@ f.close()
 # sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
 # sentence = "a babbon disabled an park outside Gary outside my owl"
 # sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
-sentence = "I looked my company home on my country woman Thomas"
-
-iters = 2000
+# sentence = "I looked my company home on my country woman Thomas"
+# sentence = "Olivia looked a business Thomas Thomas week outside Thomas I by woman Olivia the home room country Alexander"
+# sentence = "Holly captured the bus by the snake Holly Marcus on the pajamas"
+# sentence = "I meant cat an telescope an pajamas country by Irene"
+# sentence = "an baboon on I damaged my gibbon near Gary near the baboon with Gary by a baboon with Gary near Gary with the elephant with I"
+# sentence = "an giraffe outside Elise went Elise outside Elise"
+sentence = "Mary walked John with an pajamas outside an man in I"
+iters = 200
 prob_delta = 0.2
 
-jaccard_threshold = 0.15
+jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
 def jaccard(a, b):

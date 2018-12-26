@@ -28,7 +28,7 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "F"
+gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
 
 f = open(gramFileName, 'r')
@@ -49,10 +49,10 @@ grammar = CFG.fromstring(grammar_string)
 # sentence = "a babbon disabled an park outside Gary outside my owl"
 sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
 
-iters = 2000
+iters = 200
 prob_delta = 0.2
 
-jaccard_threshold = 0.15
+jaccard_threshold = 0.3
 
 
 def jaccard(a, b):

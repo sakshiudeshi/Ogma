@@ -3,6 +3,7 @@ import re, random, pickle
 import numpy as np
 import copy
 import datetime
+import jacc_thresh
 
 from nltk import CFG, ChartParser, Tree, Nonterminal
 
@@ -20,7 +21,6 @@ tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
 
-
 # grammarA = CFG.fromstring('''S -> NP VP
 # VP -> V NP | V NP PP | VP PP
 # PP -> P NP
@@ -30,8 +30,10 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "F"
+gramLetter = "E"
 gramFileName = "Grammar " + gramLetter + ".txt"
+folder_type = "uClassify Aylien Grammar " + gramLetter
+
 
 f = open(gramFileName, 'r')
 grammar_string = f.read()
@@ -53,9 +55,9 @@ grammar = CFG.fromstring(grammar_string)
 sentence = "Holly started Marcus outside forest with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
 
 
-iters = 2000
+iters = 200
 prob_delta = 0.2
-jaccard_threshold = 0.1
+jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
 def jaccard(a, b):
