@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "E"
+gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "uClassify Aylien Grammar " + gramLetter
 
@@ -45,9 +45,15 @@ f.close()
 # sentence = "an business knew my week the woman woman outside I in home with week in Thomas school in Alexander school outside room I Olivia by Thomas I I on Alexander by Olivia"
 # sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
 
-sentence = "Marcus conflicted Holly outside the in Dylan on Holly"
+# sentence = "Marcus conflicted Holly outside the in Dylan on Holly"
+# sentence = "Marcus started the camera on Marcus by Holly by camera by Holly camera an on Marcus Marcus"
+# sentence = "Irene began monkey with my in a man in I with a telescope cat in I by Irene"
+# sentence = "my lemur grabbed the baboon on I with an woman in I"
+# sentence = "Mark viewed an lawn with Elise with Steve"
+sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
 
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
+
 
 iters = 200
 prob_delta = 0.2
@@ -215,7 +221,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataDirected_uClassify_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataDirected_uClassify_Aylien_Grammar" + gramLetter + "_Jacc" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):

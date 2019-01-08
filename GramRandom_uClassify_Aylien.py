@@ -30,7 +30,7 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "E"
+gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "uClassify Aylien Grammar " + gramLetter
 
@@ -227,7 +227,7 @@ candidate_set = set()
 sentence_values = []
 # latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataRandom_uClassify_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataRandom_uClassify_Aylien_Grammar" + gramLetter + "_Jacc" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 

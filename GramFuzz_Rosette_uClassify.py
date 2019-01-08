@@ -22,7 +22,7 @@ count_vect = CountVectorizer()
 
 gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
-folder_type = "uClassify Aylien Grammar " + gramLetter
+folder_type = "Rosette uClassify Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar = f.read()
@@ -47,7 +47,8 @@ f.close()
 # sentence = "I meant cat an telescope an pajamas country by Irene"
 # sentence = "an baboon on I damaged my gibbon near Gary near the baboon with Gary by a baboon with Gary near Gary with the elephant with I"
 # sentence = "an giraffe outside Elise went Elise outside Elise"
-sentence = "Mary walked John with an pajamas outside an man in I"
+# sentence = "Mary walked John with an pajamas outside an man in I"
+sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
 iters = 200
 prob_delta = 0.2
 
@@ -217,7 +218,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataDirected_Rosette_uClassify_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataDirected_Rosette_uClassify_Grammar" + gramLetter + "_Jacc_" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):

@@ -14,7 +14,7 @@ import jacc_thresh
 
 # folder_type = "Rosette uClassify Grammar F"
 base_src =  os.getcwd()
-folder_src = "DataFiles/MasterData Positive Start/"
+folder_src = "DataFiles/Master Data Jaccard Threshold Variation/"
 os.chdir(folder_src)
 # print jacc_thresh.dict_jacc[]
 print glob.glob("*")
@@ -27,7 +27,7 @@ for folder_type in glob.glob('*'):
     X2 = []
     Y2 = []
 
-    jacc_thresh_val = str(jacc_thresh.dict_jacc[folder_type])
+    jacc_thresh_val = str(folder_type)
     os.chdir(base_src)
     os.chdir(src)
 

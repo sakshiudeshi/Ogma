@@ -9,6 +9,7 @@ from nltk import CFG, ChartParser, Tree, Nonterminal
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from random import choice
+import jacc_thresh
 
 # import textrazor_API, aylien_API
 import rosette_API, uclassify_API
@@ -30,6 +31,7 @@ count_vect = CountVectorizer()
 
 gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
+folder_type = "Rosette uClassify Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar_string = f.read()
@@ -42,17 +44,18 @@ grammar = CFG.fromstring(grammar_string)
 
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
-# sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my elephant shot an cat in an cat in I in an cat outside I in I outside an pajamas in an dog in I in my cat in an pajamas"
-# sentence = "Joe saw a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
+# sentence = "Joe saw  a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
 # sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
 # sentence = "a babbon disabled an park outside Gary outside my owl"
-sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
+# sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
 
 iters = 200
 prob_delta = 0.2
 
-jaccard_threshold = 0.3
+# jaccard_threshold = 0.3
+jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
 def jaccard(a, b):
@@ -222,7 +225,7 @@ candidate_set = set()
 sentence_values = []
 # latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataRandom_Rosette_uClassify_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataRandom_Rosette_uClassify_Grammar" + gramLetter + "_Jacc_" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 
