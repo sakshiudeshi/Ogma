@@ -22,26 +22,12 @@ import matplotlib.pyplot as plt
 import os
 
 # data to plot
-n_groups = 8
+n_groups = 2
 
-Grammar_type = "Jaccard Sensitivity"
+Grammar_type = "RQ3"
 
-Error_rate_dir = (41,
-100,
-148,
-168,
-184,
-189,
-184,
-197)
-Error_rate_random = (8,
-47,
-124,
-134,
-187,
-184,
-184,
-194)
+Error_rate_random = (0.603, 0.639)
+Error_rate_dir = (0.807, 0.854)
 
 # create plot
 fig, ax = plt.subplots()
@@ -64,18 +50,11 @@ rects2 = plt.bar(index + bar_width, Error_rate_random, bar_width,
 
 # fig = plt.figure()
 os.chdir("/Users/sakshiudeshi/Documents/SUTD/Research/LaTeX/GMLFuzz/figs")
-plt.xlabel(Grammar_type)
+# plt.xlabel(Grammar_type)
 plt.ylabel('Number of errors')
-plt.title(Grammar_type + " Errors")
+plt.title("Start Condition\nSensitivity")
 # fig.suptitle()
-plt.xticks(index + bar_width/2, (0.05,
-0.15,
-0.3,
-0.4,
-0.45,
-0.5,
-0.6,
-0.75))
+plt.xticks(index + bar_width/2, ("Non Error\nStart", "Error Start"))
 plt.legend()
 # plt.show()
 plt.savefig(Grammar_type + '.png', dpi=250, bbox_inches='tight')
