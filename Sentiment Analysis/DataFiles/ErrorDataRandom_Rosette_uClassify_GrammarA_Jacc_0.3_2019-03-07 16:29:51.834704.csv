@@ -1,0 +1,200 @@
+my pajamas ate an pajamas with John,"['NEUTRAL', 0.47125539]","['POSITIVE', 0.768543]",True,1,1,16:29:56.158880
+I saw an elephant in Mary with John,"['NEUTRAL', 0.48316755]","['POSITIVE', 0.722901]",True,2,2,16:29:58.616048
+my elephant saw Bob in John with Bob,"['NEUTRAL', 0.57774597]","['POSITIVE', 0.811043]",True,3,3,16:30:01.073617
+my telescope walked Mary outside my dog on my elephant,"['NEUTRAL', 0.47911472]","['NEGATIVE', 0.522247]",True,4,4,16:30:03.634568
+Mary ate John by my monkey,"['NEUTRAL', 0.37460022]","['POSITIVE', 0.525278]",True,5,5,16:30:06.193157
+I walked John,"['NEUTRAL', 0.63629891]","['NEGATIVE', 0.718295]",True,6,6,16:30:08.958984
+I killed an park with I in an pajamas by an monkey,"['NEGATIVE', 0.65711086]","['NEGATIVE', 0.63699]",False,7,6,16:30:11.760217
+I ate the monkey on Mary by Bob,"['NEUTRAL', 0.35775873]","['NEGATIVE', 0.589434]",True,8,7,16:30:14.491397
+Mary ate my dog with Mary,"['NEGATIVE', 0.35169926]","['NEGATIVE', 0.695026]",False,9,7,16:30:17.808792
+John ate Mary,"['NEUTRAL', 0.42270877]","['NEGATIVE', 0.681785]",True,10,8,16:30:21.042424
+the monkey saw my elephant outside John,"['NEUTRAL', 0.54405913]","['POSITIVE', 0.598251]",True,11,9,16:30:23.431303
+I wounded I in John,"['NEUTRAL', 0.59400131]","['NEGATIVE', 0.509682]",True,12,10,16:30:25.812729
+the dog with my monkey killed my telescope by Bob,"['NEGATIVE', 0.64605163]","['POSITIVE', 0.535851]",True,13,11,16:30:29.805635
+John walked I with Bob,"['NEUTRAL', 0.63881957]","['POSITIVE', 0.686237]",True,14,12,16:30:32.311744
+my man by my telescope ate my man,"['NEUTRAL', 0.50713594]","['POSITIVE', 0.503614]",True,15,13,16:30:36.432540
+Bob shot John outside Bob,"['NEUTRAL', 0.37761429]","['POSITIVE', 0.57096]",True,16,14,16:30:38.871856
+Bob wounded John on Mary outside Mary by I,"['NEUTRAL', 0.44376005]","['POSITIVE', 0.730367]",True,17,15,16:30:41.876625
+John killed Mary,"['NEGATIVE', 0.56123045]","['NEGATIVE', 0.569502]",False,18,15,16:30:44.364739
+I ate Bob,"['NEUTRAL', 0.47413053]","['NEGATIVE', 0.708329]",True,19,16,16:30:47.875963
+I wounded Bob,"['NEUTRAL', 0.54276247]","['POSITIVE', 0.534835]",True,20,17,16:30:50.740197
+John shot Mary with a elephant,"['POSITIVE', 0.43558914]","['POSITIVE', 0.536825]",False,21,17,16:30:52.983318
+Bob wounded I outside Mary,"['NEUTRAL', 0.39030043]","['POSITIVE', 0.579146]",True,22,18,16:30:55.129028
+I walked Bob in I on Bob,"['NEUTRAL', 0.58663392]","['POSITIVE', 0.60683]",True,23,19,16:30:58.113658
+Bob saw my park in John by Bob,"['NEUTRAL', 0.52191061]","['POSITIVE', 0.803408]",True,24,20,16:31:00.677572
+John saw I with Bob,"['NEUTRAL', 0.58167863]","['POSITIVE', 0.734651]",True,25,21,16:31:03.141450
+the dog outside I ate I by an cat outside I,"['NEUTRAL', 0.49062276]","['NEGATIVE', 0.798777]",True,26,22,16:31:05.418594
+Bob shot an elephant by Bob in I,"['NEUTRAL', 0.36782295]","['POSITIVE', 0.672304]",True,27,23,16:31:07.944345
+the park on I ate the dog by Mary,"['NEUTRAL', 0.3599799]","['NEGATIVE', 0.549847]",True,28,24,16:31:10.404662
+Mary saw my man outside I on Mary in Mary,"['NEUTRAL', 0.36828406]","['POSITIVE', 0.68226]",True,29,25,16:31:12.859251
+Bob walked Bob on my monkey by I,"['NEUTRAL', 0.53657057]","['POSITIVE', 0.749748]",True,30,26,16:31:15.380770
+my dog walked John by Mary,"['NEUTRAL', 0.51025127]","['NEGATIVE', 0.674782]",True,31,27,16:31:17.877732
+my pajamas shot John on an fish outside I,"['NEGATIVE', 0.39912559]","['POSITIVE', 0.793199]",True,32,28,16:31:20.340041
+an telescope saw I,"['NEUTRAL', 0.54791689]","['POSITIVE', 0.654647]",True,33,29,16:31:22.696511
+the man ate Bob,"['NEUTRAL', 0.53878987]","['POSITIVE', 0.558333]",True,34,30,16:31:25.259282
+I shot I,"['POSITIVE', 0.34156328]","['NEGATIVE', 0.702462]",True,35,31,16:31:28.870793
+Mary walked Mary by Mary outside John with I outside John,"['NEUTRAL', 0.48400717]","['POSITIVE', 0.670247]",True,36,32,16:31:31.007552
+Bob shot I,"['POSITIVE', 0.35189924]","['NEGATIVE', 0.676954]",True,37,33,16:31:35.490412
+John wounded Bob on Mary,"['NEUTRAL', 0.48622174]","['POSITIVE', 0.783658]",True,38,34,16:31:38.585833
+Mary saw Mary outside Bob,"['NEUTRAL', 0.38752003]","['POSITIVE', 0.682921]",True,39,35,16:31:41.812092
+John wounded an cat,"['NEUTRAL', 0.64300969]","['POSITIVE', 0.631176]",True,40,36,16:31:44.015708
+Bob ate John on a elephant with John,"['NEUTRAL', 0.57800635]","['POSITIVE', 0.846065]",True,41,37,16:31:48.495864
+Bob wounded a telescope in Bob,"['NEUTRAL', 0.58241033]","['POSITIVE', 0.778493]",True,42,38,16:31:52.844110
+I killed I,"['NEGATIVE', 0.66706888]","['NEGATIVE', 0.832219]",False,43,38,16:31:55.924772
+the dog killed Bob,"['NEGATIVE', 0.64082201]","['NEGATIVE', 0.862982]",False,44,38,16:31:59.082339
+I ate an man in my cat with Bob on an man,"['NEUTRAL', 0.49732684]","['NEGATIVE', 0.512747]",True,45,39,16:32:04.007950
+Bob walked my fish on Bob,"['NEUTRAL', 0.55734173]","['POSITIVE', 0.603356]",True,46,40,16:32:06.241550
+my cat saw my cat with a man with I on John,"['NEUTRAL', 0.60695383]","['NEGATIVE', 0.5882]",True,47,41,16:32:08.703006
+John ate John,"['NEUTRAL', 0.54534466]","['NEGATIVE', 0.659231]",True,48,42,16:32:14.711388
+I killed I outside John,"['NEGATIVE', 0.6797532]","['NEGATIVE', 0.786373]",False,49,42,16:32:19.351130
+I saw John outside a dog,"['NEUTRAL', 0.57573613]","['POSITIVE', 0.619898]",True,50,43,16:32:25.107948
+I walked my elephant with my monkey outside Bob,"['NEUTRAL', 0.5333364]","['POSITIVE', 0.613807]",True,51,44,16:32:27.263350
+John wounded an elephant by a cat by I with an man with Bob,"['NEUTRAL', 0.69705091]","['POSITIVE', 0.714464]",True,52,45,16:32:29.449319
+I walked I in John with John in a monkey by an cat outside Mary,"['NEUTRAL', 0.51919668]","['POSITIVE', 0.59175]",True,53,46,16:32:32.660551
+I shot my pajamas in I in Mary,"['POSITIVE', 0.43184574]","['POSITIVE', 0.662671]",False,54,46,16:32:35.794210
+Bob walked Mary in my dog in John with my man,"['NEUTRAL', 0.559437]","['POSITIVE', 0.73874]",True,55,47,16:32:37.997697
+I ate John with Mary,"['NEUTRAL', 0.40702406]","['POSITIVE', 0.513722]",True,56,48,16:32:40.233886
+Bob saw I in Bob,"['NEUTRAL', 0.52735528]","['POSITIVE', 0.797653]",True,57,49,16:32:44.302556
+Bob wounded Mary on the fish outside Bob,"['NEUTRAL', 0.40945622]","['POSITIVE', 0.633423]",True,58,50,16:32:46.963213
+Bob walked Bob with Bob,"['NEUTRAL', 0.60168495]","['POSITIVE', 0.749191]",True,59,51,16:32:49.234284
+John walked the man by I in Bob outside an elephant outside an elephant,"['NEUTRAL', 0.67914733]","['POSITIVE', 0.687791]",True,60,52,16:32:51.463509
+my dog wounded I,"['NEUTRAL', 0.5123296]","['NEGATIVE', 0.625009]",True,61,53,16:32:53.927279
+John ate an pajamas,"['NEUTRAL', 0.5250189]","['NEGATIVE', 0.619666]",True,62,54,16:32:56.147455
+an monkey walked my man with an fish,"['NEUTRAL', 0.5997349]","['NEGATIVE', 0.527376]",True,63,55,16:33:00.481358
+Mary ate Mary in Bob,"['NEUTRAL', 0.37260213]","['POSITIVE', 0.759543]",True,64,56,16:33:02.709414
+my park on the park shot Bob in I,"['POSITIVE', 0.39105719]","['POSITIVE', 0.780763]",False,65,56,16:33:06.160717
+an dog shot my dog,"['NEGATIVE', 0.34392151]","['NEGATIVE', 0.728884]",False,66,56,16:33:10.849016
+Mary saw John by my park,"['NEUTRAL', 0.39086633]","['POSITIVE', 0.683391]",True,67,57,16:33:15.058919
+John saw Mary with an dog,"['NEUTRAL', 0.49853533]","['POSITIVE', 0.792159]",True,68,58,16:33:19.820403
+Mary killed Mary on my telescope outside my telescope outside Mary,"['NEGATIVE', 0.63043136]","['POSITIVE', 0.577873]",True,69,59,16:33:23.965754
+Mary ate Bob,"['NEUTRAL', 0.37260213]","['POSITIVE', 0.540434]",True,70,60,16:33:31.518672
+John ate Mary on John,"['NEUTRAL', 0.42270877]","['POSITIVE', 0.527597]",True,71,61,16:33:33.739178
+John saw Bob outside Bob,"['NEUTRAL', 0.56774206]","['POSITIVE', 0.620574]",True,72,62,16:33:41.697935
+John shot my man on my cat in Mary in John by the man by I with I with John,"['POSITIVE', 0.37956126]","['POSITIVE', 0.51228]",False,73,62,16:33:45.709563
+John shot I outside John by Mary,"['POSITIVE', 0.42588708]","['NEGATIVE', 0.644572]",True,74,63,16:33:47.874532
+my telescope wounded Bob on a pajamas in my fish outside Mary,"['NEUTRAL', 0.36677134]","['POSITIVE', 0.56688]",True,75,64,16:33:50.456716
+John walked Mary,"['NEUTRAL', 0.52511405]","['POSITIVE', 0.675131]",True,76,65,16:33:54.373162
+my pajamas walked John on the man,"['NEUTRAL', 0.62979283]","['POSITIVE', 0.817665]",True,77,66,16:33:58.692709
+Mary killed the elephant in an fish with my man on John outside Mary,"['NEGATIVE', 0.65330615]","['POSITIVE', 0.643293]",True,78,67,16:34:02.029748
+the cat on the telescope saw I on I on I,"['NEUTRAL', 0.582304]","['POSITIVE', 0.503116]",True,79,68,16:34:05.468813
+my pajamas ate John in I outside I,"['NEUTRAL', 0.41355939]","['POSITIVE', 0.740181]",True,80,69,16:34:10.413390
+Bob ate Mary,"['NEUTRAL', 0.37260213]","['POSITIVE', 0.540434]",True,81,70,16:34:13.669761
+Bob walked the dog outside an man on the pajamas with my pajamas on a fish,"['NEUTRAL', 0.57768565]","['POSITIVE', 0.657056]",True,82,71,16:34:15.954186
+Mary ate Bob,"['NEUTRAL', 0.37260213]","['POSITIVE', 0.540434]",True,82,71,16:34:19.433962
+Mary shot Bob,"['POSITIVE', 0.48774234]","['POSITIVE', 0.62478]",False,83,71,16:34:22.613786
+I saw Bob by an cat,"['NEUTRAL', 0.5619203]","['POSITIVE', 0.652291]",True,84,72,16:34:24.785518
+Bob ate John with I,"['NEUTRAL', 0.53059206]","['POSITIVE', 0.562441]",True,85,73,16:34:28.948415
+a cat with the dog saw John on I with an fish with Bob,"['NEUTRAL', 0.64678443]","['POSITIVE', 0.786433]",True,86,74,16:34:32.355034
+I ate Mary,"['NEUTRAL', 0.35469741]","['NEGATIVE', 0.719236]",True,87,75,16:34:35.922767
+I wounded John,"['NEUTRAL', 0.59400131]","['POSITIVE', 0.512622]",True,88,76,16:34:38.240730
+John saw I,"['NEUTRAL', 0.57903236]","['POSITIVE', 0.625215]",True,89,77,16:34:40.629253
+Mary wounded I by Bob,"['NEUTRAL', 0.41904241]","['POSITIVE', 0.581629]",True,90,78,16:34:43.010684
+Mary walked John with an dog,"['NEUTRAL', 0.55844795]","['POSITIVE', 0.555848]",True,91,79,16:34:45.310008
+I ate the monkey,"['NEUTRAL', 0.47028359]","['NEGATIVE', 0.775369]",True,92,80,16:34:47.581143
+an telescope shot Mary in John on an monkey,"['POSITIVE', 0.47217698]","['POSITIVE', 0.542758]",False,93,80,16:34:49.787841
+Bob killed Bob with Bob,"['NEGATIVE', 0.61676309]","['POSITIVE', 0.633718]",True,94,81,16:34:51.971227
+an telescope with John walked Mary,"['NEUTRAL', 0.54514513]","['POSITIVE', 0.731163]",True,95,82,16:34:54.151759
+my pajamas saw I on I,"['NEUTRAL', 0.45244993]","['POSITIVE', 0.781947]",True,96,83,16:34:56.399559
+Bob shot Mary with Bob,"['POSITIVE', 0.48774234]","['POSITIVE', 0.570357]",False,97,83,16:35:00.346799
+an pajamas saw Bob,"['NEUTRAL', 0.52494908]","['POSITIVE', 0.695557]",True,98,84,16:35:02.520644
+Mary wounded an man in my dog on an monkey on I,"['NEUTRAL', 0.44105456]","['NEGATIVE', 0.651536]",True,99,85,16:35:05.815125
+my telescope killed John outside I,"['NEGATIVE', 0.68994885]","['NEGATIVE', 0.570799]",False,100,85,16:35:08.234654
+an cat on my cat outside the fish on an elephant by the fish by I killed Bob in Bob,"['NEGATIVE', 0.7317567]","['NEGATIVE', 0.628007]",False,101,85,16:35:11.763019
+Bob walked an fish outside John outside John,"['NEUTRAL', 0.62959259]","['POSITIVE', 0.59081]",True,102,86,16:35:15.348865
+a park shot Mary,"['POSITIVE', 0.51825628]","['NEGATIVE', 0.674507]",True,103,87,16:35:17.911158
+John wounded an cat,"['NEUTRAL', 0.64300969]","['POSITIVE', 0.631176]",True,103,87,16:35:21.181189
+my monkey with the elephant shot Mary by I with an monkey,"['POSITIVE', 0.43109516]","['NEGATIVE', 0.596887]",True,104,88,16:35:23.750335
+Mary walked I with I,"['NEUTRAL', 0.45843991]","['POSITIVE', 0.634822]",True,105,89,16:35:26.167789
+I ate an fish outside I,"['NEUTRAL', 0.43815703]","['NEGATIVE', 0.734132]",True,106,90,16:35:28.658769
+a dog saw John by Bob,"['NEUTRAL', 0.62606782]","['POSITIVE', 0.69489]",True,107,91,16:35:31.113925
+a pajamas with an pajamas wounded John,"['NEUTRAL', 0.59215736]","['POSITIVE', 0.60406]",True,108,92,16:35:33.486286
+an telescope shot my pajamas by Bob,"['POSITIVE', 0.36988028]","['POSITIVE', 0.809251]",False,109,92,16:35:36.695073
+John killed my cat on John by Mary with Mary,"['NEGATIVE', 0.60657693]","['POSITIVE', 0.50914]",True,110,93,16:35:38.916745
+Bob shot Bob on Mary,"['POSITIVE', 0.48774234]","['POSITIVE', 0.718693]",False,111,93,16:35:42.107695
+a elephant ate John outside an elephant,"['NEUTRAL', 0.54079456]","['POSITIVE', 0.633328]",True,112,94,16:35:44.283958
+John killed an monkey in I by I,"['NEGATIVE', 0.63677039]","['NEGATIVE', 0.590473]",False,113,94,16:35:46.483901
+I ate my fish,"['NEUTRAL', 0.41930203]","['NEGATIVE', 0.92033]",True,114,95,16:35:49.621027
+my elephant in my pajamas outside I killed Mary in my elephant by I,"['NEGATIVE', 0.72014865]","['POSITIVE', 0.58161]",True,115,96,16:35:52.964571
+I killed John outside Bob by Mary,"['NEGATIVE', 0.62112654]","['NEGATIVE', 0.612078]",False,116,96,16:35:55.170713
+Bob ate Bob with Mary,"['NEUTRAL', 0.37260213]","['POSITIVE', 0.660696]",True,117,97,16:35:57.301789
+my elephant on Bob wounded I by Mary,"['NEUTRAL', 0.39995144]","['POSITIVE', 0.687474]",True,118,98,16:35:59.457910
+Bob wounded Mary in John,"['NEUTRAL', 0.48622174]","['POSITIVE', 0.70665]",True,119,99,16:36:01.769370
+Mary saw I on the telescope in my elephant,"['NEUTRAL', 0.40346408]","['POSITIVE', 0.591995]",True,120,100,16:36:03.992962
+Mary wounded Mary with I,"['NEUTRAL', 0.41678322]","['POSITIVE', 0.577967]",True,121,101,16:36:06.368458
+John killed Bob with Mary,"['NEGATIVE', 0.54455466]","['POSITIVE', 0.658482]",True,122,102,16:36:08.594046
+I walked John by an fish on Mary,"['NEUTRAL', 0.51689623]","['NEGATIVE', 0.625204]",True,123,103,16:36:11.015515
+an fish shot I in Mary,"['POSITIVE', 0.44945016]","['NEGATIVE', 0.69396]",True,124,104,16:36:13.508380
+Bob wounded Mary in Mary,"['NEUTRAL', 0.43283357]","['POSITIVE', 0.676524]",True,125,105,16:36:17.489613
+an fish outside I killed I on Mary,"['NEGATIVE', 0.65945309]","['NEGATIVE', 0.762171]",False,126,105,16:36:19.778418
+the park in Mary killed Mary outside Bob,"['NEGATIVE', 0.57069143]","['NEGATIVE', 0.519241]",False,127,105,16:36:22.115023
+an pajamas saw Mary outside I,"['NEUTRAL', 0.35499623]","['POSITIVE', 0.767616]",True,128,106,16:36:24.484196
+John shot John by a dog on I,"['NEUTRAL', 0.41741745]","['NEGATIVE', 0.674838]",True,129,107,16:36:26.868695
+John shot my pajamas,"['NEUTRAL', 0.33978974]","['POSITIVE', 0.699807]",True,130,108,16:36:29.481847
+the elephant with I ate Bob,"['NEUTRAL', 0.50296207]","['NEGATIVE', 0.585364]",True,131,109,16:36:31.922823
+I ate an fish by Mary,"['NEUTRAL', 0.35852984]","['NEGATIVE', 0.785704]",True,132,110,16:36:34.405037
+John killed a elephant,"['NEGATIVE', 0.60949938]","['POSITIVE', 0.615598]",True,133,111,16:36:37.678228
+my dog in Bob wounded Bob in the man in an elephant by I,"['NEUTRAL', 0.58943134]","['POSITIVE', 0.701165]",True,134,112,16:36:40.133530
+the pajamas on Bob shot a monkey by Bob outside an fish by Mary,"['POSITIVE', 0.46054526]","['NEGATIVE', 0.574823]",True,135,113,16:36:42.588449
+a pajamas wounded the elephant outside my monkey,"['NEUTRAL', 0.47994748]","['POSITIVE', 0.568004]",True,136,114,16:36:45.047403
+the dog on Mary ate I outside Bob,"['NEGATIVE', 0.36595209]","['NEGATIVE', 0.697104]",False,137,114,16:36:47.617694
+the man ate Mary,"['NEUTRAL', 0.41466588]","['POSITIVE', 0.547557]",True,138,115,16:36:51.243371
+my telescope by a pajamas shot I,"['NEGATIVE', 0.36300885]","['NEGATIVE', 0.595253]",False,139,115,16:36:54.269991
+Mary wounded Bob by an cat,"['NEUTRAL', 0.46837479]","['POSITIVE', 0.589916]",True,140,116,16:36:56.437396
+Mary shot I with I outside an man by the fish,"['POSITIVE', 0.40065646]","['NEGATIVE', 0.595013]",True,141,117,16:36:58.656458
+John saw Mary outside I,"['NEUTRAL', 0.42442827]","['POSITIVE', 0.730762]",True,142,118,16:37:01.945209
+John ate Mary by Bob on Bob,"['NEUTRAL', 0.42492928]","['POSITIVE', 0.678925]",True,143,119,16:37:04.410758
+Mary wounded a dog,"['NEUTRAL', 0.46249075]","['NEGATIVE', 0.586915]",True,144,120,16:37:06.959814
+John shot John by John,"['NEUTRAL', 0.40325101]","['NEGATIVE', 0.553496]",True,145,121,16:37:10.339527
+John wounded the monkey in Bob,"['NEUTRAL', 0.61291209]","['POSITIVE', 0.819193]",True,146,122,16:37:12.473456
+an cat wounded an telescope by my cat by I outside I,"['NEUTRAL', 0.51155443]","['NEGATIVE', 0.541391]",True,147,123,16:37:16.625582
+John ate Bob by a fish,"['NEUTRAL', 0.5530765]","['NEGATIVE', 0.552296]",True,148,124,16:37:19.305436
+I walked John outside a dog on Mary in Bob by John outside Mary by John,"['NEUTRAL', 0.51750267]","['POSITIVE', 0.607934]",True,149,125,16:37:21.707450
+John killed my dog with Bob,"['NEGATIVE', 0.65402818]","['NEGATIVE', 0.606393]",False,150,125,16:37:24.165426
+John walked my cat in I,"['NEUTRAL', 0.62060637]","['NEGATIVE', 0.591207]",True,151,126,16:37:27.525243
+John saw Mary,"['NEUTRAL', 0.46499068]","['POSITIVE', 0.868383]",True,152,127,16:37:29.898381
+Mary shot I,"['POSITIVE', 0.45350658]","['NEGATIVE', 0.629126]",True,153,128,16:37:32.621386
+John walked I by John,"['NEUTRAL', 0.63629891]","['POSITIVE', 0.572587]",True,154,129,16:37:34.829458
+I killed an park on Mary,"['NEGATIVE', 0.58592626]","['NEGATIVE', 0.621616]",False,155,129,16:37:37.253292
+I ate John on John outside an man outside my pajamas,"['NEUTRAL', 0.45623706]","['POSITIVE', 0.798295]",True,156,130,16:37:40.528886
+my man wounded Bob,"['NEUTRAL', 0.5545795]","['POSITIVE', 0.748791]",True,157,131,16:37:42.892160
+I saw my pajamas,"['NEUTRAL', 0.45244993]","['POSITIVE', 0.828551]",True,158,132,16:37:46.074169
+Mary saw an park,"['POSITIVE', 0.40434766]","['NEGATIVE', 0.534634]",True,159,133,16:37:49.276545
+Mary ate I on Mary in Bob in I,"['NEUTRAL', 0.35767232]","['POSITIVE', 0.6309]",True,160,134,16:37:53.143771
+John shot Bob outside Bob,"['NEUTRAL', 0.37761429]","['NEGATIVE', 0.504533]",True,161,135,16:37:55.501888
+John shot Bob on a fish by John,"['NEUTRAL', 0.40932922]","['NEGATIVE', 0.562333]",True,162,136,16:37:57.791362
+the dog killed Bob outside Bob,"['NEGATIVE', 0.67819165]","['NEGATIVE', 0.788278]",False,163,136,16:38:00.618925
+Mary saw the telescope on Bob,"['NEUTRAL', 0.43295411]","['POSITIVE', 0.537287]",True,164,137,16:38:03.846755
+John wounded my fish with John on Bob outside I,"['NEUTRAL', 0.51711767]","['POSITIVE', 0.738345]",True,165,138,16:38:06.037336
+an dog killed the man outside my monkey on a telescope with Mary,"['NEGATIVE', 0.66092811]","['NEGATIVE', 0.594656]",False,166,138,16:38:08.400733
+Mary shot I on I,"['POSITIVE', 0.45350658]","['NEGATIVE', 0.620164]",True,167,139,16:38:11.607787
+Mary walked my man,"['NEUTRAL', 0.47148095]","['POSITIVE', 0.783983]",True,168,140,16:38:13.722616
+I walked my cat by Mary,"['NEUTRAL', 0.44469608]","['NEGATIVE', 0.572061]",True,169,141,16:38:16.931782
+John shot an telescope,"['NEUTRAL', 0.4244633]","['NEGATIVE', 0.603619]",True,170,142,16:38:19.359531
+I walked I in Mary by I,"['NEUTRAL', 0.45843991]","['NEGATIVE', 0.56924]",True,171,143,16:38:22.635507
+the fish shot the elephant in John,"['NEUTRAL', 0.43730383]","['NEGATIVE', 0.572276]",True,172,144,16:38:25.912645
+an pajamas killed I,"['NEGATIVE', 0.69113087]","['NEGATIVE', 0.612566]",False,173,144,16:38:28.295815
+a elephant saw a man by I,"['NEUTRAL', 0.5988447]","['POSITIVE', 0.642624]",True,174,145,16:38:30.620688
+Mary walked Bob in the telescope,"['NEUTRAL', 0.49276632]","['POSITIVE', 0.774921]",True,175,146,16:38:33.182789
+my elephant on an park with I shot I by an dog,"['NEGATIVE', 0.355853]","['NEGATIVE', 0.535382]",False,176,146,16:38:36.294976
+the cat ate Bob,"['NEUTRAL', 0.52732989]","['NEGATIVE', 0.907025]",True,177,147,16:38:40.762152
+Bob ate John outside a man,"['NEUTRAL', 0.56133905]","['POSITIVE', 0.568584]",True,178,148,16:38:43.168992
+I walked Bob in my cat with an cat with I,"['NEUTRAL', 0.57030835]","['NEGATIVE', 0.563333]",True,179,149,16:38:46.802256
+Bob killed I in I by I,"['NEGATIVE', 0.65226527]","['NEGATIVE', 0.553209]",False,180,149,16:38:50.241835
+John saw Mary,"['NEUTRAL', 0.46499068]","['POSITIVE', 0.868383]",True,180,149,16:38:52.607307
+Bob killed Bob by the elephant,"['NEGATIVE', 0.62096077]","['POSITIVE', 0.630739]",True,181,150,16:38:55.819253
+John saw Mary,"['NEUTRAL', 0.46499068]","['POSITIVE', 0.868383]",True,181,150,16:39:01.093773
+the dog with Mary shot I,"['POSITIVE', 0.4129376]","['NEGATIVE', 0.590102]",True,182,151,16:39:03.808600
+Bob wounded Bob,"['NEUTRAL', 0.55967568]","['POSITIVE', 0.644821]",True,183,152,16:39:06.258303
+my park by Bob killed I,"['NEGATIVE', 0.65910293]","['POSITIVE', 0.659758]",True,184,153,16:39:10.645316
+Bob wounded I,"['NEUTRAL', 0.54276247]","['POSITIVE', 0.578885]",True,185,154,16:39:12.976288
+Bob saw my telescope in I with a pajamas in John,"['NEUTRAL', 0.53674574]","['POSITIVE', 0.670391]",True,186,155,16:39:16.189529
+John ate my monkey,"['NEUTRAL', 0.49314404]","['NEGATIVE', 0.774084]",True,187,156,16:39:18.750359
+John shot my park outside my pajamas in my pajamas by Mary,"['POSITIVE', 0.47235563]","['POSITIVE', 0.787511]",False,188,156,16:39:22.833026
+my monkey ate Bob by I on John,"['NEUTRAL', 0.47775466]","['POSITIVE', 0.630644]",True,189,157,16:39:26.308234
+Bob killed my fish in an man,"['NEGATIVE', 0.66097835]","['NEGATIVE', 0.69124]",False,190,157,16:39:28.581468
+my fish saw I,"['NEUTRAL', 0.47680842]","['NEGATIVE', 0.608172]",True,191,158,16:39:33.112888
+my monkey by I walked I with Mary,"['NEUTRAL', 0.41007461]","['POSITIVE', 0.5686]",True,192,159,16:39:35.517025
+Bob shot John,"['NEUTRAL', 0.40502559]","['POSITIVE', 0.547895]",True,193,160,16:39:38.105486
+a cat with a pajamas killed Mary outside John outside Mary,"['NEGATIVE', 0.63347726]","['NEGATIVE', 0.666208]",False,194,160,16:39:40.670178
+my cat with John saw I with I,"['NEUTRAL', 0.56259596]","['NEGATIVE', 0.519751]",True,195,161,16:39:44.044554
+John ate Mary by my cat,"['NEUTRAL', 0.40758895]","['NEGATIVE', 0.724463]",True,196,162,16:39:49.184550

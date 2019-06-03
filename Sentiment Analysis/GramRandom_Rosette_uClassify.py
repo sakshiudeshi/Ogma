@@ -9,19 +9,16 @@ from nltk import CFG, ChartParser, Tree, Nonterminal
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from random import choice
+import jacc_thresh
 
 # import textrazor_API, aylien_API
-import rosette_API, aylien_API
+import rosette_API, uclassify_API
 
 import warnings
 warnings.filterwarnings("ignore",category=FutureWarning)
 
-import jacc_thresh
-
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
-
-
 
 # grammarA = CFG.fromstring('''S -> NP VP
 # VP -> V NP | V NP PP | VP PP
@@ -34,7 +31,7 @@ count_vect = CountVectorizer()
 
 gramLetter = "A"
 gramFileName = "Grammar " + gramLetter + ".txt"
-folder_type = "Rosette Aylien Grammar " + gramLetter
+folder_type = "Rosette uClassify Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar_string = f.read()
@@ -47,16 +44,17 @@ grammar = CFG.fromstring(grammar_string)
 
 # sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
-# sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
+sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my elephant shot an cat in an cat in I in an cat outside I in I outside an pajamas in an dog in I in my cat in an pajamas"
-# sentence = "Joe saw a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
-# sentence = "my monkey wounded I by my monkey on a man in my fish with Elise"
-sentence = "my bus outside the snake conflicted Holly on pajamas on Dylan snake in an cat"
-
+# sentence = "Joe saw  a frightened angry tall little tall bear said a fish saw a frightened squirrel said a frightened little tree on Buster"
+# sentence = "Elise viewed I with my monkey with Steve near Mark near Mark near a giraffe"
+# sentence = "a babbon disabled an park outside Gary outside my owl"
+# sentence = "my park inside an baboon with Nick damaged Gemma in Gemma near Gary"
 
 iters = 200
 prob_delta = 0.2
-# jaccard_threshold = 0.15
+
+# jaccard_threshold = 0.3
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
@@ -126,25 +124,39 @@ def sentence_from_prods(prods):
 def evaluate(sentence, to_print=False):
     # return evaluate_local(sentence, to_print)
     # return evaluate_api(sentence, to_print)
-    return evaluate_api_jaccard(sentence, to_print)
+    # return evaluate_api_jaccard(sentence, to_print)
+    return evaluate_simple(sentence, to_print)
 
-def evaluate_local(sentence, to_print):
-    sentence_list = np.array([sentence])
-    # print sentence_list
-    p1 = clf1.predict(tfidf_transformer.transform(count_vect.transform(sentence_list)))
-    p2 = clf2.predict(tfidf_transformer.transform(count_vect.transform(sentence_list)))
-    if (p1 != p2):
+def evaluate_simple(sentence, to_print):
+    p1 = rosette_API.get_label(sentence=sentence)
+    p2 = uclassify_API.get_label(sentence)
+
+    if (p1[0] != p2[0]):
         if to_print:
-            print p1, p2, sentence_list
+            print p1, p2, sentence
 
         return True, p1, p2
     else:
         return False, p1, p2
 
 
+# def evaluate_local(sentence, to_print):
+#     sentence_list = np.array([sentence])
+#     # print sentence_list
+#     p1 = clf1.predict(tfidf_transformer.transform(count_vect.transform(sentence_list)))
+#     p2 = clf2.predict(tfidf_transformer.transform(count_vect.transform(sentence_list)))
+#     if (p1 != p2):
+#         if to_print:
+#             print p1, p2, sentence_list
+#
+#         return True, p1, p2
+#     else:
+#         return False, p1, p2
+
+
 def evaluate_api_jaccard(sentence, to_print):
     p1 = rosette_API.get_label(sentence=sentence)
-    p2 = aylien_API.get_label(sentence)
+    p2 = uclassify_API.get_label(sentence)
     jaccard_val = jaccard(p1, p2)
 
     if to_print:
@@ -154,7 +166,7 @@ def evaluate_api_jaccard(sentence, to_print):
 
 def evaluate_api(sentence, to_print):
     p1 = rosette_API.get_label(sentence=sentence)[0]
-    p2 = aylien_API.get_label(sentence)[0]
+    p2 = uclassify_API.get_label(sentence)[0]
     val = False
     print " "
     if(p1[0] != p2[0]):
@@ -185,41 +197,6 @@ def produce(gr, symbol):
             words.extend(produce(gr, sym))
     return words
 
-f = open('multinomial_NB.pickle', 'rb')
-clf1 = pickle.load(f)
-f.close()
-
-
-f = open('SVM_Text_clf.pickle', 'rb')
-clf2 = pickle.load(f)
-f.close()
-
-with open('train.txt') as f:
-    train = f.read().splitlines()
-
-train_X = []
-train_Y = []
-for line in train:
-    split = line.rsplit(' ', 1)
-    train_X.append(split[0])
-
-train_X_counts = count_vect.fit_transform(train_X)
-# print train_X_counts.shape
-
-X_train_tfidf = tfidf_transformer.fit_transform(train_X_counts)
-
-# productions = get_productions(sentence, grammarA)
-# print productions
-# print ' '
-# prods = get_base_prods(str(productions))
-# dict = get_grammar_dict(grammarA)
-# dict_keys = dict.keys()
-#
-# prob_keys = [1.0/len(dict_keys)] * len(dict_keys)
-# print prob_keys
-# print ' '
-# print prods
-
 
 
 error_set = set()
@@ -227,7 +204,7 @@ candidate_set = set()
 sentence_values = []
 # latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataRandom_Rosette_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataRandom_Rosette_uClassify_Grammar" + gramLetter + "_Jacc_" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 
@@ -242,7 +219,7 @@ for i in xrange(iters):
 
     print candidate_sentence, candidate_eval
 
-    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), (datetime.datetime.now().time())])
+    file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
 
 
 

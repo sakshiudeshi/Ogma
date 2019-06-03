@@ -3,6 +3,7 @@ import re, random, pickle
 import numpy as np
 import copy
 import datetime
+import jacc_thresh
 
 from nltk import CFG, ChartParser, Tree
 
@@ -10,19 +11,17 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
 # import textrazor_API, aylien_API
-import rosette_API, aylien_API
+import uclassify_API, aylien_API
 
 import warnings
 warnings.filterwarnings("ignore",category=FutureWarning)
 
-import jacc_thresh
-
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
-folder_type = "Rosette Aylien Grammar " + gramLetter
+folder_type = "uClassify Aylien Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
 grammar = f.read()
@@ -37,20 +36,28 @@ f.close()
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my angry cat chased an tall snake wounded a tree ate Joe outside my log"
 # sentence = "James built Stephen by a ship in an man with James by an cat with an tree with James outside Irene"
-# sentence = "my monkey wounded I by my monkey on a man in my fish with Elise"
-# sentence = "I disabled a salmon near Gemma near Gemma in the owl near a park inside the park"
-# sentence = "I looked business by business I Alexander room my company Olivia woman Alexander company in Thomas"
-# sentence = "room a country Olivia an company woman company on I school Alexander I Thomas country business a room Olivia tried I in an room"
-# sentence = "Olivia needed I on home with Thomas school on Thomas in Alexander with my country"
-# sentence = "Holly started Marcus Dylan my province by I by Holly in Holly"
-# sentence = "my outside my monkey with an pajamas by Irene meant my telescope with my country on my monkey I Stephen"
-# sentence = "Gary saw my baboon in an baboon with Gary on I on Gemma"
-# sentence = "I injured a hedgehog with an man on the binoculars"
-sentence = "I killed Mary by a monkey outside a man"
-# jaccard_threshold = 0.15
+# sentence = "Elise captured the giraffe on an lawn by the squirrel near an binoculars by an squirrel outside I"
+# sentence = "the fish by Mark viewed the giraffe with my man near my binoculars by Elise"
+# sentence = "a fish went my monkey outside an squirrel in my lawn with Steve"
+# sentence = "the baboon grabbed an salmon on my park by an gibbon outside Gemma"
+# sentence = "Holly started Marcus outside forest
+# sentence = "with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
+# sentence = "my school in I Olivia the school my business the home on Thomas"
+# sentence = "an business knew my week the woman woman outside I in home with week in Thomas school in Alexander school outside room I Olivia by Thomas I I on Alexander by Olivia"
+sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
+# sentence = "Dylan made a snake in pajamas on a cat with Marcus man on Marcus in Holly by Holly" # Grammar E error inducing sentence
+
+# sentence = "Marcus conflicted Holly outside the in Dylan on Holly"
+# sentence = "Marcus started the camera on Marcus by Holly by camera by Holly camera an on Marcus Marcus"
+# sentence = "Irene began monkey with my in a man in I with a telescope cat in I by Irene"
+# sentence = "my lemur grabbed the baboon on I with an woman in I"
+# sentence = "Mark viewed an lawn with Elise with Steve"
+# sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
+
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
-iters = 200
+
+iters = 2000
 prob_delta = 0.2
 
 
@@ -143,7 +150,7 @@ def evaluate_local(sentence, to_print):
 
 
 def evaluate_api_jaccard(sentence, to_print):
-    p1 = rosette_API.get_label(sentence=sentence)
+    p1 = uclassify_API.get_label(sentence=sentence)
     p2 = aylien_API.get_label(sentence)
     jaccard_val = jaccard(p1, p2)
 
@@ -153,7 +160,7 @@ def evaluate_api_jaccard(sentence, to_print):
     return jaccard_val < jaccard_threshold, p1, p2
 
 def evaluate_api(sentence, to_print):
-    p1 = rosette_API.get_label(sentence=sentence)[0]
+    p1 = uclassify_API.get_label(sentence)[0]
     p2 = aylien_API.get_label(sentence)[0]
     val = False
     print " "
@@ -216,7 +223,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataDirected_Rosette_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataNoBacktrackDirected_uClassify_Aylien_Grammar" + gramLetter + "_Jacc" + str(jaccard_threshold) + "_" + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):
@@ -226,6 +233,7 @@ for i in xrange(iters):
 
     mod = random.randint(0, len(prods) - 1)
     while prod_choice != prods[mod][0]:
+        # print prod_choice, prods[mod][0]
         mod = random.randint(0, len(prods) - 1)
 
     rand = random.choice(dict[prods[mod][0]])
@@ -234,6 +242,7 @@ for i in xrange(iters):
     # Checks if generating the same sentence
     while (rand == current_prods[mod][1]):
         rand = random.choice(dict[prods[mod][0]])
+        print rand
 
 
     current_sentence = sentence_from_prods(current_prods)
@@ -251,7 +260,7 @@ for i in xrange(iters):
 
     prods = copy.deepcopy(candidate_prods)
 
-    if (current_eval == True and candidate_eval == False):
+    if (False):
         prods = copy.deepcopy(current_prods)
         # print prods
         print " "

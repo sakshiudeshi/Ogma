@@ -50,7 +50,7 @@ sentence = "I killed Mary by a monkey outside a man"
 # jaccard_threshold = 0.15
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
-iters = 200
+iters = 2000
 prob_delta = 0.2
 
 
@@ -216,7 +216,7 @@ candidate_set = set()
 sentence_values = []
 latest_error_prods = prods
 
-filename = "DataFiles/ErrorDataDirected_Rosette_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
+filename = "DataFiles/ErrorDataNoBacktrackDirected_Rosette_Aylien_Grammar" + gramLetter + str(datetime.datetime.now()) + ".csv"
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):
@@ -251,7 +251,7 @@ for i in xrange(iters):
 
     prods = copy.deepcopy(candidate_prods)
 
-    if (current_eval == True and candidate_eval == False):
+    if (False):
         prods = copy.deepcopy(current_prods)
         # print prods
         print " "
@@ -263,7 +263,7 @@ for i in xrange(iters):
 
     sentence_values.append(candidate_eval)
 
-    if (candidate_eval):
+    if (True):
         error_set.add(candidate_sentence)
         latest_error_prods = candidate_prods
         # prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)

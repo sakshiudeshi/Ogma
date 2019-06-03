@@ -44,7 +44,7 @@ import os
 # data to plot
 n_groups = 8
 
-Grammar_type = "Jaccard Sensitivity"
+Grammar_type = "JaccardSensitivity"
 
 Error_rate_dir = (41,
 100,
@@ -74,7 +74,7 @@ rects1 = plt.bar(index, Error_rate_dir, bar_width,
                  alpha=opacity,
                  color='white',
                  hatch="//",
-                 label='Directed')
+                 label='Ogma')
 
 rects2 = plt.bar(index + bar_width, Error_rate_random, bar_width,
                  edgecolor='black',
@@ -86,7 +86,7 @@ rects2 = plt.bar(index + bar_width, Error_rate_random, bar_width,
 os.chdir("/Users/sakshiudeshi/Documents/SUTD/Research/LaTeX/GMLFuzz/figs")
 plt.xlabel(Grammar_type)
 plt.ylabel('Error rates')
-plt.title(Grammar_type + " Errors")
+# plt.title(Grammar_type + " Errors")
 # fig.suptitle()
 plt.xticks(index + bar_width/2, (0.05,
 0.15,

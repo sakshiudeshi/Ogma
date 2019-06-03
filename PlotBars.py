@@ -19,6 +19,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+# plt.rcParams.update({'font.size': 22})
 import os
 
 # data to plot
@@ -40,7 +41,7 @@ rects1 = plt.bar(index, Error_rate_dir, bar_width,
                  alpha=opacity,
                  color='white',
                  hatch="//",
-                 label='Directed')
+                 label='Ogma')
 
 rects2 = plt.bar(index + bar_width, Error_rate_random, bar_width,
                  edgecolor='black',
@@ -51,10 +52,10 @@ rects2 = plt.bar(index + bar_width, Error_rate_random, bar_width,
 # fig = plt.figure()
 os.chdir("/Users/sakshiudeshi/Documents/SUTD/Research/LaTeX/GMLFuzz/figs")
 # plt.xlabel(Grammar_type)
-plt.ylabel('Number of errors')
-plt.title("Start Condition\nSensitivity")
+plt.ylabel('Error Ratio')
+# plt.title("Start Condition\nSensitivity")
 # fig.suptitle()
-plt.xticks(index + bar_width/2, ("Non Error\nStart", "Error Start"))
+plt.xticks(index + bar_width/2, ("Error inducing\ninitial input", "Non-error inducing\ninitial input"))
 plt.legend()
 # plt.show()
 plt.savefig(Grammar_type + '.png', dpi=250, bbox_inches='tight')

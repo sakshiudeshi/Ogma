@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "saw" | "ate" | "walked" | "shot" | "killed" | "wounded"
+NP -> "John" | "Mary" | "Bob" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my" | "an" | "my"
+N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "monkey" | "fish"
+P -> "in" | "on" | "by" | "with" | "outside"
