@@ -24,6 +24,7 @@ gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "uClassify Aylien Grammar " + gramLetter
 
 f = open(gramFileName, 'r')
+
 grammar = f.read()
 f.close()
 # print grammarA
