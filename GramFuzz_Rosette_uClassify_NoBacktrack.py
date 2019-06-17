@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "Rosette uClassify Grammar " + gramLetter
 
@@ -32,7 +32,7 @@ f.close()
 # productions = '''[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N PP, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N PP, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
 # '''
 
-sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
+# sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my angry cat chased an tall snake wounded a tree ate Joe outside my log"
@@ -49,6 +49,10 @@ sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my paj
 # sentence = "an giraffe outside Elise went Elise outside Elise"
 # sentence = "Mary walked John with an pajamas outside an man in I"
 # sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
+sentence = "my week by an week school week outside a school Alexander Thomas the week on the room needed Olivia"
+
+# sentence = "Holly made Holly with with pajamas Holly Holly man outside Marcus with I pajamas on I"
+
 iters = 2000
 prob_delta = 0.2
 
