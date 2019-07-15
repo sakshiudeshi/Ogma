@@ -32,7 +32,7 @@ count_vect = CountVectorizer()
 # N -> "man" | "dog" | "cat" | "telescope" | "park" | "elephant" | "pajamas" | "cat" | "dog"
 # P -> "in" | "on" | "by" | "with" | "outside"''')
 
-gramLetter = "A"
+gramLetter = "A-Bad"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "Rosette Aylien Grammar " + gramLetter
 

@@ -19,3 +19,7 @@ dict_jacc["Rosette uClassify Grammar C"] = 0.15
 dict_jacc["Rosette uClassify Grammar D"] = 0.3
 dict_jacc["Rosette uClassify Grammar E"] = 0.15
 dict_jacc["Rosette uClassify Grammar F"] = 0.15
+
+dict_jacc["Rosette Aylien Grammar A-Bad"] = 0.15
+dict_jacc["uClassify Aylien Grammar A-Bad"] = 0.15
+dict_jacc["Rosette uClassify Grammar A-Bad"] = 0.3

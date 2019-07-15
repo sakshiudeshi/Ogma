@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "saw" | "ate" |
+NP -> "John" | "Mary" | Det N | Det N PP
+Det -> "a" | "the"
+N -> "man" | "cat"
+P -> "in" | "by"

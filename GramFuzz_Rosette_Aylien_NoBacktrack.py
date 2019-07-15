@@ -20,7 +20,7 @@ import jacc_thresh
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "F"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "Rosette Aylien Grammar " + gramLetter
 
@@ -32,7 +32,7 @@ f.close()
 # productions = '''[S -> NP VP, NP -> Det N PP, Det -> 'an', N -> 'man', PP -> P NP, P -> 'on', NP -> Det N, Det -> 'my', N -> 'cat', VP -> VP PP, VP -> VP PP, VP -> V NP, V -> 'shot', NP -> 'Bob', PP -> P NP, P -> 'outside', NP -> Det N PP, Det -> 'an', N -> 'pajamas', PP -> P NP, P -> 'outside', NP -> 'Bob', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'pajamas', PP -> P NP, P -> 'in', NP -> Det N PP, Det -> 'my', N -> 'dog', PP -> P NP, P -> 'with', NP -> Det N PP, Det -> 'my', N -> 'cat', PP -> P NP, P -> 'by', NP -> Det N, Det -> 'an', N -> 'telescope']
 # '''
 
-sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
+# sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my pajamas in my dog with my cat by an telescope" #Sentence has error
 # sentence = "an dog in the man saw Bob in an dog in Bob outside an park on the elephant in my elephant in my elephant"
 # sentence = "the elephant with my cat walked I with an dog outside John with a cat outside my dog with the man with my man"
 # sentence = "my angry cat chased an tall snake wounded a tree ate Joe outside my log"
@@ -46,11 +46,18 @@ sentence = "an man on my cat shot Bob outside an pajamas outside Bob with my paj
 # sentence = "my outside my monkey with an pajamas by Irene meant my telescope with my country on my monkey I Stephen"
 # sentence = "Gary saw my baboon in an baboon with Gary on I on Gemma"
 # sentence = "I injured a hedgehog with an man on the binoculars"
-sentence = "I killed Mary by a monkey outside a man"
+# sentence = "I killed Mary by a monkey outside a man"
+# sentence = "my man on Marcus conflicted Marcus Marcus forest cat in the cat by Holly"
+# sentence = "Elise captured an hedgehog on Elise near an binoculars with the binoculars on an man near Mark outside an giraffe"
+# sentence = "Gary damaged the woman on I near Gemma in my salmon in Nick"
+# sentence = "Irene built my tree with Stephen outside Stephen I James"
+# sentence = "bus Holly Marcus in Dylan by an camera with Marcus made my man with I in Marcus"
+sentence = "Thomas knew my country in an week in Olivia"
 # jaccard_threshold = 0.15
+
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
-iters = 2000
+iters = 200
 prob_delta = 0.2
 
 
@@ -220,6 +227,7 @@ filename = "DataFiles/ErrorDataNoBacktrackDirected_Rosette_Aylien_Grammar" + gra
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):
+    print i
     prod_choice = np.random.choice(dict_keys, p=prob_keys)
     prod_choice_loc = [i for i, x in enumerate(dict_keys) if x == prod_choice]
     # print prod_choice_loc
@@ -238,6 +246,7 @@ for i in xrange(iters):
 
     current_sentence = sentence_from_prods(current_prods)
     current_eval, current_p1, current_p2 = evaluate(current_sentence, True)
+
 
     candidate_prods = copy.deepcopy(prods)
     candidate_prods[mod][1] = rand
@@ -263,7 +272,7 @@ for i in xrange(iters):
 
     sentence_values.append(candidate_eval)
 
-    if (True):
+    if (candidate_eval):
         error_set.add(candidate_sentence)
         latest_error_prods = candidate_prods
         # prob_keys[prod_choice_loc[0]] = max(prob_keys[prod_choice_loc[0]] - prob_delta, 0)
@@ -272,6 +281,7 @@ for i in xrange(iters):
     # f.write(str(len(candidate_set)) + " " + str(len(error_set)) + "\n")
     file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
 
+    print ""
 
 
 f.close()

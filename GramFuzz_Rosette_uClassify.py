@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "A-Bad"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "Rosette uClassify Grammar " + gramLetter
 
@@ -48,8 +48,9 @@ f.close()
 # sentence = "an baboon on I damaged my gibbon near Gary near the baboon with Gary by a baboon with Gary near Gary with the elephant with I"
 # sentence = "an giraffe outside Elise went Elise outside Elise"
 # sentence = "Mary walked John with an pajamas outside an man in I"
-sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
-iters = 200
+# sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
+sentence = "Mary saw the cat by a man"
+iters = 100
 prob_delta = 0.2
 
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]

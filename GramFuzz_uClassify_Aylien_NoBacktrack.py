@@ -45,9 +45,11 @@ f.close()
 # sentence = "with a cat with cat province outside the outside cat cat cat in man Dylan Marcus province"
 # sentence = "my school in I Olivia the school my business the home on Thomas"
 # sentence = "an business knew my week the woman woman outside I in home with week in Thomas school in Alexander school outside room I Olivia by Thomas I I on Alexander by Olivia"
-sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
+# sentence = "woman by I school in Thomas needed outside Alexander in an woman a school an school on a room a home Alexander company outside school room"
 # sentence = "Dylan made a snake in pajamas on a cat with Marcus man on Marcus in Holly by Holly" # Grammar E error inducing sentence
-
+# sentence = "an man on a cat ate John outside a pajamas on John on the man by my man with a elephant on the park"
+# sentence = "an fish injured my monkey near a man near the monkey with I"
+# sentence = "my woman apprehended an lemur outside my elephant on an gibbon with Gemma"
 # sentence = "Marcus conflicted Holly outside the in Dylan on Holly"
 # sentence = "Marcus started the camera on Marcus by Holly by camera by Holly camera an on Marcus Marcus"
 # sentence = "Irene began monkey with my in a man in I with a telescope cat in I by Irene"
@@ -55,10 +57,15 @@ sentence = "woman by I school in Thomas needed outside Alexander in an woman a s
 # sentence = "Mark viewed an lawn with Elise with Steve"
 # sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
 
+# sentence = "an fish captured my lawn near a hedgehog near an monkey with I"
+# sentence = "Irene caught James with an monkey in an country with Irene by the monkey on the man with I by James"
+# sentence = "Marcus started a snake by hill on a man in Holly forest outside Marcus in Holly on Holly"
+sentence = "school in I business by Thomas knew by Alexander with an school a home the week outside the woman a business Alexander business with school home"
+
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
-iters = 2000
+iters = 200
 prob_delta = 0.2
 
 
@@ -228,6 +235,7 @@ filename = "DataFiles/ErrorDataNoBacktrackDirected_uClassify_Aylien_Grammar" + g
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):
+    print i
     prod_choice = np.random.choice(dict_keys, p=prob_keys)
     prod_choice_loc = [i for i, x in enumerate(dict_keys) if x == prod_choice]
     # print prod_choice_loc
@@ -281,8 +289,7 @@ for i in xrange(iters):
         # prob_keys = norm
     # f.write(str(len(candidate_set)) + " " + str(len(error_set)) + "\n")
     file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
-
-
+    print ""
 
 f.close()
 print len(error_set)

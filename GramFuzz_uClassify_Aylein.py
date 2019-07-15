@@ -19,7 +19,7 @@ warnings.filterwarnings("ignore",category=FutureWarning)
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "A-Bad"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "uClassify Aylien Grammar " + gramLetter
 
@@ -50,12 +50,13 @@ f.close()
 # sentence = "Irene began monkey with my in a man in I with a telescope cat in I by Irene"
 # sentence = "my lemur grabbed the baboon on I with an woman in I"
 # sentence = "Mark viewed an lawn with Elise with Steve"
-sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
+# sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
+sentence = "Mary saw the cat by a man"
 
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
 
-iters = 200
+iters = 100
 prob_delta = 0.2
 
 

@@ -20,7 +20,7 @@ import jacc_thresh
 tfidf_transformer = TfidfTransformer()
 count_vect = CountVectorizer()
 
-gramLetter = "A"
+gramLetter = "A-Bad"
 gramFileName = "Grammar " + gramLetter + ".txt"
 folder_type = "Rosette Aylien Grammar " + gramLetter
 
@@ -46,11 +46,13 @@ f.close()
 # sentence = "my outside my monkey with an pajamas by Irene meant my telescope with my country on my monkey I Stephen"
 # sentence = "Gary saw my baboon in an baboon with Gary on I on Gemma"
 # sentence = "I injured a hedgehog with an man on the binoculars"
-sentence = "I killed Mary by a monkey outside a man"
+# sentence = "I killed Mary by a monkey outside a man"
+sentence = "Mary saw the cat by a man"
+
 # jaccard_threshold = 0.15
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
 
-iters = 200
+iters = 100
 prob_delta = 0.2
 
 
@@ -227,6 +229,7 @@ for i in xrange(iters):
     mod = random.randint(0, len(prods) - 1)
     while prod_choice != prods[mod][0]:
         mod = random.randint(0, len(prods) - 1)
+        print mod
 
     rand = random.choice(dict[prods[mod][0]])
 
@@ -234,6 +237,7 @@ for i in xrange(iters):
     # Checks if generating the same sentence
     while (rand == current_prods[mod][1]):
         rand = random.choice(dict[prods[mod][0]])
+        print rand
 
 
     current_sentence = sentence_from_prods(current_prods)

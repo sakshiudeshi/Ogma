@@ -49,11 +49,17 @@ f.close()
 # sentence = "an giraffe outside Elise went Elise outside Elise"
 # sentence = "Mary walked John with an pajamas outside an man in I"
 # sentence = "John wounded my elephant outside Bob by a monkey outside Mary"
-sentence = "my week by an week school week outside a school Alexander Thomas the week on the room needed Olivia"
+# sentence = "my week by an week school week outside a school Alexander Thomas the week on the room needed Olivia"
+# sentence = "I walked John in Mary on my dog with Bob on John by John"
+# sentence = "Elise went I with an monkey with Steve near Mark near Mark near the fish"
+# sentence = "my salmon near a salmon in Gemma grabbed Gary on Gemma near Gary"
+# sentence = "James meant Irene by an ship in an cat with James outside a man in the cat on Irene outside Irene"
+# sentence = "Marcus studied the bus by an bus Holly Holly by an bus"
+sentence = "my week on an week school week on a home Alexander Thomas the week on the school knew Alexander"
 
 # sentence = "Holly made Holly with with pajamas Holly Holly man outside Marcus with I pajamas on I"
 
-iters = 2000
+iters = 200
 prob_delta = 0.2
 
 jaccard_threshold = jacc_thresh.dict_jacc[folder_type]
@@ -226,6 +232,7 @@ filename = "DataFiles/ErrorDataNoBacktrackDirected_Rosette_uClassify_Grammar" + 
 f = open(filename, "w")
 file_writer = csv.writer(f, delimiter=',')
 for i in xrange(iters):
+    print i
     prod_choice = np.random.choice(dict_keys, p=prob_keys)
     prod_choice_loc = [i for i, x in enumerate(dict_keys) if x == prod_choice]
     # print prod_choice_loc
@@ -277,7 +284,7 @@ for i in xrange(iters):
         # prob_keys = norm
     # f.write(str(len(candidate_set)) + " " + str(len(error_set)) + "\n")
     file_writer.writerow([candidate_sentence, candidate_p1, candidate_p2, candidate_eval, len(candidate_set), len(error_set), str(datetime.datetime.now().time())])
-
+    print ""
 
 
 f.close()
