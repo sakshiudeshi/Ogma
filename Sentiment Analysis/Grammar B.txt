@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "went" | "caught" | "ran" | "injured" | "captured" | "wounded" | "viewed"
+NP -> "Mark" | "Elise" | "Steve" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my"
+N -> "man" | "monkey" | "squirrel" | "binoculars" | "lawn" | "giraffe" | "hedgehog" | "fish"
+P -> "in" | "on" | "by" | "with" | "outside" | "near"

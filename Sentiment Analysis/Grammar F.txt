@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "knew" | "thought" | "looked" | "tried" | "needed" | "stood" | NP
+NP -> "Alexander" | "Olivia" | "Thomas" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my" | N | N PP
+N -> "company" | "school" | "room" | "school" | "woman" | "week" | "home" | "business" | "country" | PP
+P -> "in" | "on" | "by" | "with" | "outside" | NP

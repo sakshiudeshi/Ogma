@@ -1,0 +1,8 @@
+S -> NP VP
+VP -> V NP | V NP PP | VP PP
+PP -> P NP
+V -> "started" | "made" | "captured" | "conflicted" | "embarked" | "studied" | NP
+NP -> "Marcus" | "Holly" | "Dylan" | Det N | Det N PP | "I"
+Det -> "a" | "an" | "the" | "my" | N | N PP
+N -> "man" | "forest" | "cat" | "camera" | "bus" | "snake" | "pajamas" | "hill" | "province" | PP
+P -> "in" | "on" | "by" | "with" | "outside" | NP
